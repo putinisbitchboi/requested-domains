@@ -12,6 +12,14 @@ domains.txt is the list of domains enumerated.
 https://github.com/aboul3la/Sublist3r && https://github.com/fwaeytens/dnsenum
 
 
+### Files in the root:
+
+1__all_domains.tar.gz is all the domains enumerated to date.  As of now, gov.ru is still undergoing enumeration.  gov.ru has a LOT of subdomains, and some have a wildcard DNS entry.
+
+dict.txt is the dictionary used for DNSENUM.
+
+domains.txt is the list of domains scanned.
+
 ### ENUMERATED_DOMAINS folder:
 
 Files ending in __.dns__ contain discovered subdomains that resolve (from sublister) + subdomains bruteforced with DNSENUM.  I have not looked for DNSENUM results that have a wildcard DNS entry, but it will make it unusually large, and therefore affect the .dns file for the same domain.  I'll work on that. 
@@ -26,4 +34,3 @@ Files ending in __.dnsenum__ contain the full output of DNSENUM.  I will work on
 ### File Types:
 
 All files in the tarball are text only.  There is no code of any kind in these files.
-
