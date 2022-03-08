@@ -6,7 +6,7 @@ DNS enumeration of domains seen on IT Army of Ukraine telegram channel.
 Data was gathered only using Subfinder and DNSENUM with a custom dictionary of just over 101,000 subdomains.  See dict.txt 
 
 
-### project URLs are:
+### Project URLs:
 https://github.com/projectdiscovery/subfinder && https://github.com/fwaeytens/dnsenum
 
 
