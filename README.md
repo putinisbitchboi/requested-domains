@@ -5,8 +5,6 @@ DNS enumeration of domains seen on IT Army of Ukraine telegram channel.
 
 Data was gathered only using Sublister and DNSENUM with a custom dictionary of just over 101,000 subdomains.  See dict.txt 
 
-domains.txt is the list of domains enumerated.
-
 
 ### project URLs are:
 https://github.com/aboul3la/Sublist3r && https://github.com/fwaeytens/dnsenum
@@ -18,7 +16,7 @@ https://github.com/aboul3la/Sublist3r && https://github.com/fwaeytens/dnsenum
 
 dict.txt is the dictionary used for DNSENUM.
 
-domains.txt is the list of domains scanned.
+domains.txt is the list of domains enumerated.
 
 ### ENUMERATED_DOMAINS folder:
 
