@@ -1,0 +1,71 @@
+dnsenum VERSION:1.2.6
+
+-----   mogilevnews.by   -----
+
+
+Host's addresses:
+__________________
+
+mogilevnews.by.                          2591     IN    A        195.50.4.224
+
+
+Name Servers:
+______________
+
+u1.hoster.by.                            3600     IN    A        93.125.30.201
+u2.hoster.by.                            3600     IN    A        178.172.236.142
+
+
+Mail (MX) Servers:
+___________________
+
+mx.yandex.net.                           491      IN    A        77.88.21.249
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for mogilevnews.by on u1.hoster.by ... 
+
+Trying Zone Transfer for mogilevnews.by on u2.hoster.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+autodiscover.mogilevnews.by.             3600     IN    CNAME    mail01.hoster.by.
+mail01.hoster.by.                        3600     IN    A        93.125.30.150
+mail.mogilevnews.by.                     3600     IN    CNAME    mailbe02.hoster.by.
+mailbe02.hoster.by.                      3600     IN    A        93.125.31.211
+www.mogilevnews.by.                      3600     IN    CNAME    mogilevnews.by.
+mogilevnews.by.                          3600     IN    A        195.50.4.224
+localhost.mogilevnews.by.                3600     IN    A         127.0.0.1
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+mogilevnews.by.                          600      IN    NS       u1.hoster.by.
+mogilevnews.by.                          600      IN    NS       u2.hoster.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   195.50.4.0         ->      195.50.4.0/22
+
+
+mogilevnews.by______________
+
+ 195.50.4.0/22
+
+
+mogilevnews.by ip blocks:
+__________________________
+
+ 195.50.4.224/32
+
+done.

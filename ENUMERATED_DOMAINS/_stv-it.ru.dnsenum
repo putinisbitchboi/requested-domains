@@ -1,0 +1,71 @@
+dnsenum VERSION:1.2.6
+
+-----   stv-it.ru   -----
+
+
+Host's addresses:
+__________________
+
+stv-it.ru.                               21600    IN    A        178.210.71.24
+
+
+Name Servers:
+______________
+
+dns1.yandex.net.                         600      IN    A        213.180.204.213
+dns2.yandex.net.                         600      IN    A        93.158.134.213
+
+
+Mail (MX) Servers:
+___________________
+
+mx.yandex.net.                           596      IN    A        77.88.21.249
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for stv-it.ru on dns1.yandex.net ... 
+
+Trying Zone Transfer for stv-it.ru on dns2.yandex.net ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+tsp.stv-it.ru.                           21600    IN    A        91.236.24.39
+old.stv-it.ru.                           21600    IN    A        87.255.254.242
+www.stv-it.ru.                           21600    IN    A        178.210.71.24
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   91.236.24.0        ->      91.236.24.0/24
+ whois ip result:   87.255.254.0       ->      87.255.240.0/20
+ c class default:   178.210.71.0       ->      178.210.71.0/24      (whois netrange operation failed)
+
+
+stv-it.ru_________
+
+ 178.210.71.0/24
+ 91.236.24.0/24
+ 87.255.240.0/20
+
+
+stv-it.ru ip blocks:
+_____________________
+
+ 87.255.254.242/32
+ 91.236.24.39/32
+ 178.210.71.24/32
+
+done.

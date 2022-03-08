@@ -1,0 +1,77 @@
+dnsenum VERSION:1.2.6
+
+-----   interfax.com   -----
+
+
+Host's addresses:
+__________________
+
+interfax.com.                            2792     IN    A        178.248.238.11
+
+
+Name Servers:
+______________
+
+ns2.interfax.ru.                         900      IN    A        46.28.16.6
+ns1.interfax.ru.                         900      IN    A        46.28.17.4
+
+
+Mail (MX) Servers:
+___________________
+
+back1.interfax.ru.                       900      IN    A        46.28.21.181
+back.interfax.ru.                        900      IN    A        46.28.17.161
+back8.interfax.ru.                       900      IN    A        46.28.17.56
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for interfax.com on ns2.interfax.ru ... 
+
+Trying Zone Transfer for interfax.com on ns1.interfax.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.interfax.com.                        3600     IN    CNAME    interfax.com.
+interfax.com.                            3600     IN    A        178.248.238.11
+www3.interfax.com.                       3600     IN    A        46.28.22.135
+www4.interfax.com.                       3600     IN    A         127.0.0.1
+make.interfax.com.                       3600     IN    A        213.171.49.185
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+interfax.com.                            3600     IN    NS       ns1.interfax.ru.
+interfax.com.                            3600     IN    NS       ns2.interfax.ru.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   46.28.22.0         ->      46.28.22.0/24
+ whois ip result:   178.248.238.0      ->      178.248.232.0/21
+ whois ip result:   213.171.49.0       ->      213.171.49.0/24
+
+
+interfax.com____________
+
+ 213.171.49.0/24
+ 178.248.232.0/21
+ 46.28.22.0/24
+
+
+interfax.com ip blocks:
+________________________
+
+ 46.28.22.135/32
+ 178.248.238.11/32
+ 213.171.49.185/32
+
+done.

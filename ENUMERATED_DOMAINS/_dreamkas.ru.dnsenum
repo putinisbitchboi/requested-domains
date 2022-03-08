@@ -1,0 +1,161 @@
+dnsenum VERSION:1.2.6
+
+-----   dreamkas.ru   -----
+
+
+Host's addresses:
+__________________
+
+dreamkas.ru.                             13       IN    A        185.178.208.96
+
+
+Name Servers:
+______________
+
+ns8-l2.nic.ru.                           300      IN    A        91.217.21.1
+ns4-cloud.nic.ru.                        60       IN    A        91.217.20.1
+ns3-l2.nic.ru.                           300      IN    A        193.232.146.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+ns4-l2.nic.ru.                           300      IN    A        91.217.20.1
+
+
+Mail (MX) Servers:
+___________________
+
+alt2.aspmx.l.google.com.                 172      IN    A        142.250.152.27
+aspmx2.googlemail.com.                   11       IN    A        64.233.171.26
+aspmx3.googlemail.com.                   70       IN    A        142.250.152.26
+aspmx.l.google.com.                      195      IN    A        142.250.141.27
+alt1.aspmx.l.google.com.                 213      IN    A        64.233.171.26
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for dreamkas.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for dreamkas.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for dreamkas.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for dreamkas.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for dreamkas.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+k.dreamkas.ru.                           21600    IN    A        77.244.217.13
+metrics.dreamkas.ru.                     21600    IN    A        77.244.217.116
+ok.dreamkas.ru.                          21600    IN    A        185.165.123.36
+uc.dreamkas.ru.                          21600    IN    A        92.53.104.227
+beta.dreamkas.ru.                        21600    IN    A        95.213.159.11
+loki.dreamkas.ru.                        21600    IN    A        77.244.217.116
+mail.dreamkas.ru.                        21600    IN    CNAME    ghs.google.com.
+ghs.google.com.                          300      IN    A        142.250.72.211
+static.dreamkas.ru.                      21600    IN    CNAME    126008.selcdn.ru.
+126008.selcdn.ru.                        303      IN    CNAME    selcdn.ru.
+selcdn.ru.                               511      IN    A        92.53.68.202
+selcdn.ru.                               521      IN    A        92.53.68.205
+selcdn.ru.                               511      IN    A        92.53.68.204
+selcdn.ru.                               511      IN    A        92.53.68.203
+selcdn.ru.                               531      IN    A        92.53.68.201
+it.dreamkas.ru.                          21600    IN    CNAME    it.crystals.ru.
+it.crystals.ru.                          3600     IN    A        185.235.92.20
+ci.dreamkas.ru.                          21600    IN    A        95.213.229.51
+email.dreamkas.ru.                       21600    IN    CNAME    mandrillapp.com.
+mandrillapp.com.                         60       IN    A        35.160.128.112
+mandrillapp.com.                         60       IN    A        54.245.105.162
+mandrillapp.com.                         60       IN    A        54.245.105.146
+mandrillapp.com.                         60       IN    A        34.211.245.10
+lampa.dreamkas.ru.                       21600    IN    A        188.246.228.12
+hub.dreamkas.ru.                         60       IN    A        77.244.221.106
+hub.dreamkas.ru.                         60       IN    A        95.213.202.43
+gitlab.dreamkas.ru.                      21600    IN    A        82.202.218.18
+phone.dreamkas.ru.                       21600    IN    A        172.20.20.2
+update.dreamkas.ru.                      21600    IN    A        95.213.180.39
+back.dreamkas.ru.                        21600    IN    A        95.213.159.108
+sentry.dreamkas.ru.                      21600    IN    A        77.244.217.116
+spb.dreamkas.ru.                         21600    IN    A        185.165.123.206
+monitoring.dreamkas.ru.                  21600    IN    A        77.244.220.103
+grey.dreamkas.ru.                        21600    IN    A        188.246.228.14
+www.dreamkas.ru.                         21600    IN    A        94.26.255.26
+dev.dreamkas.ru.                         21600    IN    A        95.213.159.108
+registry.dreamkas.ru.                    21600    IN    CNAME    gitlab.dreamkas.ru.
+gitlab.dreamkas.ru.                      21600    IN    A        82.202.218.18
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+mandrillapp.com.                         172800   IN    NS       ns-1127.awsdns-12.org.
+mandrillapp.com.                         172800   IN    NS       ns-1934.awsdns-49.co.uk.
+mandrillapp.com.                         172800   IN    NS       ns-289.awsdns-36.com.
+mandrillapp.com.                         172800   IN    NS       ns-720.awsdns-26.net.
+selcdn.ru.                               26883    IN    NS       ns1.selectel.org.
+selcdn.ru.                               26883    IN    NS       ns4.selectel.org.
+selcdn.ru.                               26883    IN    NS       ns2.selectel.org.
+selcdn.ru.                               26883    IN    NS       ns3.selectel.org.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   77.244.221.0       ->      77.244.221.0/24
+ whois ip result:   77.244.220.0       ->      77.244.220.0/24
+ whois ip result:   92.53.104.0        ->      92.53.104.0/24
+ whois ip result:   94.26.255.0        ->      94.26.255.0/24
+ whois ip result:   95.213.159.0       ->      95.213.158.0/23
+ whois ip result:   95.213.229.0       ->      95.213.229.0/24
+ whois ip result:   185.178.208.0      ->      185.178.208.0/22
+ whois ip result:   95.213.180.0       ->      95.213.180.0/23
+ whois ip result:   188.246.228.0      ->      188.246.228.0/24
+ whois ip result:   77.244.217.0       ->      77.244.217.0/24
+ whois ip result:   82.202.218.0       ->      82.202.218.0/24
+ whois ip result:   95.213.202.0       ->      95.213.202.0/24
+ whois ip result:   185.165.123.0      ->      185.165.120.0/22
+
+
+dreamkas.ru___________
+
+ 77.244.220.0/24
+ 92.53.104.0/24
+ 185.165.120.0/22
+ 77.244.217.0/24
+ 188.246.228.0/24
+ 94.26.255.0/24
+ 185.178.208.0/22
+ 82.202.218.0/24
+ 95.213.202.0/24
+ 95.213.180.0/23
+ 77.244.221.0/24
+ 95.213.158.0/23
+ 95.213.229.0/24
+
+
+dreamkas.ru ip blocks:
+_______________________
+
+ 77.244.217.13/32
+ 77.244.217.116/32
+ 77.244.220.103/32
+ 77.244.221.106/32
+ 82.202.218.18/32
+ 92.53.104.227/32
+ 94.26.255.26/32
+ 95.213.159.11/32
+ 95.213.159.108/32
+ 95.213.180.39/32
+ 95.213.202.43/32
+ 95.213.229.51/32
+ 185.165.123.36/32
+ 185.165.123.206/32
+ 185.178.208.96/32
+ 188.246.228.12/32
+ 188.246.228.14/32
+
+done.

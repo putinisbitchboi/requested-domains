@@ -1,0 +1,100 @@
+dnsenum VERSION:1.2.6
+
+-----   sb.by   -----
+
+
+Host's addresses:
+__________________
+
+sb.by.                                   221      IN    A        93.85.84.202
+
+
+Name Servers:
+______________
+
+ns2.dc.beltelecom.by.                    3600     IN    A        178.124.138.155
+ns1.dc.beltelecom.by.                    3600     IN    A        178.124.138.154
+
+
+Mail (MX) Servers:
+___________________
+
+mx0.sb.by.                               60       IN    A        86.57.146.126
+mx1.sb.by.                               60       IN    A        86.57.146.124
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for sb.by on ns2.dc.beltelecom.by ... 
+
+Trying Zone Transfer for sb.by on ns1.dc.beltelecom.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mx0.sb.by.                               60       IN    A        86.57.146.126
+www.dev.sb.by.                           600      IN    CNAME    dev.sb.by.
+dev.sb.by.                               60       IN    A        212.98.179.12
+ext.sb.by.                               60       IN    A        93.85.84.142
+victory.sb.by.                           60       IN    A        178.124.138.100
+www.tv.sb.by.                            60       IN    CNAME     tv.sb.by.
+tv.sb.by.                                60       IN    A        93.85.84.202
+org.sb.by.                               600      IN    A        93.85.84.202
+test.sb.by.                              600      IN    A        93.85.84.202
+mx1.sb.by.                               60       IN    A        86.57.146.124
+tv.sb.by.                                60       IN    A        93.85.84.202
+post.sb.by.                              60       IN    A        86.57.146.119
+health.sb.by.                            60       IN    A        93.85.84.202
+photo.sb.by.                             60       IN    A        178.124.138.100
+news.sb.by.                              60       IN    A        93.85.84.202
+dev.sb.by.                               60       IN    A        212.98.179.12
+sp.sb.by.                                60       IN    A        185.165.123.36
+www.sb.by.                               49       IN    CNAME        sb.by.
+sb.by.                                   589      IN    A        93.85.84.202
+eda.sb.by.                               60       IN    A        93.85.84.202
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+sb.by.                                   600      IN    NS       ns2.dc.beltelecom.by.
+sb.by.                                   600      IN    NS       ns1.dc.beltelecom.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   86.57.146.0        ->      86.57.146.0/24
+ whois ip result:   212.98.179.0       ->      212.98.179.0/24
+ whois ip result:   93.85.84.0         ->      93.85.84.0/24
+ whois ip result:   178.124.138.0      ->      178.124.138.0/24
+ whois ip result:   185.165.123.0      ->      185.165.120.0/22
+
+
+sb.by_____
+
+ 178.124.138.0/24
+ 86.57.146.0/24
+ 212.98.179.0/24
+ 93.85.84.0/24
+ 185.165.120.0/22
+
+
+sb.by ip blocks:
+_________________
+
+ 86.57.146.119/32
+ 86.57.146.124/32
+ 86.57.146.126/32
+ 93.85.84.142/32
+ 93.85.84.202/32
+ 178.124.138.100/32
+ 185.165.123.36/32
+ 212.98.179.12/32
+
+done.

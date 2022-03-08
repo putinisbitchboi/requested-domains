@@ -1,0 +1,69 @@
+dnsenum VERSION:1.2.6
+
+-----   radiobelarus.by   -----
+
+
+Host's addresses:
+__________________
+
+radiobelarus.by.                         1056     IN    A        195.50.4.236
+
+
+Name Servers:
+______________
+
+ns2.g-cloud.by.                          3600     IN    A        195.50.11.20
+ns3.g-cloud.by.                          3600     IN    A        93.125.22.109
+ns1.g-cloud.by.                          3600     IN    A        195.50.4.201
+
+
+Mail (MX) Servers:
+___________________
+
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for radiobelarus.by on ns1.g-cloud.by ... 
+
+Trying Zone Transfer for radiobelarus.by on ns2.g-cloud.by ... 
+
+Trying Zone Transfer for radiobelarus.by on ns3.g-cloud.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.radiobelarus.by.                     3600     IN    CNAME    radiobelarus.by.
+radiobelarus.by.                         3600     IN    A        195.50.4.236
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+radiobelarus.by.                         3600     IN    NS       ns1.g-cloud.by.
+radiobelarus.by.                         3600     IN    NS       ns2.g-cloud.by.
+radiobelarus.by.                         3600     IN    NS       ns3.g-cloud.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   195.50.4.0         ->      195.50.4.0/22
+
+
+radiobelarus.by_______________
+
+ 195.50.4.0/22
+
+
+radiobelarus.by ip blocks:
+___________________________
+
+ 195.50.4.236/32
+
+done.

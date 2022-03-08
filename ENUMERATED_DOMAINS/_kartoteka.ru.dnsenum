@@ -1,0 +1,102 @@
+dnsenum VERSION:1.2.6
+
+-----   kartoteka.ru   -----
+
+
+Host's addresses:
+__________________
+
+kartoteka.ru.                            1600     IN    A        178.248.238.24
+
+
+Name Servers:
+______________
+
+ns4-cloud.nic.ru.                        50       IN    A        91.217.20.1
+ns8-l2.nic.ru.                           68       IN    A        91.217.21.1
+ns3-l2.nic.ru.                           67       IN    A        193.232.146.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+ns4-l2.nic.ru.                           300      IN    A        91.217.20.1
+
+
+Mail (MX) Servers:
+___________________
+
+mx.kartoteka.ru.                         3600     IN    A        213.252.120.118
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for kartoteka.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for kartoteka.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for kartoteka.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for kartoteka.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for kartoteka.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+cdp.kartoteka.ru.                        3600     IN    A        195.208.1.108
+www.kartoteka.ru.                        577      IN    A        178.248.238.24
+mx.kartoteka.ru.                         3600     IN    A        213.252.120.118
+utp.kartoteka.ru.                        3600     IN    A        212.24.38.190
+api.kartoteka.ru.                        3600     IN    A        178.248.238.24
+ares.kartoteka.ru.                       1800     IN    A        178.57.94.204
+ra.kartoteka.ru.                         3600     IN    A        194.67.234.153
+patent.kartoteka.ru.                     3600     IN    A        213.252.120.114
+xml.kartoteka.ru.                        3600     IN    A        213.252.120.116
+uc.kartoteka.ru.                         3600     IN    A        213.252.120.116
+auth.kartoteka.ru.                       1600     IN    A        178.248.238.24
+topaz.kartoteka.ru.                      3600     IN    A        178.57.94.100
+market.kartoteka.ru.                     1800     IN    A        213.252.120.116
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   178.248.238.0      ->      178.248.232.0/21
+ whois ip result:   195.208.1.0        ->      195.208.1.0/24
+ whois ip result:   213.252.120.0      ->      213.252.120.0/30
+ whois ip result:   178.57.94.0        ->      178.57.94.0/24
+ whois ip result:   194.67.234.0       ->      194.67.234.0/30
+ whois ip result:   212.24.38.0        ->      212.24.38.0/24
+
+
+kartoteka.ru____________
+
+ 195.208.1.0/24
+ 178.248.232.0/21
+ 194.67.234.0/30
+ 213.252.120.0/30
+ 178.57.94.0/24
+ 212.24.38.0/24
+
+
+kartoteka.ru ip blocks:
+________________________
+
+ 178.57.94.100/32
+ 178.57.94.204/32
+ 178.248.238.24/32
+ 194.67.234.153/32
+ 195.208.1.108/32
+ 212.24.38.190/32
+ 213.252.120.114/32
+ 213.252.120.116/32
+ 213.252.120.118/32
+
+done.

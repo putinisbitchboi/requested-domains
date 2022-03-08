@@ -1,0 +1,156 @@
+dnsenum VERSION:1.2.6
+
+-----   ntssoft.ru   -----
+
+
+Host's addresses:
+__________________
+
+ntssoft.ru.                              3600     IN    A        194.213.21.146
+ntssoft.ru.                              3600     IN    A        46.48.118.18
+
+
+Name Servers:
+______________
+
+ns4-l2.nic.ru.                           300      IN    A        91.217.20.1
+ns8-l2.nic.ru.                           73       IN    A        91.217.21.1
+ns.ntssoft.ru.                           3600     IN    A        194.213.21.146
+ns1.ntssoft.ru.                          3600     IN    A        46.48.116.198
+
+
+Mail (MX) Servers:
+___________________
+
+irm.ntssoft.ru.                          3600     IN    A        46.48.118.18
+mail2.ntssoft.ru.                        3600     IN    A        46.48.118.18
+mail.ntssoft.ru.                         3600     IN    A        194.213.21.146
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for ntssoft.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for ntssoft.ru on ns.ntssoft.ru ... 
+
+Trying Zone Transfer for ntssoft.ru on ns1.ntssoft.ru ... 
+
+Trying Zone Transfer for ntssoft.ru on ns8-l2.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+f.ntssoft.ru.                            3600     IN    A        46.48.118.18
+f.ntssoft.ru.                            3600     IN    A        194.213.21.146
+ns.ntssoft.ru.                           3600     IN    A        194.213.21.146
+auth.ntssoft.ru.                         3600     IN    A        178.47.34.84
+auth.ntssoft.ru.                         3600     IN    A        46.48.118.25
+uk.ntssoft.ru.                           3600     IN    A        212.49.126.103
+conf.ntssoft.ru.                         3600     IN    A        46.48.118.18
+conf.ntssoft.ru.                         3600     IN    A        194.213.21.146
+ca.ntssoft.ru.                           3600     IN    A        10.10.10.244
+wiki.ntssoft.ru.                         3600     IN    A        194.213.21.146
+wiki.ntssoft.ru.                         3600     IN    A        46.48.118.18
+lca.ntssoft.ru.                          3600     IN    A        46.48.118.25
+bg.ntssoft.ru.                           3600     IN    A        46.48.118.27
+mail2.ntssoft.ru.                        3600     IN    A        46.48.118.18
+edo.ntssoft.ru.                          3600     IN    A        46.48.118.21
+spb.ntssoft.ru.                          3600     IN    A        46.48.118.18
+spb.ntssoft.ru.                          3600     IN    A        194.213.21.146
+ed.ntssoft.ru.                           3600     IN    A        194.213.21.144
+ed.ntssoft.ru.                           3600     IN    A        46.48.116.196
+seminar.ntssoft.ru.                      3600     IN    A        46.48.118.18
+seminar.ntssoft.ru.                      3600     IN    A        194.213.21.146
+cb.ntssoft.ru.                           3600     IN    A        46.48.116.198
+ib.ntssoft.ru.                           3600     IN    A        46.48.118.25
+desk.ntssoft.ru.                         3600     IN    A        46.48.118.18
+desk.ntssoft.ru.                         3600     IN    A        194.213.21.146
+localhost.ntssoft.ru.                    3600     IN    A         127.0.0.1
+pay.ntssoft.ru.                          3600     IN    A        46.48.118.25
+svn.ntssoft.ru.                          3600     IN    A        194.213.21.146
+svn.ntssoft.ru.                          3600     IN    A        46.48.118.18
+cp4.ntssoft.ru.                          3600     IN    A        46.48.118.18
+cp4.ntssoft.ru.                          3600     IN    A        194.213.21.146
+reg.ntssoft.ru.                          3600     IN    A        46.48.118.27
+sp.ntssoft.ru.                           3600     IN    A        46.48.118.18
+sp.ntssoft.ru.                           3600     IN    A        194.213.21.146
+agent.ntssoft.ru.                        3600     IN    A        46.48.118.18
+agent.ntssoft.ru.                        3600     IN    A        194.213.21.146
+rkm.ntssoft.ru.                          3600     IN    A        194.213.21.146
+www.ntssoft.ru.                          3600     IN    A        46.48.118.18
+www.ntssoft.ru.                          3600     IN    A        194.213.21.146
+lk.ntssoft.ru.                           3600     IN    A        178.47.34.83
+lk.ntssoft.ru.                           3600     IN    A        46.48.118.27
+vds.ntssoft.ru.                          3600     IN    A        178.47.34.82
+vds.ntssoft.ru.                          3600     IN    A        46.48.118.24
+request.ntssoft.ru.                      3600     IN    A        194.213.21.146
+sda.ntssoft.ru.                          3600     IN    A        178.47.34.82
+sda.ntssoft.ru.                          3600     IN    A        46.48.118.24
+tracking.ntssoft.ru.                     3600     IN    A        46.48.118.27
+dev.ntssoft.ru.                          3600     IN    CNAME    www.ntssoft.ru.
+www.ntssoft.ru.                          3600     IN    A        194.213.21.146
+www.ntssoft.ru.                          3600     IN    A        46.48.118.18
+ns1.ntssoft.ru.                          3600     IN    A        46.48.116.198
+sf.ntssoft.ru.                           3600     IN    A        46.48.118.22
+vpn.ntssoft.ru.                          3600     IN    A        46.48.118.18
+box.ntssoft.ru.                          3600     IN    A        194.213.21.146
+box.ntssoft.ru.                          3600     IN    A        46.48.118.18
+cp5.ntssoft.ru.                          3600     IN    A        46.48.118.18
+cp5.ntssoft.ru.                          3600     IN    A        194.213.21.146
+mail.ntssoft.ru.                         3600     IN    A        194.213.21.146
+do.ntssoft.ru.                           3600     IN    A        195.239.80.18
+op.ntssoft.ru.                           3600     IN    A        178.47.34.83
+op.ntssoft.ru.                           3600     IN    A        46.48.118.27
+dok.ntssoft.ru.                          3600     IN    A        46.48.118.18
+dok.ntssoft.ru.                          3600     IN    A        194.213.21.146
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   194.213.21.0       ->      194.213.21.0/24
+ c class default:   178.47.34.0        ->      178.47.34.0/24      (whois netrange operation failed)
+ whois ip result:   212.49.126.0       ->      212.49.126.0/23
+ c class default:   46.48.116.0        ->      46.48.116.0/24      (whois netrange operation failed)
+ c class default:   46.48.118.0        ->      46.48.118.0/24      (whois netrange operation failed)
+ whois ip result:   195.239.80.0       ->      195.239.80.0/28
+
+
+ntssoft.ru__________
+
+ 212.49.126.0/23
+ 46.48.118.0/24
+ 195.239.80.0/28
+ 178.47.34.0/24
+ 194.213.21.0/24
+ 46.48.116.0/24
+
+
+ntssoft.ru ip blocks:
+______________________
+
+ 46.48.116.196/32
+ 46.48.116.198/32
+ 46.48.118.18/32
+ 46.48.118.21/32
+ 46.48.118.22/32
+ 46.48.118.24/31
+ 46.48.118.27/32
+ 178.47.34.82/31
+ 178.47.34.84/32
+ 194.213.21.144/32
+ 194.213.21.146/32
+ 195.239.80.18/32
+ 212.49.126.103/32
+
+done.

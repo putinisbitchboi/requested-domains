@@ -1,0 +1,94 @@
+dnsenum VERSION:1.2.6
+
+-----   kk.bank   -----
+
+
+Host's addresses:
+__________________
+
+kk.bank.                                 604800   IN    A        178.248.238.15
+
+
+Name Servers:
+______________
+
+ns1.kk.bank.                             604800   IN    A        185.20.135.100
+ns2.kk.bank.                             604800   IN    A        185.58.223.207
+
+
+Mail (MX) Servers:
+___________________
+
+mx.kubankredit.ru.                       3600     IN    A        185.20.135.14
+mx2.kubankredit.ru.                      3600     IN    A        185.20.135.15
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for kk.bank on ns2.kk.bank ... 
+
+Trying Zone Transfer for kk.bank on ns1.kk.bank ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+bg.kk.bank.                              604800   IN    CNAME    online.atfn.ru.
+online.atfn.ru.                          3600     IN    A        194.117.73.132
+credit.kk.bank.                          604800   IN    A        185.20.135.40
+vip.kk.bank.                             604800   IN    A        185.58.223.206
+lk.kk.bank.                              604800   IN    A        185.20.135.57
+express.kk.bank.                         604800   IN    A        185.20.135.78
+ref.kk.bank.                             604800   IN    A        185.20.135.76
+pay.kk.bank.                             604800   IN    A        185.20.135.49
+ns1.kk.bank.                             604800   IN    A        185.20.135.100
+ns2.kk.bank.                             604800   IN    A        185.58.223.207
+www.kk.bank.                             604800   IN    A        178.248.238.15
+is.kk.bank.                              604800   IN    A        185.20.135.27
+start.kk.bank.                           604800   IN    A        84.252.140.249
+promo.kk.bank.                           604800   IN    A        185.58.223.206
+kb.kk.bank.                              604800   IN    A        185.20.135.68
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   178.248.238.0      ->      178.248.232.0/21
+ whois ip result:   185.20.135.0       ->      185.20.135.0/24
+ whois ip result:   84.252.140.0       ->      84.252.128.0/20
+ whois ip result:   185.58.223.0       ->      185.58.223.0/24
+
+
+kk.bank_______
+
+ 84.252.128.0/20
+ 185.20.135.0/24
+ 185.58.223.0/24
+ 178.248.232.0/21
+
+
+kk.bank ip blocks:
+___________________
+
+ 84.252.140.249/32
+ 178.248.238.15/32
+ 185.20.135.27/32
+ 185.20.135.40/32
+ 185.20.135.49/32
+ 185.20.135.57/32
+ 185.20.135.68/32
+ 185.20.135.76/32
+ 185.20.135.78/32
+ 185.20.135.100/32
+ 185.58.223.206/31
+
+done.

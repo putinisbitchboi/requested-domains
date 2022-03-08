@@ -1,0 +1,84 @@
+dnsenum VERSION:1.2.6
+
+-----   ucestp.ru   -----
+
+
+Host's addresses:
+__________________
+
+ucestp.ru.                               300      IN    A        85.119.149.95
+
+
+Name Servers:
+______________
+
+ns3-l2.nic.ru.                           192      IN    A        193.232.146.1
+ns4-cloud.nic.ru.                        20       IN    A        91.217.20.1
+ns8-l2.nic.ru.                           164      IN    A        91.217.21.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+ns4-l2.nic.ru.                           300      IN    A        91.217.20.1
+
+
+Mail (MX) Servers:
+___________________
+
+mail.estp.ru.                            300      IN    A        213.208.185.182
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for ucestp.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for ucestp.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for ucestp.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for ucestp.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for ucestp.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.ucestp.ru.                           300      IN    A        85.119.149.95
+admin.ucestp.ru.                         3600     IN    A        85.119.149.95
+lk.ucestp.ru.                            3600     IN    A        85.119.149.95
+api.ucestp.ru.                           3600     IN    A        85.119.149.95
+ws.ucestp.ru.                            3600     IN    A        92.53.104.227
+billing.ucestp.ru.                       3600     IN    A        213.208.185.133
+tender.ucestp.ru.                        3600     IN    A        213.208.185.133
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   92.53.104.0        ->      92.53.104.0/24
+ whois ip result:   213.208.185.0      ->      213.208.185.0/24
+ whois ip result:   85.119.149.0       ->      85.119.149.0/24
+
+
+ucestp.ru_________
+
+ 92.53.104.0/24
+ 213.208.185.0/24
+ 85.119.149.0/24
+
+
+ucestp.ru ip blocks:
+_____________________
+
+ 85.119.149.95/32
+ 92.53.104.227/32
+ 213.208.185.133/32
+
+done.

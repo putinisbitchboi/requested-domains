@@ -1,0 +1,288 @@
+dnsenum VERSION:1.2.6
+
+-----   gov.ru   -----
+
+
+Host's addresses:
+__________________
+
+
+
+Name Servers:
+______________
+
+bcl.dns.ripn.net.                        1800     IN    A        194.85.84.15
+acl.dns.ripn.net.                        1800     IN    A        193.232.66.15
+ccl.dns.ripn.net.                        1800     IN    A        193.232.82.15
+ns2.gov.ru.                              1800     IN    A        95.173.128.80
+ns.gov.ru.                               1800     IN    A        95.173.128.77
+
+
+Mail (MX) Servers:
+___________________
+
+mx3.gov.ru.                              1800     IN    A        95.173.128.53
+mx4.gov.ru.                              1800     IN    A        95.173.128.54
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for gov.ru on bcl.dns.ripn.net ... 
+
+Trying Zone Transfer for gov.ru on ccl.dns.ripn.net ... 
+
+Trying Zone Transfer for gov.ru on ns.gov.ru ... 
+
+Trying Zone Transfer for gov.ru on ns2.gov.ru ... 
+
+Trying Zone Transfer for gov.ru on acl.dns.ripn.net ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+culture.gov.ru.                          78172    IN    A        194.190.9.32
+culture.gov.ru.                          78172    IN    A        194.190.9.31
+mx1.gov.ru.                              1800     IN    A        194.226.80.76
+atr.gov.ru.                              3600     IN    A        185.129.100.112
+fsb.gov.ru.                              3600000  IN    A        213.24.76.23
+smtp.gov.ru.                             1800     IN    A        95.173.128.57
+digital.gov.ru.                          45       IN    A        212.164.137.119
+osm.gov.ru.                              1800     IN    A        62.61.18.23
+programs.gov.ru.                         1800     IN    A        91.206.121.131
+partners.gov.ru.                         600      IN    A        213.59.235.104
+bus.gov.ru.                              600      IN    A        95.167.245.106
+smtp02.gov.ru.                           1800     IN    A        95.173.128.59
+rs.gov.ru.                               3600     IN    A        89.208.226.52
+ria.gov.ru.                              1800     IN    A        85.31.177.238
+sfo.gov.ru.                              1800     IN    A        95.173.135.140
+ufo.gov.ru.                              600      IN    A        95.173.135.140
+science.gov.ru.                          1800     IN    A        95.173.135.142
+ns1.gov.ru.                              1800     IN    A        194.226.80.79
+fss.gov.ru.                              3600     IN    A        193.148.44.189
+mx.gov.ru.                               1800     IN    A        194.226.80.77
+ach.gov.ru.                              3600     IN    A        95.173.131.101
+mx2.gov.ru.                              1800     IN    A        95.173.128.55
+tyumen.gov.ru.                           84600    IN    A        109.233.224.134
+info.gov.ru.                             300      IN    A        185.194.32.84
+msu.gov.ru.                              1800     IN    A        95.173.128.90
+customs.gov.ru.                          395      IN    A        89.208.226.45
+technology.gov.ru.                       1800     IN    A        195.208.85.235
+mx0.gov.ru.                              1800     IN    A        194.226.80.79
+standard.gov.ru.                         600      IN    A        213.59.235.104
+torg.gov.ru.                             1800     IN    A        185.102.123.56
+apollo.gov.ru.                           1800     IN    A        194.226.80.129
+mail1.gov.ru.                            1800     IN    A        95.173.128.120
+ec.gov.ru.                               3600     IN    A        109.234.156.205
+projects.gov.ru.                         1800     IN    A        95.173.157.18
+lib.gov.ru.                              1800     IN    A        95.173.128.90
+ai.gov.ru.                               3600     IN    A        109.234.156.203
+rta.gov.ru.                              3600     IN    A        185.165.123.206
+it.gov.ru.                               300      IN    A        92.255.60.103
+monitoring.gov.ru.                       1800     IN    A        46.61.208.66
+fms.gov.ru.                              60       IN    A        195.8.62.52
+pay.gov.ru.                              3600     IN    A        94.25.27.72
+premier.gov.ru.                          35       IN    A        95.173.136.163
+premier.gov.ru.                          35       IN    A        95.173.136.162
+premier.gov.ru.                          35       IN    A        95.173.136.168
+test.gov.ru.                             600      IN    A        213.59.235.104
+nsk.gov.ru.                              1800     IN    CNAME    www.nso.ru.
+www.nso.ru.                              600      IN    A        185.138.128.32
+fso.gov.ru.                              1800     IN    A        95.173.128.90
+mx5.gov.ru.                              1800     IN    A        95.173.128.52
+nac.gov.ru.                              1800     IN    A        95.173.147.149
+mail.gov.ru.                             1800     IN    A        95.173.128.118
+sar.gov.ru.                              86400    IN    A        194.190.103.31
+pm.gov.ru.                               1800     IN    A        95.173.157.16
+rg.gov.ru.                               300      IN    A        185.194.32.146
+rpn.gov.ru.                              1800     IN    A        82.148.13.198
+tourism.gov.ru.                          3600     IN    A        212.164.137.141
+ns.gov.ru.                               1800     IN    A        95.173.128.77
+frm.gov.ru.                              3600     IN    A        62.76.103.15
+mvd.gov.ru.                              1800     IN    A        82.202.189.118
+mvd.gov.ru.                              1800     IN    A        82.202.189.119
+rk.gov.ru.                               14400    IN    A        212.110.158.42
+rk.gov.ru.                               14400    IN    A        212.110.158.43
+rk.gov.ru.                               14400    IN    A        212.110.158.44
+rk.gov.ru.                               14400    IN    A        212.110.158.41
+rst.gov.ru.                              3600     IN    A        212.164.137.141
+design.gov.ru.                           600      IN    A        213.59.235.104
+92.gov.ru.                               3600     IN    A        213.59.160.45
+mx3.gov.ru.                              1800     IN    A        95.173.128.53
+rtn.gov.ru.                              3600     IN    A        89.208.226.42
+smtp3.gov.ru.                            1800     IN    A        95.173.128.61
+svr.gov.ru.                              1800     IN    A        95.173.128.90
+ac.gov.ru.                               60       IN    A        83.242.155.173
+cea.gov.ru.                              600      IN    A        178.176.14.153
+smtp4.gov.ru.                            1800     IN    A        95.173.128.62
+ns2.gov.ru.                              1800     IN    A        95.173.128.80
+start.gov.ru.                            600      IN    A        213.59.235.104
+promo.gov.ru.                            600      IN    A        213.59.235.104
+arctic.gov.ru.                           1800     IN    A        195.248.94.146
+energy.gov.ru.                           300      IN    A        89.253.233.205
+mon.gov.ru.                              600      IN    A        82.179.63.168
+mx4.gov.ru.                              1800     IN    A        95.173.128.54
+award.gov.ru.                            1800     IN    A        95.173.128.90
+mail2.gov.ru.                            1800     IN    A        95.173.128.108
+fish.gov.ru.                             3600     IN    A        194.226.91.3
+rlw.gov.ru.                              3600     IN    A        213.59.235.70
+fsa.gov.ru.                              3600     IN    A        5.143.238.155
+cert.gov.ru.                             3600     IN    A        144.206.94.10
+54.gov.ru.                               1800     IN    CNAME    www.nso.ru.
+www.nso.ru.                              600      IN    A        185.138.128.32
+tv.gov.ru.                               1800     IN    A        95.173.128.115
+dkb.gov.ru.                              1800     IN    A        95.173.128.90
+gsm.gov.ru.                              1800     IN    A        77.95.130.124
+smtp01.gov.ru.                           1800     IN    A        95.173.128.58
+tomsk.gov.ru.                            432000   IN    A        95.173.157.34
+open.gov.ru.                             3600     IN    A        109.234.156.204
+youth.gov.ru.                            1800     IN    A        95.173.157.39
+export.gov.ru.                           1800     IN    A        91.206.121.124
+nso.gov.ru.                              1800     IN    CNAME    www.nso.ru.
+www.nso.ru.                              600      IN    A        185.138.128.32
+data.gov.ru.                             1800     IN    A        46.61.230.118
+fas.gov.ru.                              86400    IN    A        194.226.26.36
+aiss.gov.ru.                             1800     IN    A        82.202.189.52
+audit.gov.ru.                            1800     IN    A        95.173.131.101
+economy.gov.ru.                          2321     IN    A        212.164.137.137
+beta.gov.ru.                             600      IN    A        213.59.235.104
+sirius.gov.ru.                           900      IN    A        188.170.214.59
+cloud.gov.ru.                            1800     IN    A        95.173.140.5
+invest.gov.ru.                           1800     IN    A        91.206.121.45
+mnr.gov.ru.                              1528     IN    A        95.173.157.38
+ot.gov.ru.                               300      IN    A        185.194.32.140
+soir.gov.ru.                             1800     IN    A        194.226.83.244
+marine.gov.ru.                           1800     IN    A        77.73.25.135
+marine.gov.ru.                           1800     IN    A        217.173.70.135
+rar.gov.ru.                              3600     IN    A        195.80.224.200
+smb.gov.ru.                              1800     IN    A        91.206.121.102
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+digital.gov.ru.                          300      IN    NS       ns.gov.ru.
+digital.gov.ru.                          300      IN    NS       ns1.voskhod.ru.
+bus.gov.ru.                              600      IN    NS       ns.roskazna.ru.
+bus.gov.ru.                              600      IN    NS       ns2.roskazna.ru.
+frm.gov.ru.                              3600     IN    NS       ns8-l3.nic.ru.
+frm.gov.ru.                              3600     IN    NS       ns4-l3.nic.ru.
+frm.gov.ru.                              3600     IN    NS       ns.ac.gov.ru.
+open.gov.ru.                             3600     IN    NS       ns4-l3.nic.ru.
+open.gov.ru.                             3600     IN    NS       ns8-l3.nic.ru.
+open.gov.ru.                             3600     IN    NS       ns.ac.gov.ru.
+tomsk.gov.ru.                            432000   IN    NS       ns1.tomsk.gov.ru.
+tomsk.gov.ru.                            432000   IN    NS       ns.tomsk.gov.ru.
+rpn.gov.ru.                              1800     IN    NS       ns10.hoster.ru.
+rpn.gov.ru.                              1800     IN    NS       ns11.hoster.ru.
+culture.gov.ru.                          86400    IN    NS       ns1.comsat.ru.
+culture.gov.ru.                          86400    IN    NS       ns2.comsat.ru.
+info.gov.ru.                             300      IN    NS       ns.gov.ru.
+info.gov.ru.                             300      IN    NS       ns1.voskhod.ru.
+rs.gov.ru.                               3600     IN    NS       ns3-l3.nic.ru.
+rs.gov.ru.                               3600     IN    NS       ns34-cloud.nic.ru.
+rs.gov.ru.                               3600     IN    NS       ns4-l3.nic.ru.
+beta.gov.ru.                             600      IN    NS       ns1.gosuslugi.ru.
+beta.gov.ru.                             600      IN    NS       ns2.gosuslugi.ru.
+mnr.gov.ru.                              86400    IN    NS       ns2.mnr.gov.ru.
+mnr.gov.ru.                              86400    IN    NS       ns1.mnr.gov.ru.
+rar.gov.ru.                              3600     IN    NS       ns4-l3.nic.ru.
+rar.gov.ru.                              3600     IN    NS       ns.minfin.ru.
+rar.gov.ru.                              3600     IN    NS       ns8-l3.nic.ru.
+economy.gov.ru.                          3600     IN    NS       ns.economy.gov.ru.
+economy.gov.ru.                          3600     IN    NS       ns.gov.ru.
+promo.gov.ru.                            600      IN    NS       ns1.gosuslugi.ru.
+promo.gov.ru.                            600      IN    NS       ns2.gosuslugi.ru.
+start.gov.ru.                            600      IN    NS       ns2.gosuslugi.ru.
+start.gov.ru.                            600      IN    NS       ns1.gosuslugi.ru.
+92.gov.ru.                               3600     IN    NS       ns01.sevtelecom.ru.
+92.gov.ru.                               3600     IN    NS       ns.gov.ru.
+rtn.gov.ru.                              3600     IN    NS       ns4-l3.nic.ru.
+rtn.gov.ru.                              3600     IN    NS       ns8-l3.nic.ru.
+rtn.gov.ru.                              3600     IN    NS       ns3-l3.nic.ru.
+ufo.gov.ru.                              3600     IN    NS       ns2.ufo.gov.ru.
+ufo.gov.ru.                              3600     IN    NS       ns1.ufo.gov.ru.
+fsb.gov.ru.                              86400    IN    NS       ns1.fsb.ru.
+fsb.gov.ru.                              86400    IN    NS       ns2.fsb.ru.
+fish.gov.ru.                             3600     IN    NS       ns2.gov.ru.
+fish.gov.ru.                             3600     IN    NS       ns3.fishcom.ru.
+fish.gov.ru.                             3600     IN    NS       ns1.fishcom.ru.
+fish.gov.ru.                             3600     IN    NS       ns2.fishcom.ru.
+fish.gov.ru.                             3600     IN    NS       ns4.fishcom.ru.
+fish.gov.ru.                             3600     IN    NS       ns.gov.ru.
+fss.gov.ru.                              3600     IN    NS       ns2.fss.ru.
+fss.gov.ru.                              3600     IN    NS       ns.fss.ru.
+it.gov.ru.                               300      IN    NS       ns1.voskhod.ru.
+it.gov.ru.                               300      IN    NS       ns.gov.ru.
+cea.gov.ru.                              60       IN    NS       ns8-l3.nic.ru.
+cea.gov.ru.                              60       IN    NS       ns4-l3.nic.ru.
+cea.gov.ru.                              60       IN    NS       ns.ac.gov.ru.
+cea.gov.ru.                              60       IN    NS       ns.cea.gov.ru.
+fas.gov.ru.                              86400    IN    NS       ns2.fas.gov.ru.
+fas.gov.ru.                              86400    IN    NS       ns.fas.gov.ru.
+standard.gov.ru.                         600      IN    NS       ns1.gosuslugi.ru.
+standard.gov.ru.                         600      IN    NS       ns2.gosuslugi.ru.
+rta.gov.ru.                              3600     IN    NS       ns4.nic.ru.
+rta.gov.ru.                              3600     IN    NS       ns8.nic.ru.
+rta.gov.ru.                              3600     IN    NS       ns3.nic.ru.
+design.gov.ru.                           600      IN    NS       ns1.gosuslugi.ru.
+design.gov.ru.                           600      IN    NS       ns2.gosuslugi.ru.
+rk.gov.ru.                               14400    IN    NS       ns2.rk.gov.ru.
+rk.gov.ru.                               14400    IN    NS       ns1.rk.gov.ru.
+sar.gov.ru.                              86400    IN    NS       ns.saratov.gov.ru.
+sar.gov.ru.                              86400    IN    NS       ns1.saratov.gov.ru.
+sar.gov.ru.                              86400    IN    NS       ns.gov.ru.
+tourism.gov.ru.                          3600     IN    NS       ns3-l3.nic.ru.
+tourism.gov.ru.                          3600     IN    NS       ns4-l3.nic.ru.
+tourism.gov.ru.                          3600     IN    NS       ns34-cloud.nic.ru.
+tourism.gov.ru.                          3600     IN    NS       ns8-l3.nic.ru.
+tourism.gov.ru.                          3600     IN    NS       ns38-cloud.nic.ru.
+pay.gov.ru.                              3600     IN    NS       ns.roskazna.ru.
+pay.gov.ru.                              3600     IN    NS       ns1.roskazna.ru.
+pay.gov.ru.                              3600     IN    NS       ns4.roskazna.ru.
+pay.gov.ru.                              3600     IN    NS       ns2.roskazna.ru.
+pay.gov.ru.                              3600     IN    NS       ns3.roskazna.ru.
+partners.gov.ru.                         600      IN    NS       ns2.gosuslugi.ru.
+partners.gov.ru.                         600      IN    NS       ns1.gosuslugi.ru.
+cert.gov.ru.                             3600     IN    NS       ns.gov-cert.ru.
+cert.gov.ru.                             3600     IN    NS       ns2.gov-cert.ru.
+tyumen.gov.ru.                           84600    IN    NS       ns2.tmn-obl.ru.
+tyumen.gov.ru.                           84600    IN    NS       ns3.tmn-obl.ru.
+tyumen.gov.ru.                           84600    IN    NS       ns1.tmn-obl.ru.
+rst.gov.ru.                              3600     IN    NS       ns2.msk.rsnet.ru.
+rst.gov.ru.                              3600     IN    NS         srv-dns.
+rst.gov.ru.                              3600     IN    NS       ns.gost.ru.
+customs.gov.ru.                          3600     IN    NS       whip.customs.ru.
+customs.gov.ru.                          3600     IN    NS       fili.customs.ru.
+customs.gov.ru.                          3600     IN    NS       tcom.customs.ru.
+ec.gov.ru.                               3600     IN    NS       ns.cea.gov.ru.
+fms.gov.ru.                              60       IN    NS       ns2.fms.gov.ru.
+fms.gov.ru.                              60       IN    NS       ns1.fms.gov.ru.
+rlw.gov.ru.                              3600     IN    NS       ns4-l3.nic.ru.
+rlw.gov.ru.                              3600     IN    NS       ns3-l3.nic.ru.
+rlw.gov.ru.                              3600     IN    NS       ns8-l3.nic.ru.
+rlw.gov.ru.                              3600     IN    NS       ns34-cloud.nic.ru.
+rlw.gov.ru.                              3600     IN    NS       ns38-cloud.nic.ru.
+energy.gov.ru.                           300      IN    NS       ns2.elektra.ru.
+energy.gov.ru.                           300      IN    NS       ns.elektra.ru.
+ot.gov.ru.                               300      IN    NS       ns.gov.ru.
+ot.gov.ru.                               300      IN    NS       ns1.voskhod.ru.
+sirius.gov.ru.                           900      IN    NS       ns2.talantiuspeh.ru.
+sirius.gov.ru.                           900      IN    NS       ns.talantiuspeh.ru.
+ach.gov.ru.                              3600     IN    NS       ns.gov.ru.
+ach.gov.ru.                              3600     IN    NS       ns.ach.gov.ru.
+ai.gov.ru.                               3600     IN    NS       ns.cea.gov.ru.
+ac.gov.ru.                               60       IN    NS       ns.cea.gov.ru.
+ac.gov.ru.                               60       IN    NS       ns4-l3.nic.ru.
+ac.gov.ru.                               1        IN    NS       ns8-l3.nic.ru.
+ac.gov.ru.                               60       IN    NS       ns.ac.gov.ru.
+test.gov.ru.                             600      IN    NS       ns1.gosuslugi.ru.
+test.gov.ru.                             600      IN    NS       ns2.gosuslugi.ru.
+
+ ----   Recursion level 1   ---- 
+
+ Recursion on rs.gov.ru ...

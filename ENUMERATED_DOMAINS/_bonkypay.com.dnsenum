@@ -1,0 +1,77 @@
+dnsenum VERSION:1.2.6
+
+-----   bonkypay.com   -----
+
+
+Host's addresses:
+__________________
+
+bonkypay.com.                            300      IN    A        104.21.52.182
+bonkypay.com.                            300      IN    A        172.67.202.151
+
+
+Name Servers:
+______________
+
+zita.ns.cloudflare.com.                  108      IN    A        173.245.58.243
+zita.ns.cloudflare.com.                  108      IN    A        108.162.192.243
+zita.ns.cloudflare.com.                  108      IN    A        172.64.32.243
+alec.ns.cloudflare.com.                  788      IN    A        108.162.193.59
+alec.ns.cloudflare.com.                  788      IN    A        173.245.59.59
+alec.ns.cloudflare.com.                  788      IN    A        172.64.33.59
+
+
+Mail (MX) Servers:
+___________________
+
+_dc-mx.acb84123c5ce.bonkypay.com.        300      IN    A        176.99.9.211
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for bonkypay.com on zita.ns.cloudflare.com ... 
+
+Trying Zone Transfer for bonkypay.com on alec.ns.cloudflare.com ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.bonkypay.com.                        300      IN    A        104.21.52.182
+www.bonkypay.com.                        300      IN    A        172.67.202.151
+mail.bonkypay.com.                       300      IN    A        104.21.52.182
+mail.bonkypay.com.                       300      IN    A        172.67.202.151
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   172.67.202.0       ->      172.64.0.0/13
+ whois ip result:   104.21.52.0        ->      104.16.0.0/12
+ whois ip result:   176.99.9.0         ->      176.99.0.0/20
+
+
+bonkypay.com____________
+
+ 176.99.0.0/20
+ 172.64.0.0/13
+ 104.16.0.0/12
+
+
+bonkypay.com ip blocks:
+________________________
+
+ 104.21.52.182/32
+ 172.67.202.151/32
+ 176.99.9.211/32
+
+done.

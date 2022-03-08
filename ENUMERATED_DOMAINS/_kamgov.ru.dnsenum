@@ -1,0 +1,159 @@
+dnsenum VERSION:1.2.6
+
+-----   kamgov.ru   -----
+
+
+Host's addresses:
+__________________
+
+kamgov.ru.                               300      IN    A        212.164.137.112
+
+
+Name Servers:
+______________
+
+ns3-l2.nic.ru.                           272      IN    A        193.232.146.1
+ns4-cloud.nic.ru.                        6448     IN    A        185.42.137.111
+ns4-l2.nic.ru.                           275      IN    A        91.217.20.1
+ns8-cloud.nic.ru.                        275      IN    A        194.58.196.62
+ns.kamgov.ru.                            300      IN    A        194.58.196.62
+ns8-l2.nic.ru.                           300      IN    A        91.217.21.1
+
+
+Mail (MX) Servers:
+___________________
+
+solarmx.kamgov.ru.                       360      IN    A        212.164.137.112
+smtp.kamgov.ru.                          300      IN    A        81.161.114.71
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for kamgov.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for kamgov.ru on ns.kamgov.ru ... 
+
+Trying Zone Transfer for kamgov.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for kamgov.ru on ns8-cloud.nic.ru ... 
+
+Trying Zone Transfer for kamgov.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for kamgov.ru on ns3-l2.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+vpn.kamgov.ru.                           3600     IN    A        77.82.148.30
+market.kamgov.ru.                        300      IN    A        77.82.148.102
+svc.kamgov.ru.                           300      IN    A        77.82.148.21
+test.kamgov.ru.                          300      IN    A        77.82.148.4
+ns.kamgov.ru.                            300      IN    A        194.58.196.62
+eco.kamgov.ru.                           300      IN    A        81.161.114.108
+pki.kamgov.ru.                           300      IN    A        77.82.148.20
+message.kamgov.ru.                       300      IN    A        212.164.137.112
+digital.kamgov.ru.                       300      IN    A        212.164.137.112
+sh.kamgov.ru.                            300      IN    A        77.82.148.14
+autodiscover.kamgov.ru.                  300      IN    A        81.161.114.71
+smtp.kamgov.ru.                          300      IN    A        81.161.114.71
+data.kamgov.ru.                          300      IN    A        81.161.114.95
+amr.kamgov.ru.                           300      IN    A        212.164.137.112
+map.kamgov.ru.                           300      IN    A        81.161.114.44
+rabota.kamgov.ru.                        300      IN    A        81.161.114.14
+mfc.kamgov.ru.                           300      IN    A        78.157.255.82
+secretariat.kamgov.ru.                   300      IN    A        212.164.137.112
+mail.kamgov.ru.                          300      IN    A        81.161.114.71
+www.kamgov.ru.                           300      IN    A        212.164.137.112
+live.kamgov.ru.                          300      IN    A        192.168.150.3
+helpdesk.kamgov.ru.                      300      IN    A        81.161.114.120
+file.kamgov.ru.                          300      IN    A        95.173.153.225
+wac.kamgov.ru.                           3600     IN    A        77.82.148.20
+beta.kamgov.ru.                          300      IN    A        212.164.137.112
+emr.kamgov.ru.                           300      IN    A        212.164.137.112
+project.kamgov.ru.                       300      IN    A        212.164.137.112
+control.kamgov.ru.                       300      IN    A        212.164.137.112
+agate.kamgov.ru.                         300      IN    A        81.161.114.45
+minter.kamgov.ru.                        300      IN    A        212.164.137.112
+pma.kamgov.ru.                           300      IN    A        212.164.137.112
+dev.kamgov.ru.                           300      IN    A        212.164.137.112
+press.kamgov.ru.                         300      IN    A        212.164.137.112
+dispatcher.kamgov.ru.                    300      IN    A        81.161.114.20
+protocol.kamgov.ru.                      300      IN    A        212.164.137.112
+alfa.kamgov.ru.                          300      IN    A        81.161.114.151
+buh.kamgov.ru.                           300      IN    A        212.164.137.112
+meet.kamgov.ru.                          300      IN    A        81.161.114.71
+transport.kamgov.ru.                     300      IN    A        81.161.114.20
+new.kamgov.ru.                           300      IN    A        212.164.137.112
+sip.kamgov.ru.                           300      IN    A        77.82.148.19
+itc.kamgov.ru.                           300      IN    A        212.164.137.112
+rp.kamgov.ru.                            300      IN    A        81.161.114.82
+hr.kamgov.ru.                            300      IN    A        81.161.114.119
+dialin.kamgov.ru.                        300      IN    A        81.161.114.71
+access.kamgov.ru.                        300      IN    A        81.161.114.72
+gate.kamgov.ru.                          300      IN    A        10.254.1.101
+portal.kamgov.ru.                        300      IN    A        81.161.114.44
+lyncdiscover.kamgov.ru.                  300      IN    A        81.161.114.71
+assist.kamgov.ru.                        300      IN    A        81.161.114.75
+smr.kamgov.ru.                           300      IN    A        212.164.137.112
+mmr.kamgov.ru.                           300      IN    A        212.164.137.112
+adfs.kamgov.ru.                          300      IN    A        81.161.114.71
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   78.157.255.0       ->      78.157.254.0/23
+ whois ip result:   77.82.148.0        ->      77.82.148.0/27
+ whois ip result:   95.173.153.0       ->      95.173.144.0/20
+ whois ip result:   81.161.114.0       ->      81.161.114.0/24
+ whois ip result:   194.58.196.0       ->      194.58.196.0/24
+ whois ip result:   212.164.137.0      ->      212.164.128.0/19
+
+
+kamgov.ru_________
+
+ 81.161.114.0/24
+ 212.164.128.0/19
+ 78.157.254.0/23
+ 194.58.196.0/24
+ 95.173.144.0/20
+ 77.82.148.0/27
+
+
+kamgov.ru ip blocks:
+_____________________
+
+ 77.82.148.4/32
+ 77.82.148.14/32
+ 77.82.148.19/32
+ 77.82.148.20/31
+ 77.82.148.30/32
+ 77.82.148.102/32
+ 78.157.255.82/32
+ 81.161.114.14/32
+ 81.161.114.20/32
+ 81.161.114.44/31
+ 81.161.114.71/32
+ 81.161.114.72/32
+ 81.161.114.75/32
+ 81.161.114.82/32
+ 81.161.114.95/32
+ 81.161.114.108/32
+ 81.161.114.119/32
+ 81.161.114.120/32
+ 81.161.114.151/32
+ 95.173.153.225/32
+ 194.58.196.62/32
+ 212.164.137.112/32
+
+done.

@@ -1,0 +1,67 @@
+dnsenum VERSION:1.2.6
+
+-----   tvrmogilev.by   -----
+
+
+Host's addresses:
+__________________
+
+tvrmogilev.by.                           300      IN    A        178.124.138.35
+
+
+Name Servers:
+______________
+
+ns2.dc.beltelecom.by.                    3600     IN    A        178.124.138.155
+ns1.dc.beltelecom.by.                    3600     IN    A        178.124.138.154
+
+
+Mail (MX) Servers:
+___________________
+
+mail.tvrmogilev.by.                      300      IN    A        178.124.138.35
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for tvrmogilev.by on ns2.dc.beltelecom.by ... 
+
+Trying Zone Transfer for tvrmogilev.by on ns1.dc.beltelecom.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.tvrmogilev.by.                       300      IN    CNAME    tvrmogilev.by.
+tvrmogilev.by.                           300      IN    A        178.124.138.35
+mail.tvrmogilev.by.                      300      IN    A        178.124.138.35
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+tvrmogilev.by.                           300      IN    NS       ns1.dc.beltelecom.by.
+tvrmogilev.by.                           300      IN    NS       ns2.dc.beltelecom.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   178.124.138.0      ->      178.124.138.0/24
+
+
+tvrmogilev.by_____________
+
+ 178.124.138.0/24
+
+
+tvrmogilev.by ip blocks:
+_________________________
+
+ 178.124.138.35/32
+
+done.

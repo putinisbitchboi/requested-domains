@@ -1,0 +1,13 @@
+Domains in this file were acquired from previous lists on Telegram.
+
+The following items are contained in the zip.  Data is gathered only using Sublister and DNSENUM with a custom dictionary of just over 101,000 subdomains.  The project URLs are:
+https://github.com/aboul3la/Sublist3r && https://github.com/fwaeytens/dnsenum
+
+Files ending in .dns contain discovered subdomains that resolve (from sublister) + subdomains bruteforced with DNSENUM. 
+
+Files ending in .subdomain_ips have subdomains that can be resolved with public DNS.  The 1st field in these files are used for part of the files with the .dns extension (mentioned above).
+
+Files ending in .subdomain_all have all Sublister found subdomains.  Subdomains that do not resolve could either, no longer exist, or could be private hostnames that only resolve with internal DNS ... could be interesting.
+
+Files ending in .dnsenum contain the full output of DNSENUM.  If the domain has a wildcard DNS, the file will have been deleted.
+

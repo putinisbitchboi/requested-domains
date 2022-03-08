@@ -1,0 +1,87 @@
+dnsenum VERSION:1.2.6
+
+-----   kt-69.ru   -----
+
+
+Host's addresses:
+__________________
+
+kt-69.ru.                                3600     IN    A        94.130.64.243
+
+
+Name Servers:
+______________
+
+ns1.sevds.ru.                            74       IN    A        94.130.64.243
+ns2.sevds.ru.                            218      IN    A        94.130.64.243
+
+
+Mail (MX) Servers:
+___________________
+
+mail.kt-69.ru.                           3600     IN    A        94.130.64.243
+mail.kt-69.ru.                           3600     IN    A        94.130.64.243
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for kt-69.ru on ns2.sevds.ru ... 
+kt-69.ru.                                3600     IN    SOA               (
+kt-69.ru.                                3600     IN    NS       ns1.sevds.ru.
+kt-69.ru.                                3600     IN    NS       ns2.sevds.ru.
+kt-69.ru.                                3600     IN    TXT         "v=spf1
+kt-69.ru.                                3600     IN    MX               10
+kt-69.ru.                                3600     IN    MX               20
+kt-69.ru.                                3600     IN    A        94.130.64.243
+ftp.kt-69.ru.                            3600     IN    A        94.130.64.243
+mail.kt-69.ru.                           3600     IN    A        94.130.64.243
+pop.kt-69.ru.                            3600     IN    A        94.130.64.243
+smtp.kt-69.ru.                           3600     IN    A        94.130.64.243
+www.kt-69.ru.                            3600     IN    A        94.130.64.243
+
+Trying Zone Transfer for kt-69.ru on ns1.sevds.ru ... 
+kt-69.ru.                                3600     IN    SOA               (
+kt-69.ru.                                3600     IN    NS       ns1.sevds.ru.
+kt-69.ru.                                3600     IN    NS       ns2.sevds.ru.
+kt-69.ru.                                3600     IN    TXT         "v=spf1
+kt-69.ru.                                3600     IN    MX               10
+kt-69.ru.                                3600     IN    MX               20
+kt-69.ru.                                3600     IN    A        94.130.64.243
+ftp.kt-69.ru.                            3600     IN    A        94.130.64.243
+mail.kt-69.ru.                           3600     IN    A        94.130.64.243
+pop.kt-69.ru.                            3600     IN    A        94.130.64.243
+smtp.kt-69.ru.                           3600     IN    A        94.130.64.243
+www.kt-69.ru.                            3600     IN    A        94.130.64.243
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   94.130.64.0        ->      94.130.64.0/26
+
+
+kt-69.ru________
+
+ 94.130.64.0/26
+
+
+kt-69.ru ip blocks:
+____________________
+
+ 94.130.64.243/32
+
+done.

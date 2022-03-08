@@ -1,0 +1,80 @@
+dnsenum VERSION:1.2.6
+
+-----   cleanbtc.ru   -----
+
+
+Host's addresses:
+__________________
+
+cleanbtc.ru.                             3600     IN    A        185.178.208.151
+
+
+Wildcard detection using: ejumojztznfl
+_______________________________________
+
+ejumojztznfl.cleanbtc.ru.                3600     IN    A        185.178.208.151
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ Wildcards detected, all subdomains will point to the same IP address
+ Omitting results containing 185.178.208.151.
+ Maybe you are using OpenDNS servers.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Name Servers:
+______________
+
+ns3.fornex.com.                          3600     IN    A        185.18.52.250
+ns4.fornex.com.                          3600     IN    A        78.129.212.95
+ns2.fornex.com.                          3600     IN    A        178.32.96.59
+ns1.fornex.com.                          3600     IN    A        5.187.4.154
+
+
+Mail (MX) Servers:
+___________________
+
+ALT3.ASPMX.L.GOOGLE.COM.                 289      IN    A        142.250.152.27
+ALT1.ASPMX.L.GOOGLE.COM.                 234      IN    A        142.250.115.26
+ALT4.ASPMX.L.GOOGLE.COM.                 101      IN    A        172.253.113.27
+ALT2.ASPMX.L.GOOGLE.COM.                 80       IN    A        64.233.171.26
+ASPMX.L.GOOGLE.COM.                      179      IN    A        142.250.142.27
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for cleanbtc.ru on ns4.fornex.com ... 
+
+Trying Zone Transfer for cleanbtc.ru on ns1.fornex.com ... 
+
+Trying Zone Transfer for cleanbtc.ru on ns3.fornex.com ... 
+
+Trying Zone Transfer for cleanbtc.ru on ns2.fornex.com ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   185.178.208.0      ->      185.178.208.0/22
+
+
+cleanbtc.ru___________
+
+ 185.178.208.0/22
+
+
+cleanbtc.ru ip blocks:
+_______________________
+
+ 185.178.208.151/32
+
+done.

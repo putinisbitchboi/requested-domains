@@ -1,0 +1,121 @@
+dnsenum VERSION:1.2.6
+
+-----   mil.by   -----
+
+
+Host's addresses:
+__________________
+
+mil.by.                                  3600     IN    A        195.50.7.64
+
+
+Name Servers:
+______________
+
+ns2.g-cloud.by.                          3600     IN    A        195.50.11.20
+ns1.g-cloud.by.                          3600     IN    A        195.50.4.201
+ns3.g-cloud.by.                          3600     IN    A        93.125.22.109
+
+
+Mail (MX) Servers:
+___________________
+
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for mil.by on ns1.g-cloud.by ... 
+
+Trying Zone Transfer for mil.by on ns2.g-cloud.by ... 
+
+Trying Zone Transfer for mil.by on ns3.g-cloud.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+ais.mil.by.                              3600     IN    A        195.50.7.64
+mod.mil.by.                              3600     IN    A        195.50.7.64
+ncb.mil.by.                              3600     IN    A        195.50.7.64
+army.mil.by.                             3600     IN    A        195.50.7.65
+radio.mil.by.                            3600     IN    A        195.50.7.86
+cdo.mil.by.                              3600     IN    A        195.50.7.64
+www.mil.by.                              1646     IN    A        195.50.7.64
+dtba.mil.by.                             3600     IN    A        195.50.7.64
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+mod.mil.by.                              3600     IN    NS       ns1.g-cloud.by.
+mod.mil.by.                              3600     IN    NS       ns2.g-cloud.by.
+ncb.mil.by.                              3600     IN    NS       ns2.g-cloud.by.
+ncb.mil.by.                              3600     IN    NS       ns1.g-cloud.by.
+ais.mil.by.                              3600     IN    NS       ns1.g-cloud.by.
+ais.mil.by.                              3600     IN    NS       ns2.g-cloud.by.
+dtba.mil.by.                             3600     IN    NS       ns2.g-cloud.by.
+dtba.mil.by.                             3600     IN    NS       ns1.g-cloud.by.
+www.mil.by.                              3600     IN    NS       ns3.g-cloud.by.
+www.mil.by.                              3600     IN    NS       ns1.g-cloud.by.
+www.mil.by.                              3600     IN    NS       ns2.g-cloud.by.
+
+ ----   Recursion level 1   ---- 
+
+ Recursion on mod.mil.by ...
+mail.mod.mil.by.                         3600     IN    A        195.50.7.109
+www.mail.mod.mil.by.                     3600     IN    A        195.50.7.109
+www.mod.mil.by.                          3600     IN    A        195.50.7.64
+
+ Recursion on ncb.mil.by ...
+www.ncb.mil.by.                          3600     IN    A        195.50.7.64
+
+ Recursion on www.mil.by ...
+www.www.mil.by.                          3600     IN    A        195.50.7.64
+
+ Recursion on dtba.mil.by ...
+www.dtba.mil.by.                         3600     IN    A        195.50.7.64
+
+ Recursion on ais.mil.by ...
+www.ais.mil.by.                          3600     IN    A        195.50.7.64
+
+
+Checking subdomains NS records:
+________________________________
+
+mail.mod.mil.by.                         3600     IN    NS       ns1.g-cloud.by.
+mail.mod.mil.by.                         3600     IN    NS       ns2.g-cloud.by.
+
+ ----   Recursion level 2   ---- 
+
+ Recursion on mail.mod.mil.by ...
+www.mail.mod.mil.by.                     3600     IN    A        195.50.7.109
+
+
+Checking subdomains NS records:
+________________________________
+
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   195.50.7.0         ->      195.50.4.0/22
+
+
+mil.by______
+
+ 195.50.4.0/22
+
+
+mil.by ip blocks:
+__________________
+
+ 195.50.7.64/31
+ 195.50.7.86/32
+ 195.50.7.109/32
+
+done.

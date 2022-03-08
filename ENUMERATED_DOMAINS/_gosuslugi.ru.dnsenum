@@ -1,0 +1,351 @@
+dnsenum VERSION:1.2.6
+
+-----   gosuslugi.ru   -----
+
+
+Host's addresses:
+__________________
+
+gosuslugi.ru.                            119      IN    A        213.59.254.7
+gosuslugi.ru.                            119      IN    A        109.207.1.97
+
+
+Name Servers:
+______________
+
+ns4-l2.nic.ru.                           29       IN    A        91.217.20.1
+ns2.gosuslugi.ru.                        600      IN    A        213.59.255.175
+ns8-l2.nic.ru.                           37       IN    A        91.217.21.1
+ns1.gosuslugi.ru.                        600      IN    A        213.59.253.4
+
+
+Mail (MX) Servers:
+___________________
+
+mx.gosuslugi.ru.                         600      IN    A        109.207.1.100
+mx68.gosuslugi.ru.                       600      IN    A        109.207.8.100
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for gosuslugi.ru on ns2.gosuslugi.ru ... 
+
+Trying Zone Transfer for gosuslugi.ru on ns1.gosuslugi.ru ... 
+
+Trying Zone Transfer for gosuslugi.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for gosuslugi.ru on ns8-l2.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+news.gosuslugi.ru.                       600      IN    A        109.207.1.98
+crm.gosuslugi.ru.                        600      IN    A        109.207.1.60
+210.gosuslugi.ru.                        600      IN    A        109.207.2.97
+43.gosuslugi.ru.                         600      IN    A        109.207.4.34
+sop.gosuslugi.ru.                        600      IN    A        109.207.1.123
+static.gosuslugi.ru.                     136      IN    A        109.207.1.121
+party.gosuslugi.ru.                      600      IN    A        109.207.1.98
+53.gosuslugi.ru.                         600      IN    A        109.207.4.98
+68.gosuslugi.ru.                         600      IN    A        109.207.5.162
+asia.gosuslugi.ru.                       600      IN    A        109.207.1.226
+search.gosuslugi.ru.                     600      IN    A        85.143.161.164
+127.gosuslugi.ru.                        600      IN    A        109.207.5.98
+23.gosuslugi.ru.                         600      IN    A        109.207.4.162
+33.gosuslugi.ru.                         600      IN    A        109.207.5.162
+49.gosuslugi.ru.                         600      IN    A        109.207.5.98
+60.gosuslugi.ru.                         600      IN    A        109.207.4.98
+future.gosuslugi.ru.                     600      IN    A        213.59.235.104
+guides.gosuslugi.ru.                     600      IN    A        109.207.2.167
+mta.gosuslugi.ru.                        600      IN    A        45.80.64.118
+www.gosuslugi.ru.                        600      IN    CNAME    www.gslb.gosuslugi.ru.
+www.gslb.gosuslugi.ru.                   30       IN    A        213.59.254.7
+pay.gosuslugi.ru.                        600      IN    A        217.107.111.67
+partner.gosuslugi.ru.                    600      IN    CNAME    partners.gosuslugi.ru.
+partners.gosuslugi.ru.                   600      IN    A        109.207.1.14
+52.gosuslugi.ru.                         600      IN    A        109.207.4.34
+166.gosuslugi.ru.                        600      IN    A        109.207.5.34
+36.gosuslugi.ru.                         600      IN    A        109.207.5.162
+01.gosuslugi.ru.                         600      IN    A        109.207.4.162
+178.gosuslugi.ru.                        600      IN    A        109.207.4.98
+54.gosuslugi.ru.                         600      IN    A        109.207.4.226
+dom.gosuslugi.ru.                        600      IN    A        217.107.108.114
+pixel.gosuslugi.ru.                      600      IN    CNAME    pixel.gslb.gosuslugi.ru.
+pixel.gslb.gosuslugi.ru.                 30       IN    A        109.207.1.98
+pixel.gslb.gosuslugi.ru.                 30       IN    A        109.207.8.98
+smtp01.gosuslugi.ru.                     600      IN    A        109.207.1.90
+tp.gosuslugi.ru.                         600      IN    A        109.207.1.19
+71.gosuslugi.ru.                         600      IN    A        109.207.5.162
+gw.gosuslugi.ru.                         600      IN    A        146.185.209.3
+gw.gosuslugi.ru.                         600      IN    A        172.16.37.6
+af.gosuslugi.ru.                         600      IN    A        109.207.1.47
+03.gosuslugi.ru.                         600      IN    A        109.207.4.226
+72.gosuslugi.ru.                         600      IN    A        109.207.5.34
+30.gosuslugi.ru.                         600      IN    A        109.207.4.162
+58.gosuslugi.ru.                         600      IN    A        109.207.4.34
+widget.gosuslugi.ru.                     600      IN    A        109.207.2.153
+34.gosuslugi.ru.                         600      IN    A        109.207.4.162
+48.gosuslugi.ru.                         600      IN    A        109.207.5.162
+61.gosuslugi.ru.                         600      IN    A        109.207.4.162
+83.gosuslugi.ru.                         600      IN    A        109.207.4.98
+elections.gosuslugi.ru.                  600      IN    A        109.207.1.126
+plugin.gosuslugi.ru.                     600      IN    A        46.61.180.82
+card.gosuslugi.ru.                       600      IN    A        46.61.180.82
+im.gosuslugi.ru.                         600      IN    A        46.61.247.68
+15.gosuslugi.ru.                         600      IN    A        109.207.4.162
+73.gosuslugi.ru.                         600      IN    A        109.207.4.34
+94.gosuslugi.ru.                         600      IN    A        109.207.5.162
+info.gosuslugi.ru.                       600      IN    A        109.207.1.123
+16.gosuslugi.ru.                         600      IN    A        109.207.4.34
+21.gosuslugi.ru.                         600      IN    A        109.207.4.34
+77.gosuslugi.ru.                         600      IN    A        109.207.5.162
+invest.gosuslugi.ru.                     600      IN    A        109.207.2.170
+m.gosuslugi.ru.                          600      IN    A        109.207.2.22
+27.gosuslugi.ru.                         600      IN    A        212.19.27.118
+42.gosuslugi.ru.                         600      IN    A        109.207.4.226
+56.gosuslugi.ru.                         600      IN    A        109.207.4.34
+ssp.gosuslugi.ru.                        600      IN    A        109.207.1.28
+map.gosuslugi.ru.                        600      IN    CNAME    map.gslb.gosuslugi.ru.
+map.gslb.gosuslugi.ru.                   30       IN    A        213.59.254.7
+44.gosuslugi.ru.                         600      IN    A        109.207.5.162
+57.gosuslugi.ru.                         600      IN    A        109.207.5.162
+12.gosuslugi.ru.                         600      IN    A        109.207.4.34
+26.gosuslugi.ru.                         600      IN    A        109.207.4.162
+79.gosuslugi.ru.                         600      IN    A        109.207.5.98
+arm.gosuslugi.ru.                        600      IN    A        192.168.230.88
+deg.gosuslugi.ru.                        600      IN    A        109.207.1.98
+navigator.gosuslugi.ru.                  600      IN    A        109.207.2.154
+rf.gosuslugi.ru.                         600      IN    A        213.59.235.104
+spb.gosuslugi.ru.                        600      IN    CNAME    78.gosuslugi.ru.
+78.gosuslugi.ru.                         600      IN    A        109.207.4.98
+mx.gosuslugi.ru.                         600      IN    A        109.207.1.100
+29.gosuslugi.ru.                         600      IN    A        109.207.4.98
+eln.gosuslugi.ru.                        600      IN    A        109.207.1.98
+culture.gosuslugi.ru.                    600      IN    A        109.207.1.98
+download.gosuslugi.ru.                   600      IN    CNAME    gosuslugi.ru.
+gosuslugi.ru.                            600      IN    A        109.207.1.97
+gosuslugi.ru.                            600      IN    A        213.59.254.7
+22.gosuslugi.ru.                         600      IN    A        109.207.4.226
+38.gosuslugi.ru.                         600      IN    A        109.207.4.226
+62.gosuslugi.ru.                         600      IN    A        109.207.5.162
+ns2.gosuslugi.ru.                        600      IN    A        213.59.255.175
+66.gosuslugi.ru.                         600      IN    A        109.207.5.34
+89.gosuslugi.ru.                         600      IN    A        109.207.5.34
+mx68.gosuslugi.ru.                       600      IN    A        109.207.8.100
+17.gosuslugi.ru.                         600      IN    A        109.207.4.226
+partners.gosuslugi.ru.                   600      IN    A        109.207.1.14
+35.gosuslugi.ru.                         600      IN    A        109.207.4.98
+do.gosuslugi.ru.                         600      IN    A        109.207.2.97
+19.gosuslugi.ru.                         600      IN    A        109.207.4.226
+28.gosuslugi.ru.                         600      IN    A        109.207.5.98
+41.gosuslugi.ru.                         600      IN    A        109.207.5.98
+76.gosuslugi.ru.                         600      IN    A        109.207.5.162
+region.gosuslugi.ru.                     600      IN    A        109.207.1.30
+59.gosuslugi.ru.                         600      IN    A        109.207.5.34
+fc.gosuslugi.ru.                         600      IN    A        109.207.1.98
+digital.gosuslugi.ru.                    600      IN    A        213.59.235.104
+45.gosuslugi.ru.                         600      IN    A        109.207.5.34
+inspector.gosuslugi.ru.                  600      IN    A        213.59.235.44
+13.gosuslugi.ru.                         600      IN    A        109.207.4.34
+67.gosuslugi.ru.                         600      IN    A        109.207.5.162
+rta.gosuslugi.ru.                        600      IN    A        109.207.1.62
+payment.gosuslugi.ru.                    600      IN    A        109.207.1.50
+payment.gosuslugi.ru.                    600      IN    A        109.207.1.51
+18.gosuslugi.ru.                         600      IN    A        109.207.4.34
+55.gosuslugi.ru.                         600      IN    A        109.207.4.226
+75.gosuslugi.ru.                         600      IN    A        109.207.4.226
+rsa.gosuslugi.ru.                        600      IN    A        109.207.1.196
+20.gosuslugi.ru.                         600      IN    A        109.207.4.162
+25.gosuslugi.ru.                         600      IN    A        109.207.5.98
+39.gosuslugi.ru.                         600      IN    A        109.207.4.98
+65.gosuslugi.ru.                         600      IN    A        109.207.5.98
+87.gosuslugi.ru.                         600      IN    A        109.207.5.98
+mb.gosuslugi.ru.                         600      IN    A        109.207.2.22
+lk.gosuslugi.ru.                         600      IN    CNAME    lk.gslb.gosuslugi.ru.
+lk.gslb.gosuslugi.ru.                    30       IN    A        213.59.254.6
+32.gosuslugi.ru.                         600      IN    A        109.207.5.162
+46.gosuslugi.ru.                         600      IN    A        109.207.5.162
+ns1.gosuslugi.ru.                        600      IN    A        213.59.253.4
+40.gosuslugi.ru.                         600      IN    A        109.207.5.162
+74.gosuslugi.ru.                         600      IN    A        109.207.5.34
+special.gosuslugi.ru.                    600      IN    A        109.207.1.121
+11.gosuslugi.ru.                         600      IN    A        109.207.4.98
+70.gosuslugi.ru.                         600      IN    A        109.207.4.226
+census.gosuslugi.ru.                     600      IN    A        109.207.1.98
+pos.gosuslugi.ru.                        600      IN    A        188.128.50.192
+sc.gosuslugi.ru.                         600      IN    A        85.143.127.91
+www2.gosuslugi.ru.                       600      IN    CNAME    gosuslugi.ru.
+gosuslugi.ru.                            600      IN    A        213.59.254.7
+gosuslugi.ru.                            600      IN    A        109.207.1.97
+14.gosuslugi.ru.                         600      IN    A        109.207.5.98
+24.gosuslugi.ru.                         600      IN    A        109.207.4.226
+78.gosuslugi.ru.                         600      IN    A        109.207.4.98
+gov.gosuslugi.ru.                        600      IN    A        213.59.235.104
+smtp.gosuslugi.ru.                       600      IN    A        109.207.2.149
+smtp.gosuslugi.ru.                       600      IN    A        213.59.253.1
+37.gosuslugi.ru.                         600      IN    A        109.207.5.162
+51.gosuslugi.ru.                         600      IN    A        109.207.4.98
+63.gosuslugi.ru.                         600      IN    A        109.207.4.34
+86.gosuslugi.ru.                         600      IN    A        109.207.5.34
+ep.gosuslugi.ru.                         600      IN    A        109.207.2.200
+31.gosuslugi.ru.                         600      IN    A        109.207.5.162
+47.gosuslugi.ru.                         600      IN    A        109.207.4.98
+sia.gosuslugi.ru.                        600      IN    A        213.221.17.231
+demo.gosuslugi.ru.                       600      IN    A        109.207.1.10
+10.gosuslugi.ru.                         600      IN    A        109.207.4.98
+gateway.gosuslugi.ru.                    600      IN    A        109.207.1.121
+50.gosuslugi.ru.                         600      IN    A        109.207.5.162
+64.gosuslugi.ru.                         600      IN    A        109.207.4.34
+ip.gosuslugi.ru.                         600      IN    A        109.207.1.41
+mail.gosuslugi.ru.                       3600     IN    A        185.76.234.240
+mail.gosuslugi.ru.                       3600     IN    A        185.76.232.240
+69.gosuslugi.ru.                         600      IN    A        109.207.5.162
+voxel.gosuslugi.ru.                      600      IN    CNAME    voxel.gslb.gosuslugi.ru.
+voxel.gslb.gosuslugi.ru.                 30       IN    A        109.207.8.98
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+gosuslugi.ru.                            600      IN    NS       ns8-l2.nic.ru.
+gosuslugi.ru.                            600      IN    NS       ns1.gosuslugi.ru.
+gosuslugi.ru.                            600      IN    NS       ns2.gosuslugi.ru.
+gosuslugi.ru.                            600      IN    NS       ns4-l2.nic.ru.
+mail.gosuslugi.ru.                       3600     IN    NS       gns194a.sendsay.ru.
+mail.gosuslugi.ru.                       3600     IN    NS       gns194b.sendsay.ru.
+mail.gosuslugi.ru.                       3600     IN    NS       gns195a.sendsay.ru.
+mail.gosuslugi.ru.                       3600     IN    NS       gns195b.sendsay.ru.
+gosuslugi.ru.                            600      IN    NS       ns8-l2.nic.ru.
+gosuslugi.ru.                            600      IN    NS       ns1.gosuslugi.ru.
+gosuslugi.ru.                            600      IN    NS       ns2.gosuslugi.ru.
+gosuslugi.ru.                            600      IN    NS       ns4-l2.nic.ru.
+
+ ----   Recursion level 1   ---- 
+
+ Recursion on mail.gosuslugi.ru ...
+image.mail.gosuslugi.ru.                 3600     IN    CNAME    image.sendsay.ru.
+image.sendsay.ru.                        3600     IN    A        185.76.234.248
+image.sendsay.ru.                        3600     IN    A        185.76.233.248
+image.sendsay.ru.                        3600     IN    A        185.76.235.248
+image.sendsay.ru.                        3600     IN    A        185.76.232.248
+link.mail.gosuslugi.ru.                  3600     IN    CNAME    link.sendsay.ru.
+link.sendsay.ru.                         3600     IN    A        185.76.234.246
+link.sendsay.ru.                         3600     IN    A        185.76.235.246
+link.sendsay.ru.                         3600     IN    A        185.76.232.246
+link.sendsay.ru.                         3600     IN    A        185.76.233.246
+read.mail.gosuslugi.ru.                  3600     IN    CNAME    read.sendsay.ru.
+read.sendsay.ru.                         3600     IN    A        185.76.233.244
+read.sendsay.ru.                         3600     IN    A        185.76.235.244
+read.sendsay.ru.                         3600     IN    A        185.76.232.244
+read.sendsay.ru.                         3600     IN    A        185.76.234.244
+
+
+Checking subdomains NS records:
+________________________________
+
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   46.61.247.0        ->      46.61.246.0/23
+ whois ip result:   85.143.127.0       ->      85.142.0.0/15
+ whois ip result:   109.207.1.0        ->      109.207.0.0/20
+ whois ip result:   146.185.209.0      ->      146.185.208.0/23
+ whois ip result:   212.19.27.0        ->      212.19.27.0/29
+ whois ip result:   213.59.253.0       ->      213.59.192.0/18
+ whois ip result:   185.76.232.0       ->      185.76.232.0/23
+ whois ip result:   188.128.50.0       ->      188.128.50.0/23
+ c class default:   217.107.108.0      ->      217.107.108.0/24      (whois netrange operation failed)
+ c class default:   217.107.111.0      ->      217.107.111.0/24      (whois netrange operation failed)
+ whois ip result:   46.61.180.0        ->      46.61.180.0/25
+ whois ip result:   45.80.64.0         ->      45.80.64.0/22
+ whois ip result:   85.143.161.0       ->      85.143.160.0/22
+ whois ip result:   185.76.234.0       ->      185.76.234.0/23
+ whois ip result:   213.221.17.0       ->      213.221.17.0/26
+
+
+gosuslugi.ru____________
+
+ 109.207.0.0/20
+ 185.76.234.0/23
+ 46.61.246.0/23
+ 185.76.232.0/23
+ 85.142.0.0/15
+ 45.80.64.0/22
+ 213.59.192.0/18
+ 212.19.27.0/29
+ 217.107.108.0/24
+ 213.221.17.0/26
+ 188.128.50.0/23
+ 217.107.111.0/24
+ 85.143.160.0/22
+ 146.185.208.0/23
+ 46.61.180.0/25
+
+
+gosuslugi.ru ip blocks:
+________________________
+
+ 45.80.64.118/32
+ 46.61.180.82/32
+ 46.61.247.68/32
+ 85.143.127.91/32
+ 85.143.161.164/32
+ 109.207.1.10/32
+ 109.207.1.14/32
+ 109.207.1.19/32
+ 109.207.1.28/32
+ 109.207.1.30/32
+ 109.207.1.41/32
+ 109.207.1.47/32
+ 109.207.1.50/31
+ 109.207.1.60/32
+ 109.207.1.62/32
+ 109.207.1.90/32
+ 109.207.1.97/32
+ 109.207.1.98/32
+ 109.207.1.100/32
+ 109.207.1.121/32
+ 109.207.1.123/32
+ 109.207.1.126/32
+ 109.207.1.196/32
+ 109.207.1.226/32
+ 109.207.2.22/32
+ 109.207.2.97/32
+ 109.207.2.149/32
+ 109.207.2.153/32
+ 109.207.2.154/32
+ 109.207.2.167/32
+ 109.207.2.170/32
+ 109.207.2.200/32
+ 109.207.4.34/32
+ 109.207.4.98/32
+ 109.207.4.162/32
+ 109.207.4.226/32
+ 109.207.5.34/32
+ 109.207.5.98/32
+ 109.207.5.162/32
+ 109.207.8.98/32
+ 109.207.8.100/32
+ 146.185.209.3/32
+ 185.76.232.240/32
+ 185.76.234.240/32
+ 188.128.50.192/32
+ 212.19.27.118/32
+ 213.59.235.44/32
+ 213.59.235.104/32
+ 213.59.253.1/32
+ 213.59.253.4/32
+ 213.59.254.6/31
+ 213.59.255.175/32
+ 213.221.17.231/32
+ 217.107.108.114/32
+ 217.107.111.67/32
+
+done.

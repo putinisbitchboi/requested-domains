@@ -1,0 +1,556 @@
+dnsenum VERSION:1.2.6
+
+-----   lenta.ru   -----
+
+
+Host's addresses:
+__________________
+
+lenta.ru.                                61       IN    A        178.248.235.122
+
+
+Name Servers:
+______________
+
+ns4.rambler.ru.                          3600     IN    A        81.19.73.9
+ns3.rambler.ru.                          3600     IN    A        81.19.83.8
+ns2.rambler.ru.                          3600     IN    A        81.19.73.8
+ns5.rambler.ru.                          3600     IN    A        81.19.83.9
+
+
+Mail (MX) Servers:
+___________________
+
+inmx.rambler.ru.                         231      IN    A        81.19.78.69
+inmx.rambler.ru.                         231      IN    A        81.19.78.69
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for lenta.ru on ns3.rambler.ru ... 
+
+Trying Zone Transfer for lenta.ru on ns5.rambler.ru ... 
+
+Trying Zone Transfer for lenta.ru on ns4.rambler.ru ... 
+
+Trying Zone Transfer for lenta.ru on ns2.rambler.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+r.lenta.ru.                              600      IN    A        10.41.5.16
+murakami.lenta.ru.                       600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+m.lenta.ru.                              264      IN    CNAME     lenta.ru.
+lenta.ru.                                120      IN    A        178.248.235.122
+cranach.lenta.ru.                        600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+england.lenta.ru.                        600      IN    A        81.19.92.64
+www.lenta.ru.                            600      IN    CNAME     lenta.ru.
+lenta.ru.                                120      IN    A        178.248.235.122
+id.lenta.ru.                             600      IN    CNAME     lenta.ru.
+lenta.ru.                                120      IN    A        178.248.235.122
+salute.lenta.ru.                         600      IN    A        81.19.92.64
+g.lenta.ru.                              600      IN    A        10.41.5.16
+boss.lenta.ru.                           600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+harvey.lenta.ru.                         600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+admin.lenta.ru.                          600      IN    A        10.41.5.20
+realty.lenta.ru.                         600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+old.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+afghan.lenta.ru.                         600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+bk.lenta.ru.                             600      IN    A        81.19.80.118
+vip.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+google.lenta.ru.                         600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+metro.lenta.ru.                          600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+s7.lenta.ru.                             600      IN    A        81.19.92.64
+age.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+cold.lenta.ru.                           600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+revolution.lenta.ru.                     600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+agriculture.lenta.ru.                    600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+kia.lenta.ru.                            600      IN    A        81.19.92.64
+post.lenta.ru.                           600      IN    A        81.19.80.80
+narco.lenta.ru.                          600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+rafael.lenta.ru.                         600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+v2.lenta.ru.                             600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+mail.lenta.ru.                           600      IN    CNAME    mail.rambler.ru.
+mail.rambler.ru.                         3600     IN    A        81.19.78.86
+mail.rambler.ru.                         3600     IN    A        81.19.78.84
+mail.rambler.ru.                         3600     IN    A        81.19.78.83
+mail.rambler.ru.                         3600     IN    A        81.19.78.85
+cdn.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+pirates.lenta.ru.                        600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+virgin.lenta.ru.                         600      IN    A        10.41.5.23
+good.lenta.ru.                           600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+delta.lenta.ru.                          600      IN    A        81.19.92.64
+node01.lenta.ru.                         600      IN    A        10.41.128.43
+shelter.lenta.ru.                        600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+stats.lenta.ru.                          600      IN    A         10.41.5.8
+img.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+evolution.lenta.ru.                      600      IN    A        81.19.92.64
+smtp.lenta.ru.                           600      IN    A        81.19.69.18
+vancouver.lenta.ru.                      600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+ww1.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+real.lenta.ru.                           600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+assets.lenta.ru.                         600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+logs.lenta.ru.                           600      IN    A         10.41.5.6
+ed.lenta.ru.                             600      IN    A        10.99.5.11
+pda.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+white.lenta.ru.                          600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+games.lenta.ru.                          600      IN    A        10.41.5.20
+e3.lenta.ru.                             600      IN    A        10.41.5.20
+g3.lenta.ru.                             600      IN    A        10.41.5.19
+mobile.lenta.ru.                         600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+office.lenta.ru.                         600      IN    A        81.19.80.100
+open.lenta.ru.                           600      IN    A        81.19.92.64
+auto.lenta.ru.                           600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+free.lenta.ru.                           600      IN    A        81.19.72.62
+dom.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+flowers.lenta.ru.                        600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+hyper.lenta.ru.                          600      IN    A        81.19.92.64
+virus.lenta.ru.                          600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+paris.lenta.ru.                          600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+internet.lenta.ru.                       600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+radius.lenta.ru.                         600      IN    A        81.19.80.100
+drift.lenta.ru.                          600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+market.lenta.ru.                         600      IN    A        81.19.70.4
+ts.lenta.ru.                             600      IN    A        10.41.5.20
+ai.lenta.ru.                             600      IN    A        81.19.92.64
+sorokin.lenta.ru.                        600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+relay.lenta.ru.                          600      IN    A        81.19.69.18
+melanoma.lenta.ru.                       600      IN    A        81.19.92.64
+morandi.lenta.ru.                        600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+tchaikovsky.lenta.ru.                    600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+money.lenta.ru.                          600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+matilda.lenta.ru.                        600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+turbo.lenta.ru.                          600      IN    A        93.158.134.8
+pro.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+porsche.lenta.ru.                        600      IN    A        81.19.92.64
+x.lenta.ru.                              600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+usa.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+renaissance.lenta.ru.                    600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+java.lenta.ru.                           600      IN    A        81.19.80.118
+hockey.lenta.ru.                         600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+r1.lenta.ru.                             600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+app01.lenta.ru.                          600      IN    CNAME    app01.lenta.rambler.tech.
+app01.lenta.rambler.tech.                3600     IN    A        10.16.5.32
+jenkins.lenta.ru.                        600      IN    A        10.41.5.14
+owl.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+mn.lenta.ru.                             600      IN    CNAME    delo.lenta.ru.
+emc.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+pa.lenta.ru.                             600      IN    A        81.19.80.80
+yokohama.lenta.ru.                       600      IN    A        81.19.92.64
+cola.lenta.ru.                           600      IN    A         10.41.5.6
+incom.lenta.ru.                          600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+gazeta.lenta.ru.                         600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+quake.lenta.ru.                          600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+mib.lenta.ru.                            600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+api.lenta.ru.                            600      IN    CNAME     lenta.ru.
+lenta.ru.                                120      IN    A        178.248.235.122
+chernobyl.lenta.ru.                      600      IN    CNAME    sp.lenta.ru.
+sp.lenta.ru.                             600      IN    A        81.19.72.36
+sp.lenta.ru.                             600      IN    A        81.19.72.38
+sp.lenta.ru.                             600      IN    A        81.19.72.34
+sp.lenta.ru.                             600      IN    A        81.19.72.37
+sp.lenta.ru.                             600      IN    A        81.19.72.39
+sp.lenta.ru.                             600      IN    A        81.19.72.35
+heron.lenta.ru.                          600      IN    A         10.16.5.4
+kreon.lenta.ru.                          600      IN    A        81.19.92.64
+rambler.lenta.ru.                        600      IN    CNAME    rambler.ru.
+rambler.ru.                              300      IN    A        81.19.82.98
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+lenta.ru.                                600      IN    NS       ns3.rambler.ru.
+lenta.ru.                                600      IN    NS       ns5.rambler.ru.
+lenta.ru.                                600      IN    NS       ns2.rambler.ru.
+lenta.ru.                                600      IN    NS       ns4.rambler.ru.
+lenta.ru.                                600      IN    NS       ns4.rambler.ru.
+lenta.ru.                                600      IN    NS       ns2.rambler.ru.
+lenta.ru.                                600      IN    NS       ns3.rambler.ru.
+lenta.ru.                                600      IN    NS       ns5.rambler.ru.
+rambler.ru.                              3600     IN    NS       ns4.rambler.ru.
+rambler.ru.                              3600     IN    NS       ns3.rambler.ru.
+rambler.ru.                              3600     IN    NS       ns2.rambler.ru.
+rambler.ru.                              3600     IN    NS       ns5.rambler.ru.
+mail.rambler.ru.                         3600     IN    NS       ns2.rambler.ru.
+mail.rambler.ru.                         3600     IN    NS       ns4.rambler.ru.
+mail.rambler.ru.                         3600     IN    NS       ns3.rambler.ru.
+mail.rambler.ru.                         3600     IN    NS       ns5.rambler.ru.
+lenta.ru.                                600      IN    NS       ns2.rambler.ru.
+lenta.ru.                                600      IN    NS       ns5.rambler.ru.
+lenta.ru.                                600      IN    NS       ns4.rambler.ru.
+lenta.ru.                                600      IN    NS       ns3.rambler.ru.
+lenta.ru.                                600      IN    NS       ns4.rambler.ru.
+lenta.ru.                                600      IN    NS       ns2.rambler.ru.
+lenta.ru.                                600      IN    NS       ns3.rambler.ru.
+lenta.ru.                                600      IN    NS       ns5.rambler.ru.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   81.19.69.0         ->      81.19.69.0/24
+ whois ip result:   81.19.80.0         ->      81.19.64.0/19
+ whois ip result:   81.19.70.0         ->      81.19.70.0/24
+ whois ip result:   81.19.72.0         ->      81.19.72.0/24
+ whois ip result:   81.19.92.0         ->      81.19.92.0/27
+ whois ip result:   93.158.134.0       ->      93.158.134.0/24
+ whois ip result:   178.248.235.0      ->      178.248.232.0/21
+
+
+lenta.ru________
+
+ 93.158.134.0/24
+ 81.19.64.0/19
+ 81.19.69.0/24
+ 81.19.92.0/27
+ 81.19.72.0/24
+ 81.19.70.0/24
+ 178.248.232.0/21
+
+
+lenta.ru ip blocks:
+____________________
+
+ 81.19.69.18/32
+ 81.19.70.4/32
+ 81.19.72.34/31
+ 81.19.72.36/30
+ 81.19.72.62/32
+ 81.19.80.80/32
+ 81.19.80.100/32
+ 81.19.80.118/32
+ 81.19.92.64/32
+ 93.158.134.8/32
+ 178.248.235.122/32
+
+done.

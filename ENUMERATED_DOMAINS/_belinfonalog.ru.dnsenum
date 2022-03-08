@@ -1,0 +1,72 @@
+dnsenum VERSION:1.2.6
+
+-----   belinfonalog.ru   -----
+
+
+Host's addresses:
+__________________
+
+belinfonalog.ru.                         3600     IN    A        82.151.111.186
+
+
+Name Servers:
+______________
+
+ns02.belnet.ru.                          3600     IN    A        82.151.97.50
+ns01.belnet.ru.                          3600     IN    A        82.151.98.154
+
+
+Mail (MX) Servers:
+___________________
+
+mail.belinfonalog.ru.                    3600     IN    A        82.151.111.186
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for belinfonalog.ru on ns02.belnet.ru ... 
+
+Trying Zone Transfer for belinfonalog.ru on ns01.belnet.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mail.belinfonalog.ru.                    3600     IN    A        82.151.111.186
+www.belinfonalog.ru.                     3600     IN    A        82.151.111.186
+sip.belinfonalog.ru.                     3600     IN    A        82.151.111.190
+sip.belinfonalog.ru.                     3600     IN    A        178.216.78.219
+ps.belinfonalog.ru.                      3600     IN    A        82.151.111.187
+cscp.belinfonalog.ru.                    3600     IN    A        82.151.111.186
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   82.151.111.0       ->      82.151.111.0/27
+ whois ip result:   178.216.78.0       ->      178.216.72.0/21
+
+
+belinfonalog.ru_______________
+
+ 178.216.72.0/21
+ 82.151.111.0/27
+
+
+belinfonalog.ru ip blocks:
+___________________________
+
+ 82.151.111.186/31
+ 82.151.111.190/32
+ 178.216.78.219/32
+
+done.

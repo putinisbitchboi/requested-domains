@@ -1,0 +1,247 @@
+dnsenum VERSION:1.2.6
+
+-----   belta.by   -----
+
+
+Host's addresses:
+__________________
+
+belta.by.                                300      IN    A        93.84.116.188
+belta.by.                                300      IN    A        93.84.116.187
+belta.by.                                300      IN    A        178.124.128.51
+belta.by.                                300      IN    A        178.124.128.43
+
+
+Name Servers:
+______________
+
+gate.belta.by.                           600      IN    A        86.57.255.226
+llm2.belta.by.                           600      IN    A        86.57.255.235
+bf.belta.by.                             600      IN    A        178.124.194.92
+
+
+Mail (MX) Servers:
+___________________
+
+mailserver5.belta.by.                    600      IN    A        86.57.149.79
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for belta.by on bf.belta.by ... 
+
+Trying Zone Transfer for belta.by on llm2.belta.by ... 
+
+Trying Zone Transfer for belta.by on ns.belta.by ... 
+
+Trying Zone Transfer for belta.by on gate.belta.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+events.belta.by.                         600      IN    A        45.155.60.8
+www.belta.by.                            600      IN    CNAME     belta.by.
+belta.by.                                300      IN    A        93.84.116.187
+belta.by.                                300      IN    A        93.84.116.188
+belta.by.                                300      IN    A        178.124.128.43
+belta.by.                                300      IN    A        178.124.128.51
+s1.belta.by.                             600      IN    CNAME    virt.belta.by.
+virt.belta.by.                           600      IN    A        86.57.149.88
+ngate.belta.by.                          1200     IN    A        194.158.196.88
+ngate.belta.by.                          1200     IN    A        192.168.174.8
+cmi.belta.by.                            3600     IN    A        192.168.174.31
+ph2.belta.by.                            1200     IN    A        86.57.149.72
+ph2.belta.by.                            1200     IN    A        192.168.150.30
+ph2.belta.by.                            1200     IN    A        86.57.149.71
+virt.belta.by.                           600      IN    A        86.57.149.88
+m.belta.by.                              600      IN    A        93.84.116.187
+m.belta.by.                              600      IN    A        93.84.116.188
+ph1.belta.by.                            1200     IN    A        192.168.174.68
+v.belta.by.                              600      IN    A        93.84.114.36
+vest.belta.by.                           600      IN    CNAME    virt.belta.by.
+virt.belta.by.                           600      IN    A        86.57.149.88
+visa.belta.by.                           600      IN    A        86.57.149.74
+develop.belta.by.                        600      IN    CNAME    vector.belta.by.
+vector.belta.by.                         600      IN    A        86.57.255.230
+ns.belta.by.                             600      IN    A        93.84.114.38
+ftp1.belta.by.                           600      IN    CNAME    gate.belta.by.
+gate.belta.by.                           600      IN    A        86.57.255.226
+gate.belta.by.                           600      IN    A        192.168.174.1
+subs.belta.by.                           600      IN    CNAME    virt.belta.by.
+virt.belta.by.                           600      IN    A        86.57.149.88
+news.belta.by.                           38400    IN    CNAME    www.belta.by.
+www.belta.by.                            600      IN    CNAME     belta.by.
+belta.by.                                600      IN    A        93.84.116.187
+belta.by.                                300      IN    A        178.124.128.43
+belta.by.                                600      IN    A        93.84.116.188
+belta.by.                                300      IN    A        178.124.128.51
+blr.belta.by.                            600      IN    A        178.124.128.53
+expert.belta.by.                         600      IN    A        45.155.60.8
+trans.belta.by.                          1200     IN    A        192.168.150.9
+tv.belta.by.                             600      IN    A        93.84.114.42
+econ.belta.by.                           600      IN    CNAME    virt.belta.by.
+virt.belta.by.                           600      IN    A        86.57.149.88
+bf.belta.by.                             1200     IN    A        192.168.150.11
+plus.belta.by.                           600      IN    A        178.124.128.54
+atom.belta.by.                           600      IN    A        93.84.114.40
+wiki.belta.by.                           600      IN    A        192.168.174.7
+vps.belta.by.                            3600     IN    A        192.168.174.31
+eng.belta.by.                            38400    IN    A        178.124.128.53
+video.belta.by.                          600      IN    A        178.124.138.65
+vector.belta.by.                         600      IN    A        86.57.255.230
+ln.belta.by.                             3600     IN    A        86.57.255.231
+gt.belta.by.                             1200     IN    A        86.57.149.87
+region.belta.by.                         600      IN    CNAME    virt.belta.by.
+virt.belta.by.                           600      IN    A        86.57.149.88
+blogs.belta.by.                          600      IN    CNAME    blog.belta.by.
+gate.belta.by.                           600      IN    A        192.168.174.1
+gate.belta.by.                           600      IN    A        86.57.255.226
+mas.belta.by.                            600      IN    CNAME    pmprog.belta.by.
+pmprog.belta.by.                         600      IN    A        93.84.114.35
+s2.belta.by.                             600      IN    CNAME    virt4.belta.by.
+virt4.belta.by.                          600      IN    A        178.124.194.93
+elo.belta.by.                            600      IN    A        93.84.114.36
+esp.belta.by.                            600      IN    A        178.124.128.53
+ftp.belta.by.                            600      IN    CNAME    ph2.belta.by.
+ph2.belta.by.                            1200     IN    A        86.57.149.71
+ph2.belta.by.                            1200     IN    A        86.57.149.72
+ph2.belta.by.                            1200     IN    A        192.168.150.30
+tech.belta.by.                           600      IN    A        86.57.255.231
+chn.belta.by.                            600      IN    A        178.124.128.53
+belsmi.belta.by.                         600      IN    CNAME    video.belta.by.
+video.belta.by.                          600      IN    A        178.124.138.65
+101.belta.by.                            600      IN    A        93.84.114.39
+gate2.belta.by.                          1200     IN    A        192.168.174.4
+www.tv.belta.by.                         600      IN    CNAME    tv.belta.by.
+tv.belta.by.                             600      IN    A        93.84.114.42
+photo.belta.by.                          600      IN    CNAME    virt.belta.by.
+virt.belta.by.                           600      IN    A        86.57.149.88
+mcn.belta.by.                            600      IN    A        194.158.196.90
+sports.belta.by.                         600      IN    A        86.57.250.216
+wap.belta.by.                            600      IN    CNAME    news.belta.by.
+news.belta.by.                           600      IN    CNAME    www.belta.by.
+www.belta.by.                            600      IN    CNAME     belta.by.
+belta.by.                                600      IN    A        93.84.116.187
+belta.by.                                300      IN    A        178.124.128.43
+belta.by.                                600      IN    A        93.84.116.188
+belta.by.                                300      IN    A        178.124.128.51
+images.belta.by.                         600      IN    CNAME    video.belta.by.
+video.belta.by.                          600      IN    A        178.124.138.65
+localhost.belta.by.                      600      IN    A         127.0.0.1
+ec.belta.by.                             600      IN    CNAME    virt.belta.by.
+virt.belta.by.                           600      IN    A        86.57.149.88
+vps2.belta.by.                           3600     IN    A        192.168.174.34
+7days.belta.by.                          600      IN    A        93.84.114.35
+sport.belta.by.                          600      IN    A        86.57.255.230
+phs.belta.by.                            600      IN    CNAME    virt.belta.by.
+virt.belta.by.                           600      IN    A        86.57.149.88
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+cmi.belta.by.                            3600     IN    NS       gate.belta.by.
+cmi.belta.by.                            3600     IN    NS       lm2.belta.by.
+belta.by.                                600      IN    NS       llm2.belta.by.
+belta.by.                                600      IN    NS       ns.belta.by.
+belta.by.                                600      IN    NS       bf.belta.by.
+belta.by.                                600      IN    NS       gate.belta.by.
+vps.belta.by.                            3600     IN    NS       gate2.belta.by.
+vps.belta.by.                            3600     IN    NS       gate.belta.by.
+vps2.belta.by.                           3600     IN    NS       gate.belta.by.
+ln.belta.by.                             3600     IN    NS       gate.belta.by.
+belta.by.                                600      IN    NS       ns.belta.by.
+belta.by.                                600      IN    NS       bf.belta.by.
+belta.by.                                600      IN    NS       gate.belta.by.
+belta.by.                                600      IN    NS       llm2.belta.by.
+belta.by.                                600      IN    NS       gate.belta.by.
+belta.by.                                600      IN    NS       llm2.belta.by.
+belta.by.                                600      IN    NS       ns.belta.by.
+belta.by.                                600      IN    NS       bf.belta.by.
+
+ ----   Recursion level 1   ---- 
+
+ Recursion on cmi.belta.by ...
+mail.cmi.belta.by.                       3600     IN    CNAME    cmi.belta.by.
+cmi.belta.by.                            3600     IN    A        192.168.174.31
+
+ Recursion on ln.belta.by ...
+
+ Recursion on vps.belta.by ...
+photo.vps.belta.by.                      3600     IN    A        192.168.150.40
+
+ Recursion on vps2.belta.by ...
+
+
+Checking subdomains NS records:
+________________________________
+
+cmi.belta.by.                            3600     IN    NS       lm2.belta.by.
+cmi.belta.by.                            3600     IN    NS       gate.belta.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   86.57.149.0        ->      86.57.149.0/24
+ whois ip result:   93.84.116.0        ->      93.84.116.0/24
+ whois ip result:   178.124.128.0      ->      178.124.128.0/24
+ whois ip result:   86.57.250.0        ->      86.57.250.0/24
+ whois ip result:   45.155.60.0        ->      45.155.60.0/24
+ whois ip result:   93.84.114.0        ->      93.84.114.0/24
+ whois ip result:   178.124.138.0      ->      178.124.138.0/24
+ whois ip result:   194.158.196.0      ->      194.158.196.0/24
+ whois ip result:   86.57.255.0        ->      86.57.255.0/29
+ whois ip result:   178.124.194.0      ->      178.124.194.0/30
+
+
+belta.by________
+
+ 93.84.116.0/24
+ 86.57.250.0/24
+ 45.155.60.0/24
+ 178.124.128.0/24
+ 194.158.196.0/24
+ 86.57.149.0/24
+ 93.84.114.0/24
+ 178.124.138.0/24
+ 178.124.194.0/30
+ 86.57.255.0/29
+
+
+belta.by ip blocks:
+____________________
+
+ 45.155.60.8/32
+ 86.57.149.71/32
+ 86.57.149.72/32
+ 86.57.149.74/32
+ 86.57.149.79/32
+ 86.57.149.87/32
+ 86.57.149.88/32
+ 86.57.250.216/32
+ 86.57.255.226/32
+ 86.57.255.230/31
+ 86.57.255.235/32
+ 93.84.114.35/32
+ 93.84.114.36/32
+ 93.84.114.38/31
+ 93.84.114.40/32
+ 93.84.114.42/32
+ 93.84.116.187/32
+ 93.84.116.188/32
+ 178.124.128.43/32
+ 178.124.128.51/32
+ 178.124.128.53/32
+ 178.124.128.54/32
+ 178.124.138.65/32
+ 178.124.194.92/31
+ 194.158.196.88/32
+ 194.158.196.90/32
+
+done.

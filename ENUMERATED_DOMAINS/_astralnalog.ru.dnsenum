@@ -1,0 +1,137 @@
+dnsenum VERSION:1.2.6
+
+-----   astralnalog.ru   -----
+
+
+Host's addresses:
+__________________
+
+astralnalog.ru.                          600      IN    A        91.239.5.8
+
+
+Name Servers:
+______________
+
+ns3.astralnalog.ru.                      3600     IN    A        31.13.60.78
+ns2.astralnalog.ru.                      3600     IN    A        91.239.5.6
+ns1.astralnalog.ru.                      3600     IN    A        91.239.5.5
+
+
+Mail (MX) Servers:
+___________________
+
+mail.astralnalog.ru.                     600      IN    A        91.239.5.18
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for astralnalog.ru on ns2.astralnalog.ru ... 
+
+Trying Zone Transfer for astralnalog.ru on ns1.astralnalog.ru ... 
+
+Trying Zone Transfer for astralnalog.ru on ns3.astralnalog.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+ns1.astralnalog.ru.                      3600     IN    A        91.239.5.5
+auth.astralnalog.ru.                     3600     IN    A        91.239.5.47
+ufa.astralnalog.ru.                      600      IN    A        82.146.56.128
+wiki.astralnalog.ru.                     600      IN    A        91.239.5.95
+support.astralnalog.ru.                  3600     IN    A        91.239.5.90
+reg.astralnalog.ru.                      600      IN    A        91.239.5.17
+spb.astralnalog.ru.                      600      IN    A        82.146.56.128
+msk.astralnalog.ru.                      600      IN    A        82.146.56.128
+www.astralnalog.ru.                      600      IN    A        91.239.5.8
+dev.astralnalog.ru.                      600      IN    A        213.159.213.140
+ar.astralnalog.ru.                       600      IN    A        178.154.203.76
+volgograd.astralnalog.ru.                600      IN    A        82.146.56.128
+edi.astralnalog.ru.                      600      IN    A        87.245.139.75
+edo.astralnalog.ru.                      600      IN    A        78.155.213.166
+sentry.astralnalog.ru.                   3600     IN    A        91.239.5.47
+mail.astralnalog.ru.                     600      IN    A        91.239.5.18
+omsk.astralnalog.ru.                     600      IN    A        82.146.56.128
+operator.astralnalog.ru.                 600      IN    A        78.155.213.166
+mx.astralnalog.ru.                       600      IN    A        91.239.5.18
+promo.astralnalog.ru.                    600      IN    CNAME    testlpgenerator.ru.
+testlpgenerator.ru.                      300      IN    A        94.26.226.179
+testlpgenerator.ru.                      300      IN    A        84.38.188.100
+ns3.astralnalog.ru.                      3600     IN    A        31.13.60.78
+analytics.astralnalog.ru.                3600     IN    A        176.112.211.172
+ns2.astralnalog.ru.                      3600     IN    A        91.239.5.6
+stat.astralnalog.ru.                     600      IN    A        213.171.56.42
+old.astralnalog.ru.                      600      IN    A        213.159.213.140
+service.astralnalog.ru.                  600      IN    A        91.239.5.15
+nsk.astralnalog.ru.                      600      IN    A        82.146.56.128
+docs.astralnalog.ru.                     3600     IN    CNAME    gitbook.astralnalog.ru.
+gitbook.astralnalog.ru.                  600      IN    A        91.239.5.142
+54.astralnalog.ru.                       600      IN    A        91.239.5.75
+kazan.astralnalog.ru.                    600      IN    A        82.146.56.128
+career.astralnalog.ru.                   600      IN    A        91.239.5.35
+kasper.astralnalog.ru.                   3600     IN    A        91.239.5.7
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+testlpgenerator.ru.                      86400    IN    NS       mark.ns.cloudflare.com.
+testlpgenerator.ru.                      86400    IN    NS       mira.ns.cloudflare.com.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   87.245.139.0       ->      87.245.128.0/18
+ whois ip result:   31.13.60.0         ->      31.13.60.0/29
+ c class default:   78.155.213.0       ->      78.155.213.0/24      (whois netrange operation failed)
+ whois ip result:   82.146.56.0        ->      82.146.56.0/21
+ whois ip result:   176.112.211.0      ->      176.112.192.0/19
+ whois ip result:   213.159.213.0      ->      213.159.212.0/22
+ whois ip result:   213.171.56.0       ->      213.171.56.0/29
+ whois ip result:   91.239.5.0         ->      91.239.5.0/24
+ whois ip result:   178.154.203.0      ->      178.154.192.0/19
+
+
+astralnalog.ru______________
+
+ 213.159.212.0/22
+ 31.13.60.0/29
+ 213.171.56.0/29
+ 178.154.192.0/19
+ 78.155.213.0/24
+ 91.239.5.0/24
+ 87.245.128.0/18
+ 176.112.192.0/19
+ 82.146.56.0/21
+
+
+astralnalog.ru ip blocks:
+__________________________
+
+ 31.13.60.78/32
+ 78.155.213.166/32
+ 82.146.56.128/32
+ 87.245.139.75/32
+ 91.239.5.5/32
+ 91.239.5.6/31
+ 91.239.5.8/32
+ 91.239.5.15/32
+ 91.239.5.17/32
+ 91.239.5.18/32
+ 91.239.5.35/32
+ 91.239.5.47/32
+ 91.239.5.75/32
+ 91.239.5.90/32
+ 91.239.5.95/32
+ 91.239.5.142/32
+ 176.112.211.172/32
+ 178.154.203.76/32
+ 213.159.213.140/32
+ 213.171.56.42/32
+
+done.

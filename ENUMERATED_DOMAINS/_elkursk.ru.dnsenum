@@ -1,0 +1,92 @@
+dnsenum VERSION:1.2.6
+
+-----   elkursk.ru   -----
+
+
+Host's addresses:
+__________________
+
+elkursk.ru.                              0        IN    A         127.0.0.1
+
+
+Name Servers:
+______________
+
+ns4-l2.nic.ru.                           179      IN    A        91.217.20.1
+ns3-l2.nic.ru.                           50       IN    A        193.232.146.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+ns8-l2.nic.ru.                           247      IN    A        91.217.21.1
+ns4-cloud.nic.ru.                        60       IN    A        91.217.20.1
+
+
+Mail (MX) Servers:
+___________________
+
+mx02.nicmail.ru.                         300      IN    A        91.189.116.13
+mx02.nicmail.ru.                         300      IN    A        91.189.116.14
+mx02.nicmail.ru.                         300      IN    A        91.189.116.15
+mx02.nicmail.ru.                         300      IN    A        91.189.116.16
+mx01.nicmail.ru.                         300      IN    A        91.189.116.14
+mx01.nicmail.ru.                         300      IN    A        91.189.116.15
+mx01.nicmail.ru.                         300      IN    A        91.189.116.16
+mx01.nicmail.ru.                         300      IN    A        91.189.116.13
+mx03.nicmail.ru.                         300      IN    A        91.189.116.16
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for elkursk.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for elkursk.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for elkursk.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for elkursk.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for elkursk.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mail.elkursk.ru.                         3600     IN    A        195.208.1.122
+www.elkursk.ru.                          3600     IN    CNAME    elkursk.ru.
+elkursk.ru.                              3600     IN    A         127.0.0.1
+eo.elkursk.ru.                           3600     IN    A        213.176.235.53
+ra.elkursk.ru.                           3600     IN    A        213.176.235.52
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+elkursk.ru.                              3600     IN    NS       ns4-cloud.nic.ru.
+elkursk.ru.                              3600     IN    NS       ns8-cloud.nic.ru.
+elkursk.ru.                              3600     IN    NS       ns3-l2.nic.ru.
+elkursk.ru.                              3600     IN    NS       ns4-l2.nic.ru.
+elkursk.ru.                              3600     IN    NS       ns8-l2.nic.ru.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   195.208.1.0        ->      195.208.1.0/24
+ whois ip result:   213.176.235.0      ->      213.176.235.0/25
+
+
+elkursk.ru__________
+
+ 213.176.235.0/25
+ 195.208.1.0/24
+
+
+elkursk.ru ip blocks:
+______________________
+
+ 195.208.1.122/32
+ 213.176.235.52/31
+
+done.

@@ -1,0 +1,114 @@
+dnsenum VERSION:1.2.6
+
+-----   cfmc.ru   -----
+
+
+Host's addresses:
+__________________
+
+cfmc.ru.                                 3600     IN    A        52.250.28.72
+
+
+Name Servers:
+______________
+
+ns8-cloud.nic.ru.                        204      IN    A        194.58.196.62
+ns4-cloud.nic.ru.                        5062     IN    A        185.42.137.111
+ns3-l2.nic.ru.                           173      IN    A        193.232.146.1
+ns8-l2.nic.ru.                           275      IN    A        91.217.21.1
+ns4-l2.nic.ru.                           300      IN    A        91.217.20.1
+
+
+Mail (MX) Servers:
+___________________
+
+mail.cfmc.ru.                            14400    IN    A        178.176.27.249
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for cfmc.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for cfmc.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for cfmc.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for cfmc.ru on ns8-cloud.nic.ru ... 
+
+Trying Zone Transfer for cfmc.ru on ns8-l2.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+ra.cfmc.ru.                              3600     IN    A        178.176.27.237
+tsp.cfmc.ru.                             3600     IN    A        178.176.27.247
+c.cfmc.ru.                               3600     IN    A        178.176.27.237
+gitlab.cfmc.ru.                          3600     IN    A        62.61.18.14
+jira.cfmc.ru.                            3600     IN    A        62.61.18.9
+www.cfmc.ru.                             3600     IN    A        52.250.28.72
+cdp.cfmc.ru.                             3600     IN    A        62.61.18.9
+mon.cfmc.ru.                             3600     IN    A        62.61.18.5
+maps.cfmc.ru.                            3600     IN    A        62.61.18.5
+portal.cfmc.ru.                          3600     IN    A        62.61.18.23
+wms.cfmc.ru.                             3600     IN    A        62.61.18.5
+cert.cfmc.ru.                            3600     IN    A        62.61.18.5
+efl.cfmc.ru.                             3600     IN    A        62.61.18.13
+ers.cfmc.ru.                             3600     IN    A        62.61.18.7
+m.cfmc.ru.                               3600     IN    A        91.201.52.76
+xm.cfmc.ru.                              3600     IN    A        178.176.27.248
+bitbucket.cfmc.ru.                       3600     IN    A        62.61.18.24
+mail.cfmc.ru.                            14400    IN    A        178.176.27.249
+redmine.cfmc.ru.                         3600     IN    A        62.61.18.9
+mob.cfmc.ru.                             3600     IN    A        62.61.18.5
+reports.cfmc.ru.                         3600     IN    A        62.61.18.5
+test.cfmc.ru.                            3600     IN    A        91.201.52.76
+kam.cfmc.ru.                             3600     IN    A        77.82.124.201
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   62.61.18.0         ->      62.61.0.0/19
+ whois ip result:   91.201.52.0        ->      91.201.52.0/22
+ whois ip result:   52.250.28.0        ->      52.224.0.0/11
+ whois ip result:   77.82.124.0        ->      77.82.124.0/29
+ whois ip result:   178.176.27.0       ->      178.176.16.0/20
+
+
+cfmc.ru_______
+
+ 77.82.124.0/29
+ 52.224.0.0/11
+ 178.176.16.0/20
+ 91.201.52.0/22
+ 62.61.0.0/19
+
+
+cfmc.ru ip blocks:
+___________________
+
+ 52.250.28.72/32
+ 62.61.18.5/32
+ 62.61.18.7/32
+ 62.61.18.9/32
+ 62.61.18.13/32
+ 62.61.18.14/32
+ 62.61.18.23/32
+ 62.61.18.24/32
+ 77.82.124.201/32
+ 91.201.52.76/32
+ 178.176.27.237/32
+ 178.176.27.247/32
+ 178.176.27.248/31
+
+done.

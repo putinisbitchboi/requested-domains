@@ -1,0 +1,71 @@
+dnsenum VERSION:1.2.6
+
+-----   radiomir.by   -----
+
+
+Host's addresses:
+__________________
+
+radiomir.by.                             1388     IN    A        178.124.138.89
+
+
+Name Servers:
+______________
+
+ns1.dc.beltelecom.by.                    3600     IN    A        178.124.138.154
+ns2.dc.beltelecom.by.                    3600     IN    A        178.124.138.155
+
+
+Mail (MX) Servers:
+___________________
+
+mail.radiomir.by.                        3600     IN    A        178.124.138.141
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for radiomir.by on ns2.dc.beltelecom.by ... 
+
+Trying Zone Transfer for radiomir.by on ns1.dc.beltelecom.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.radiomir.by.                         3600     IN    CNAME    radiomir.by.
+radiomir.by.                             3600     IN    A        178.124.138.89
+mail.radiomir.by.                        3600     IN    A        178.124.138.141
+api.radiomir.by.                         3600     IN    A        178.124.138.89
+old.radiomir.by.                         3600     IN    A        178.124.138.89
+www.api.radiomir.by.                     3600     IN    A        178.124.138.89
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+radiomir.by.                             3600     IN    NS       ns2.dc.beltelecom.by.
+radiomir.by.                             3600     IN    NS       ns1.dc.beltelecom.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   178.124.138.0      ->      178.124.138.0/24
+
+
+radiomir.by___________
+
+ 178.124.138.0/24
+
+
+radiomir.by ip blocks:
+_______________________
+
+ 178.124.138.89/32
+ 178.124.138.141/32
+
+done.

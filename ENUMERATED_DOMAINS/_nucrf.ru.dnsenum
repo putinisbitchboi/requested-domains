@@ -1,0 +1,116 @@
+dnsenum VERSION:1.2.6
+
+-----   nucrf.ru   -----
+
+
+Host's addresses:
+__________________
+
+nucrf.ru.                                60       IN    A        217.21.210.211
+
+
+Name Servers:
+______________
+
+ns4-l2.nic.ru.                           284      IN    A        91.217.20.1
+ns8-cloud.nic.ru.                        12       IN    A        193.232.146.1
+ns4-cloud.nic.ru.                        39       IN    A        91.217.20.1
+ns3-l2.nic.ru.                           101      IN    A        193.232.146.1
+ns8-l2.nic.ru.                           300      IN    A        91.217.21.1
+
+
+Mail (MX) Servers:
+___________________
+
+mail.nucrf.ru.                           60       IN    A        217.21.220.227
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for nucrf.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for nucrf.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for nucrf.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for nucrf.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for nucrf.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.nucrf.ru.                            60       IN    A        217.21.210.211
+share.nucrf.ru.                          3600     IN    A        217.21.220.249
+wap.nucrf.ru.                            60       IN    CNAME    app.nucrf.ru.
+app.nucrf.ru.                            60       IN    A        217.21.220.243
+crm.nucrf.ru.                            60       IN    A        217.21.220.245
+passport.nucrf.ru.                       300      IN    A        217.21.210.211
+stats.nucrf.ru.                          86400    IN    A        217.21.220.232
+wac.nucrf.ru.                            3600     IN    A        217.21.220.243
+mail.nucrf.ru.                           60       IN    A        217.21.220.227
+remote.nucrf.ru.                         600      IN    A        217.21.215.34
+owa.nucrf.ru.                            60       IN    CNAME    exc-new.nucrf.ru.
+exc-new.nucrf.ru.                        300      IN    A        192.168.4.18
+mx01.nucrf.ru.                           600      IN    A        217.21.220.233
+dev.nucrf.ru.                            600      IN    A        217.21.217.10
+adfs.nucrf.ru.                           60       IN    A        217.21.220.243
+pass.nucrf.ru.                           3600     IN    A        217.21.210.211
+app.nucrf.ru.                            60       IN    A        217.21.220.243
+old.nucrf.ru.                            600      IN    A        217.21.220.246
+rt.nucrf.ru.                             600      IN    A        217.21.220.246
+test.nucrf.ru.                           600      IN    A        217.21.220.238
+catalog.nucrf.ru.                        60       IN    A        217.21.210.211
+wiki.nucrf.ru.                           600      IN    A        217.21.217.2
+mgw.nucrf.ru.                            60       IN    A        217.21.220.227
+sup.nucrf.ru.                            300      IN    A        217.21.217.3
+autodiscover.nucrf.ru.                   60       IN    CNAME    app.nucrf.ru.
+app.nucrf.ru.                            60       IN    A        217.21.220.243
+svs.nucrf.ru.                            300      IN    A        217.21.220.244
+helpdesk.nucrf.ru.                       600      IN    A        217.21.217.5
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   217.21.220.0       ->      217.21.220.0/28
+ c class default:   217.21.210.0       ->      217.21.210.0/24      (whois netrange operation failed)
+ whois ip result:   217.21.215.0       ->      217.21.215.0/24
+ whois ip result:   217.21.217.0       ->      217.21.217.0/24
+
+
+nucrf.ru________
+
+ 217.21.220.0/28
+ 217.21.217.0/24
+ 217.21.210.0/24
+ 217.21.215.0/24
+
+
+nucrf.ru ip blocks:
+____________________
+
+ 217.21.210.211/32
+ 217.21.215.34/32
+ 217.21.217.2/31
+ 217.21.217.5/32
+ 217.21.217.10/32
+ 217.21.220.227/32
+ 217.21.220.232/31
+ 217.21.220.238/32
+ 217.21.220.243/32
+ 217.21.220.244/31
+ 217.21.220.246/32
+ 217.21.220.249/32
+
+done.

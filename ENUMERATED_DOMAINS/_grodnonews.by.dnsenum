@@ -1,0 +1,70 @@
+dnsenum VERSION:1.2.6
+
+-----   grodnonews.by   -----
+
+
+Host's addresses:
+__________________
+
+grodnonews.by.                           300      IN    A        93.84.117.166
+
+
+Name Servers:
+______________
+
+ns2.dc.beltelecom.by.                    3600     IN    A        178.124.138.155
+ns1.dc.beltelecom.by.                    3600     IN    A        178.124.138.154
+
+
+Mail (MX) Servers:
+___________________
+
+mail.grodnonews.by.                      300      IN    A        93.85.84.124
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for grodnonews.by on ns2.dc.beltelecom.by ... 
+
+Trying Zone Transfer for grodnonews.by on ns1.dc.beltelecom.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mail.grodnonews.by.                      300      IN    A        93.85.84.124
+test.grodnonews.by.                      300      IN    A        91.149.189.50
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   93.85.84.0         ->      93.85.84.0/24
+ whois ip result:   93.84.117.0        ->      93.84.117.0/24
+ whois ip result:   91.149.189.0       ->      91.149.189.0/24
+
+
+grodnonews.by_____________
+
+ 93.84.117.0/24
+ 91.149.189.0/24
+ 93.85.84.0/24
+
+
+grodnonews.by ip blocks:
+_________________________
+
+ 91.149.189.50/32
+ 93.84.117.166/32
+ 93.85.84.124/32
+
+done.

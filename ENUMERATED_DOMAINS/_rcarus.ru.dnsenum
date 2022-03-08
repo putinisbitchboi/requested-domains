@@ -1,0 +1,75 @@
+dnsenum VERSION:1.2.6
+
+-----   rcarus.ru   -----
+
+
+Host's addresses:
+__________________
+
+rcarus.ru.                               3600     IN    A        185.101.204.52
+
+
+Name Servers:
+______________
+
+nsx004.ci54.ru.                          38400    IN    A        185.101.204.68
+nsx005.ci54.ru.                          38400    IN    A        185.101.205.3
+
+
+Mail (MX) Servers:
+___________________
+
+mail.rcarus.ru.                          3600     IN    A        185.101.204.51
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for rcarus.ru on nsx004.ci54.ru ... 
+
+Trying Zone Transfer for rcarus.ru on nsx005.ci54.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mail.rcarus.ru.                          3600     IN    A        185.101.204.51
+tsp.rcarus.ru.                           3600     IN    A        185.101.204.210
+test.rcarus.ru.                          3600     IN    A        185.101.204.50
+www.rcarus.ru.                           3509     IN    CNAME    rcarus.ru.
+rcarus.ru.                               3509     IN    A        185.101.204.52
+ca.rcarus.ru.                            3600     IN    A        80.89.128.58
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+rcarus.ru.                               3600     IN    NS       nsx005.ci54.ru.
+rcarus.ru.                               3600     IN    NS       nsx004.ci54.ru.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   80.89.128.0        ->      80.89.128.0/24
+ whois ip result:   185.101.204.0      ->      185.101.204.0/22
+
+
+rcarus.ru_________
+
+ 185.101.204.0/22
+ 80.89.128.0/24
+
+
+rcarus.ru ip blocks:
+_____________________
+
+ 80.89.128.58/32
+ 185.101.204.50/31
+ 185.101.204.52/32
+ 185.101.204.210/32
+
+done.

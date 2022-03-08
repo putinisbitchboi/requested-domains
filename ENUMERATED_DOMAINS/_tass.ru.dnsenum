@@ -1,0 +1,301 @@
+dnsenum VERSION:1.2.6
+
+-----   tass.ru   -----
+
+
+Host's addresses:
+__________________
+
+tass.ru.                                 73       IN    A        185.71.67.4
+
+
+Name Servers:
+______________
+
+ns8-l2.nic.ru.                           170      IN    A        91.217.21.1
+ns2.tass.ru.                             120      IN    A        194.28.239.12
+ns4-l2.nic.ru.                           153      IN    A        91.217.20.1
+ns1.tass.ru.                             120      IN    A        194.28.239.11
+
+
+Mail (MX) Servers:
+___________________
+
+mx1.tass.ru.                             120      IN    A        194.28.236.61
+mx0.tass.ru.                             120      IN    A        194.28.236.60
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for tass.ru on ns1.tass.ru ... 
+
+Trying Zone Transfer for tass.ru on ns2.tass.ru ... 
+
+Trying Zone Transfer for tass.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for tass.ru on ns8-l2.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mx1.tass.ru.                             120      IN    A        194.28.236.61
+nep.tass.ru.                             120      IN    A        54.194.41.141
+rms.tass.ru.                             120      IN    A        194.28.239.160
+ftps.tass.ru.                            120      IN    A        194.28.239.135
+vc.tass.ru.                              120      IN    A        194.28.236.174
+pwd.tass.ru.                             120      IN    A        194.28.239.23
+special.tass.ru.                         120      IN    CNAME      tass.ru.
+tass.ru.                                 120      IN    A        185.71.67.4
+nti.tass.ru.                             120      IN    A        82.202.190.72
+stats.tass.ru.                           120      IN    A        91.216.130.78
+chat.tass.ru.                            120      IN    A        82.202.190.72
+quality.tass.ru.                         120      IN    A        194.28.239.34
+sputnik.tass.ru.                         120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+admin.tass.ru.                           120      IN    CNAME    vip-lb-http-int-01.prod.itass.local.
+en.tass.ru.                              120      IN    CNAME      tass.ru.
+tass.ru.                                 120      IN    A        185.71.67.4
+maggie.tass.ru.                          120      IN    A        82.202.190.72
+smtp.tass.ru.                            120      IN    CNAME    mx0-smtp.tass.ru.
+mx0-smtp.tass.ru.                        120      IN    A        194.28.236.160
+pop.tass.ru.                             120      IN    A        194.28.238.67
+jabber.tass.ru.                          120      IN    CNAME    msk-tass-exp-e-1.tass.ru.
+msk-tass-exp-e-1.tass.ru.                120      IN    A        194.28.236.40
+crl.tass.ru.                             120      IN    A        194.28.239.34
+repo.tass.ru.                            120      IN    A        194.28.236.190
+new.tass.ru.                             120      IN    A        192.168.29.116
+inside.tass.ru.                          120      IN    A        82.202.190.72
+queen.tass.ru.                           120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+gulag.tass.ru.                           120      IN    A        82.202.190.72
+matilda.tass.ru.                         120      IN    A        192.168.29.116
+mts.tass.ru.                             120      IN    A        82.202.190.72
+pushkin.tass.ru.                         120      IN    A        54.194.41.141
+edo.tass.ru.                             120      IN    A        82.202.190.72
+pluton.tass.ru.                          120      IN    A        82.202.190.72
+lab.tass.ru.                             120      IN    A        194.28.239.90
+newmail.tass.ru.                         120      IN    A        194.28.239.90
+sgk.tass.ru.                             120      IN    A        82.202.190.72
+volunteer.tass.ru.                       120      IN    A        82.202.190.72
+m.tass.ru.                               120      IN    CNAME      tass.ru.
+tass.ru.                                 120      IN    A        185.71.67.4
+ftp.tass.ru.                             120      IN    A        194.28.239.125
+conference.tass.ru.                      120      IN    A        82.202.190.72
+vpn.tass.ru.                             120      IN    A        194.28.237.227
+express.tass.ru.                         120      IN    A        194.28.239.146
+mks.tass.ru.                             120      IN    CNAME    ec2-54-228-145-7.eu-west-1.compute.amazonaws.com.
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+u.tass.ru.                               120      IN    A        194.28.239.160
+stalingrad.tass.ru.                      120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+ns2.tass.ru.                             120      IN    A        194.28.239.12
+dobro.tass.ru.                           120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+dv.tass.ru.                              120      IN    CNAME    ec2-54-228-145-7.eu-west-1.compute.amazonaws.com.
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+iva.tass.ru.                             120      IN    A        194.28.239.153
+my.tass.ru.                              120      IN    A        194.28.239.34
+mail.tass.ru.                            120      IN    A        194.28.239.160
+go.tass.ru.                              120      IN    CNAME       amp.gs.
+amp.gs.                                  300      IN    A        107.6.163.3
+amp.gs.                                  300      IN    A        198.20.120.52
+vpn2.tass.ru.                            120      IN    A        194.28.236.56
+wiki.tass.ru.                            120      IN    A        185.71.67.4
+cuba.tass.ru.                            120      IN    A        82.202.190.72
+api.tass.ru.                             120      IN    A        82.202.190.72
+japan.tass.ru.                           120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+disk.tass.ru.                            120      IN    A        194.28.239.163
+ns1.tass.ru.                             120      IN    A        194.28.239.11
+leiden.tass.ru.                          120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+most.tass.ru.                            120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+rachmaninoff.tass.ru.                    120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+zabbix.tass.ru.                          120      IN    A        172.28.40.245
+ph.tass.ru.                              120      IN    A        194.28.236.188
+mirror.tass.ru.                          120      IN    A        82.202.190.240
+autodiscover.tass.ru.                    120      IN    A        194.28.239.160
+ntp.tass.ru.                             120      IN    A        194.28.239.13
+preprod.tass.ru.                         120      IN    A        192.168.29.116
+sso.tass.ru.                             120      IN    A        194.28.239.34
+tmh.tass.ru.                             120      IN    A        82.202.190.72
+data.tass.ru.                            120      IN    A        82.202.190.72
+wifi.tass.ru.                            120      IN    A        172.26.92.5
+skk.tass.ru.                             120      IN    CNAME    ec2-54-228-145-7.eu-west-1.compute.amazonaws.com.
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+tko.tass.ru.                             120      IN    CNAME    ec2-54-228-145-7.eu-west-1.compute.amazonaws.com.
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+turbo.tass.ru.                           120      IN    A        93.158.134.8
+www.tass.ru.                             120      IN    CNAME      tass.ru.
+tass.ru.                                 120      IN    A        185.71.67.4
+cdn.tass.ru.                             120      IN    A        91.216.130.11
+veselov.tass.ru.                         120      IN    A        54.194.41.141
+monitoring.tass.ru.                      120      IN    A        82.202.190.72
+amp.tass.ru.                             120      IN    CNAME      tass.ru.
+tass.ru.                                 120      IN    A        185.71.67.4
+galaxy.tass.ru.                          120      IN    A        82.202.190.76
+happiness.tass.ru.                       120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+italia.tass.ru.                          120      IN    A        82.202.190.72
+dmz.tass.ru.                             600      IN    A        194.28.239.13
+dmz.tass.ru.                             600      IN    A        194.28.239.14
+china.tass.ru.                           120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+jw.tass.ru.                              120      IN    A        194.28.236.55
+spec.tass.ru.                            120      IN    A        82.202.190.72
+buran.tass.ru.                           120      IN    A        82.202.190.72
+pager.tass.ru.                           120      IN    A        82.202.190.72
+dialog.tass.ru.                          120      IN    CNAME    dmz-dlg01-p01.dmz.tass.ru.
+dmz-dlg01-p01.dmz.tass.ru.               120      IN    A        194.28.239.105
+vladimir.tass.ru.                        120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+events.tass.ru.                          120      IN    A        82.202.190.72
+push.tass.ru.                            120      IN    CNAME      tass.ru.
+tass.ru.                                 120      IN    A        185.71.67.4
+tailor.tass.ru.                          120      IN    A        54.194.41.141
+test.tass.ru.                            120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+msg.tass.ru.                             120      IN    A        194.28.239.21
+mx0.tass.ru.                             120      IN    A        194.28.236.60
+speedtest.tass.ru.                       120      IN    A        194.28.236.55
+directaccess.tass.ru.                    120      IN    A        194.28.238.68
+comet.tass.ru.                           102      IN    A        82.202.190.77
+dante.tass.ru.                           120      IN    A        82.202.190.72
+terminator.tass.ru.                      120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+verne.tass.ru.                           120      IN    A        82.202.190.72
+terminal.tass.ru.                        120      IN    A        185.71.67.4
+110.tass.ru.                             120      IN    A        194.28.236.110
+mx3.tass.ru.                             120      IN    A        194.28.239.251
+qatar.tass.ru.                           120      IN    CNAME             (
+ec2-54-228-145-7.eu-west-1.compute.amazonaws.com. 604800   IN    A        54.228.145.7
+steel.tass.ru.                           120      IN    A        82.202.190.72
+walrus.tass.ru.                          120      IN    A        54.194.41.141
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+tass.ru.                                 120      IN    NS       ns2.tass.ru.
+tass.ru.                                 120      IN    NS       ns4-l2.nic.ru.
+tass.ru.                                 120      IN    NS       ns1.tass.ru.
+tass.ru.                                 120      IN    NS       ns8-l2.nic.ru.
+tass.ru.                                 120      IN    NS       ns2.tass.ru.
+tass.ru.                                 120      IN    NS       ns4-l2.nic.ru.
+tass.ru.                                 120      IN    NS       ns1.tass.ru.
+tass.ru.                                 120      IN    NS       ns8-l2.nic.ru.
+tass.ru.                                 120      IN    NS       ns2.tass.ru.
+tass.ru.                                 120      IN    NS       ns4-l2.nic.ru.
+tass.ru.                                 120      IN    NS       ns1.tass.ru.
+tass.ru.                                 120      IN    NS       ns8-l2.nic.ru.
+tass.ru.                                 120      IN    NS       ns2.tass.ru.
+tass.ru.                                 120      IN    NS       ns4-l2.nic.ru.
+tass.ru.                                 120      IN    NS       ns1.tass.ru.
+tass.ru.                                 120      IN    NS       ns8-l2.nic.ru.
+dmz.tass.ru.                             120      IN    NS       dmz-dc03.dmz.tass.ru.
+dmz.tass.ru.                             0        IN    NS       ns2.tass.ru.
+dmz.tass.ru.                             120      IN    NS       dmz-dc04.dmz.tass.ru.
+dmz.tass.ru.                             0        IN    NS       ns1.tass.ru.
+dmz.tass.ru.                             3600     IN    NS       dmz-ns04.dmz.tass.ru.
+dmz.tass.ru.                             3600     IN    NS       dmz-ns03.dmz.tass.ru.
+tass.ru.                                 120      IN    NS       ns4-l2.nic.ru.
+tass.ru.                                 120      IN    NS       ns1.tass.ru.
+tass.ru.                                 120      IN    NS       ns8-l2.nic.ru.
+tass.ru.                                 120      IN    NS       ns2.tass.ru.
+tass.ru.                                 120      IN    NS       ns1.tass.ru.
+tass.ru.                                 120      IN    NS       ns8-l2.nic.ru.
+tass.ru.                                 120      IN    NS       ns2.tass.ru.
+tass.ru.                                 120      IN    NS       ns4-l2.nic.ru.
+amp.gs.                                  172800   IN    NS       ns-1411.awsdns-48.org.
+amp.gs.                                  172800   IN    NS       ns-1766.awsdns-28.co.uk.
+amp.gs.                                  172800   IN    NS       ns-313.awsdns-39.com.
+amp.gs.                                  172800   IN    NS       ns-597.awsdns-10.net.
+
+ ----   Recursion level 1   ---- 
+
+ Recursion on dmz.tass.ru ...
+forestdnszones.dmz.tass.ru.              600      IN    A        194.28.239.14
+forestdnszones.dmz.tass.ru.              600      IN    A        194.28.239.13
+live.dmz.tass.ru.                        3600     IN    A        194.28.239.40
+ftp.dmz.tass.ru.                         120      IN    CNAME    dmz-ftps02.dmz.tass.ru.
+dmz-ftps02.dmz.tass.ru.                  1200     IN    A        194.28.239.135
+test.dmz.tass.ru.                        3600     IN    A        194.28.239.40
+dmz-dlg01-p01.dmz.tass.ru.               120      IN    A        194.28.239.105
+ftps.dmz.tass.ru.                        120      IN    CNAME    dmz-ftps02.dmz.tass.ru.
+dmz-ftps02.dmz.tass.ru.                  1200     IN    A        194.28.239.135
+
+
+Checking subdomains NS records:
+________________________________
+
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   185.71.67.0        ->      185.71.64.0/22
+ whois ip result:   93.158.134.0       ->      93.158.134.0/24
+ whois ip result:   54.194.41.0        ->      54.194.0.0/15
+ whois ip result:   91.216.130.0       ->      91.216.130.0/24
+ whois ip result:   194.28.237.0       ->      194.28.236.0/22
+ c class default:   82.202.190.0       ->      82.202.190.0/24      (whois netrange operation failed)
+
+
+tass.ru_______
+
+ 91.216.130.0/24
+ 54.194.0.0/15
+ 194.28.236.0/22
+ 82.202.190.0/24
+ 185.71.64.0/22
+ 93.158.134.0/24
+
+
+tass.ru ip blocks:
+___________________
+
+ 54.194.41.141/32
+ 82.202.190.72/32
+ 82.202.190.76/31
+ 82.202.190.240/32
+ 91.216.130.11/32
+ 91.216.130.78/32
+ 93.158.134.8/32
+ 185.71.67.4/32
+ 194.28.236.40/32
+ 194.28.236.55/32
+ 194.28.236.56/32
+ 194.28.236.60/31
+ 194.28.236.110/32
+ 194.28.236.160/32
+ 194.28.236.174/32
+ 194.28.236.188/32
+ 194.28.236.190/32
+ 194.28.237.227/32
+ 194.28.238.67/32
+ 194.28.238.68/32
+ 194.28.239.11/32
+ 194.28.239.12/31
+ 194.28.239.14/32
+ 194.28.239.21/32
+ 194.28.239.23/32
+ 194.28.239.34/32
+ 194.28.239.40/32
+ 194.28.239.90/32
+ 194.28.239.105/32
+ 194.28.239.125/32
+ 194.28.239.135/32
+ 194.28.239.146/32
+ 194.28.239.153/32
+ 194.28.239.160/32
+ 194.28.239.163/32
+ 194.28.239.251/32
+
+done.

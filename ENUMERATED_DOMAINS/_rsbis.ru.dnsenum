@@ -1,0 +1,71 @@
+dnsenum VERSION:1.2.6
+
+-----   rsbis.ru   -----
+
+
+Host's addresses:
+__________________
+
+rsbis.ru.                                2092     IN    A        89.239.185.186
+
+
+Name Servers:
+______________
+
+ns3-l2.nic.ru.                           242      IN    A        193.232.146.1
+ns4-cloud.nic.ru.                        2        IN    A        91.217.20.1
+ns8-l2.nic.ru.                           300      IN    A        91.217.21.1
+ns4-l2.nic.ru.                           242      IN    A        91.217.20.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+
+
+Mail (MX) Servers:
+___________________
+
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for rsbis.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for rsbis.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for rsbis.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for rsbis.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for rsbis.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.rsbis.ru.                            3600     IN    A        89.239.185.186
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ c class default:   89.239.185.0       ->      89.239.185.0/24      (whois netrange operation failed)
+
+
+rsbis.ru________
+
+ 89.239.185.0/24
+
+
+rsbis.ru ip blocks:
+____________________
+
+ 89.239.185.186/32
+
+done.

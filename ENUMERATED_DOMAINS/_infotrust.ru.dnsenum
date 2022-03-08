@@ -1,0 +1,99 @@
+dnsenum VERSION:1.2.6
+
+-----   infotrust.ru   -----
+
+
+Host's addresses:
+__________________
+
+
+
+Name Servers:
+______________
+
+ns8-l2.nic.ru.                           300      IN    A        91.217.21.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+ns4-l2.nic.ru.                           158      IN    A        91.217.20.1
+ns4-cloud.nic.ru.                        60       IN    A        91.217.20.1
+ns3-l2.nic.ru.                           300      IN    A        193.232.146.1
+ns1.etax.ru.                             3600     IN    A        87.249.230.98
+
+
+Mail (MX) Servers:
+___________________
+
+mail.etax.ru.                            3600     IN    A        87.249.230.98
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for infotrust.ru on ns1.etax.ru ... 
+
+Trying Zone Transfer for infotrust.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for infotrust.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for infotrust.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for infotrust.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for infotrust.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+i.infotrust.ru.                          3600     IN    A        46.17.202.85
+edu.infotrust.ru.                        3600     IN    A        87.249.230.100
+ns1.infotrust.ru.                        3600     IN    A        87.249.230.100
+help.infotrust.ru.                       3600     IN    A        92.61.19.237
+ftp.infotrust.ru.                        3600     IN    A        87.249.241.198
+z.infotrust.ru.                          3600     IN    A        212.24.37.106
+ca.infotrust.ru.                         3600     IN    A        212.24.37.106
+mail.infotrust.ru.                       3600     IN    A        87.249.230.98
+test.infotrust.ru.                       3600     IN    A        87.249.230.100
+www.infotrust.ru.                        1638     IN    A        87.249.230.100
+s.infotrust.ru.                          3600     IN    A        212.24.37.106
+ting.infotrust.ru.                       3600     IN    A        87.249.230.100
+lk.infotrust.ru.                         3600     IN    A        92.61.19.237
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ c class default:   87.249.230.0       ->      87.249.230.0/24      (whois netrange operation failed)
+ whois ip result:   46.17.202.0        ->      46.17.202.0/24
+ whois ip result:   87.249.241.0       ->      87.249.240.0/22
+ whois ip result:   92.61.19.0         ->      92.61.18.0/23
+ whois ip result:   212.24.37.0        ->      212.24.37.0/24
+
+
+infotrust.ru____________
+
+ 212.24.37.0/24
+ 92.61.18.0/23
+ 46.17.202.0/24
+ 87.249.230.0/24
+ 87.249.240.0/22
+
+
+infotrust.ru ip blocks:
+________________________
+
+ 46.17.202.85/32
+ 87.249.230.98/32
+ 87.249.230.100/32
+ 87.249.241.198/32
+ 92.61.19.237/32
+ 212.24.37.106/32
+
+done.

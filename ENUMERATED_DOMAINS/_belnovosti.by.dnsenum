@@ -1,0 +1,91 @@
+dnsenum VERSION:1.2.6
+
+-----   belnovosti.by   -----
+
+
+Host's addresses:
+__________________
+
+belnovosti.by.                           10800    IN    A        93.84.112.130
+
+
+Wildcard detection using: vhfrwemiijho
+_______________________________________
+
+vhfrwemiijho.belnovosti.by.              10800    IN    A        93.84.112.130
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ Wildcards detected, all subdomains will point to the same IP address
+ Omitting results containing 93.84.112.130.
+ Maybe you are using OpenDNS servers.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Name Servers:
+______________
+
+u2.hoster.by.                            2229     IN    A        178.172.236.142
+u1.hoster.by.                            3600     IN    A        93.125.30.201
+
+
+Mail (MX) Servers:
+___________________
+
+mailbe05.hoster.by.                      3600     IN    A        93.125.31.215
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for belnovosti.by on u2.hoster.by ... 
+
+Trying Zone Transfer for belnovosti.by on u1.hoster.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+smtp.belnovosti.by.                      10800    IN    A        93.125.31.215
+pop3.belnovosti.by.                      10800    IN    A        93.125.31.215
+pop.belnovosti.by.                       10800    IN    A        93.125.31.215
+adm.belnovosti.by.                       10800    IN    A        93.84.114.114
+test.belnovosti.by.                      600      IN    A        93.84.114.114
+div.belnovosti.by.                       10800    IN    A        93.84.114.114
+mail.belnovosti.by.                      3600     IN    CNAME    mailbe05.hoster.by.
+mailbe05.hoster.by.                      3600     IN    A        93.125.31.215
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   93.125.31.0        ->      93.125.31.0/24
+ whois ip result:   93.84.114.0        ->      93.84.114.0/24
+ whois ip result:   93.84.112.0        ->      93.84.112.0/24
+
+
+belnovosti.by_____________
+
+ 93.84.114.0/24
+ 93.125.31.0/24
+ 93.84.112.0/24
+
+
+belnovosti.by ip blocks:
+_________________________
+
+ 93.84.112.130/32
+ 93.84.114.114/32
+ 93.125.31.215/32
+
+done.

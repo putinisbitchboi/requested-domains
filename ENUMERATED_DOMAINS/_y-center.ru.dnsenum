@@ -1,0 +1,95 @@
+dnsenum VERSION:1.2.6
+
+-----   y-center.ru   -----
+
+
+Host's addresses:
+__________________
+
+y-center.ru.                             3600     IN    A        89.237.29.234
+
+
+Name Servers:
+______________
+
+ns8-l2.nic.ru.                           17       IN    A        91.217.21.1
+ns3-l2.nic.ru.                           300      IN    A        193.232.146.1
+ns4-cloud.nic.ru.                        60       IN    A        91.217.20.1
+ns4-l2.nic.ru.                           300      IN    A        91.217.20.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+
+
+Mail (MX) Servers:
+___________________
+
+mail.y-center.ru.                        3600     IN    A        89.237.29.238
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for y-center.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for y-center.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for y-center.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for y-center.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for y-center.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+ftp.y-center.ru.                         3600     IN    CNAME    y-center.ru.
+y-center.ru.                             3600     IN    A        89.237.29.234
+lk.y-center.ru.                          3600     IN    A        89.237.29.234
+ac.y-center.ru.                          3600     IN    A        89.237.29.235
+user.y-center.ru.                        3600     IN    A        89.237.29.234
+www.y-center.ru.                         3071     IN    A        89.237.29.234
+ca.y-center.ru.                          3600     IN    A        195.208.1.102
+mailgw.y-center.ru.                      3600     IN    A        89.237.29.238
+kb.y-center.ru.                          3600     IN    A        89.237.29.235
+ns.y-center.ru.                          3600     IN    A        89.253.225.154
+ac1.y-center.ru.                         3600     IN    A        89.237.29.235
+mail.y-center.ru.                        3600     IN    A        89.237.29.238
+crm.y-center.ru.                         3600     IN    A        89.237.29.234
+tsp.y-center.ru.                         3600     IN    A        89.237.29.237
+update.y-center.ru.                      3600     IN    A        89.253.225.154
+test.y-center.ru.                        3600     IN    A        89.237.29.235
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   89.237.29.0        ->      89.237.29.0/24
+ whois ip result:   89.253.225.0       ->      89.253.224.0/21
+ whois ip result:   195.208.1.0        ->      195.208.1.0/24
+
+
+y-center.ru___________
+
+ 195.208.1.0/24
+ 89.253.224.0/21
+ 89.237.29.0/24
+
+
+y-center.ru ip blocks:
+_______________________
+
+ 89.237.29.234/31
+ 89.237.29.237/32
+ 89.237.29.238/32
+ 89.253.225.154/32
+ 195.208.1.102/32
+
+done.

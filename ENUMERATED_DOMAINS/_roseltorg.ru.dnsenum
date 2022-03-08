@@ -1,0 +1,174 @@
+dnsenum VERSION:1.2.6
+
+-----   roseltorg.ru   -----
+
+
+Host's addresses:
+__________________
+
+roseltorg.ru.                            600      IN    A        185.79.118.12
+
+
+Name Servers:
+______________
+
+ns3-l2.nic.ru.                           226      IN    A        193.232.146.1
+ns8-l2.nic.ru.                           178      IN    A        91.217.21.1
+ns4-l2.nic.ru.                           98       IN    A        91.217.20.1
+ns4-cloud.nic.ru.                        60       IN    A        91.217.20.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+
+
+Mail (MX) Servers:
+___________________
+
+mx2.roseltorg.ru.                        600      IN    A        185.79.118.11
+mail.roseltorg.ru.                       600      IN    A        185.79.118.11
+mx1.roseltorg.ru.                        600      IN    A        185.79.118.11
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for roseltorg.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for roseltorg.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for roseltorg.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for roseltorg.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for roseltorg.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+bg.roseltorg.ru.                         600      IN    A        185.79.118.2
+forum.roseltorg.ru.                      600      IN    A        87.245.139.153
+rt.roseltorg.ru.                         600      IN    A        185.79.118.2
+mail.roseltorg.ru.                       600      IN    A        185.79.118.11
+kim.roseltorg.ru.                        600      IN    A        185.79.118.2
+new.roseltorg.ru.                        600      IN    A        87.245.139.154
+debug.roseltorg.ru.                      600      IN    A        213.171.56.103
+ksc.roseltorg.ru.                        600      IN    A        83.136.30.109
+spark.roseltorg.ru.                      600      IN    A        213.171.56.103
+e.roseltorg.ru.                          600      IN    A        87.245.139.148
+voip.roseltorg.ru.                       600      IN    A        94.79.10.75
+agro.roseltorg.ru.                       600      IN    A        185.79.118.2
+cpp.roseltorg.ru.                        600      IN    A        185.79.118.2
+helper.roseltorg.ru.                     600      IN    A        87.245.139.152
+old.roseltorg.ru.                        600      IN    A        213.171.56.103
+eis.roseltorg.ru.                        600      IN    A        185.79.118.2
+inventory.roseltorg.ru.                  600      IN    A        87.245.139.152
+sale.roseltorg.ru.                       600      IN    A        94.79.10.102
+sale.roseltorg.ru.                       600      IN    A        94.79.10.76
+uni.roseltorg.ru.                        600      IN    A        185.215.4.18
+ncm.roseltorg.ru.                        600      IN    A        87.245.139.153
+chat.roseltorg.ru.                       600      IN    A        213.171.56.102
+orders.roseltorg.ru.                     600      IN    A        185.79.118.2
+imap.roseltorg.ru.                       600      IN    A        185.79.118.11
+uc.roseltorg.ru.                         600      IN    A        94.79.10.6
+docs.roseltorg.ru.                       600      IN    A        185.79.118.2
+msp.roseltorg.ru.                        600      IN    A        185.79.118.2
+com.roseltorg.ru.                        600      IN    A        185.79.118.2
+business.roseltorg.ru.                   600      IN    A        185.79.118.2
+l.roseltorg.ru.                          600      IN    CNAME    suite11.emarsys.net.
+suite11.emarsys.net.                     14400    IN    A        217.175.192.11
+ss.roseltorg.ru.                         600      IN    A        185.79.118.2
+we.roseltorg.ru.                         600      IN    A        87.245.139.153
+welcome.roseltorg.ru.                    600      IN    A        185.79.118.2
+dss.roseltorg.ru.                        600      IN    A        185.79.118.4
+shara.roseltorg.ru.                      600      IN    A        87.245.139.153
+www.roseltorg.ru.                        126      IN    A        185.79.118.12
+team.roseltorg.ru.                       600      IN    A        185.79.118.2
+ip.roseltorg.ru.                         600      IN    A        95.181.206.118
+b.roseltorg.ru.                          600      IN    A        185.79.118.2
+files.roseltorg.ru.                      600      IN    A        185.79.118.2
+smtp.roseltorg.ru.                       600      IN    A        185.79.118.11
+vpn.roseltorg.ru.                        600      IN    A        87.245.139.110
+mx1.roseltorg.ru.                        600      IN    A        185.79.118.11
+wiki.roseltorg.ru.                       600      IN    A        87.245.139.152
+bug.roseltorg.ru.                        600      IN    A        87.245.139.153
+fin.roseltorg.ru.                        600      IN    A        87.245.139.148
+gos.roseltorg.ru.                        600      IN    A        185.79.118.2
+e1.roseltorg.ru.                         600      IN    A        213.171.56.101
+mx2.roseltorg.ru.                        600      IN    A        185.79.118.11
+edu.roseltorg.ru.                        600      IN    A        87.245.139.148
+atom.roseltorg.ru.                       600      IN    A        185.79.118.2
+lk.roseltorg.ru.                         600      IN    A        185.79.118.2
+arch.roseltorg.ru.                       600      IN    A        185.79.118.2
+shop.roseltorg.ru.                       600      IN    A        94.79.10.76
+shop.roseltorg.ru.                       600      IN    A        94.79.10.102
+supplier.roseltorg.ru.                   600      IN    A        213.171.56.102
+dc.roseltorg.ru.                         600      IN    A        87.245.139.153
+rbg.roseltorg.ru.                        600      IN    A        87.245.139.156
+share.roseltorg.ru.                      600      IN    A        95.181.206.118
+corp.roseltorg.ru.                       600      IN    A        87.245.139.153
+exch.roseltorg.ru.                       600      IN    A        95.181.206.118
+push.roseltorg.ru.                       600      IN    A        185.79.118.3
+api.roseltorg.ru.                        600      IN    A        185.79.118.2
+ep.roseltorg.ru.                         600      IN    A        185.215.4.10
+pasta.roseltorg.ru.                      600      IN    A        95.181.206.118
+plan.roseltorg.ru.                       600      IN    A        185.79.118.2
+ca.roseltorg.ru.                         600      IN    A        185.79.118.6
+bm.roseltorg.ru.                         600      IN    A        87.245.139.156
+tools.roseltorg.ru.                      600      IN    A        87.245.139.148
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   185.215.4.0        ->      185.215.4.0/24
+ whois ip result:   94.79.10.0         ->      94.79.10.0/29
+ whois ip result:   83.136.30.0        ->      83.136.24.0/21
+ whois ip result:   87.245.139.0       ->      87.245.128.0/18
+ whois ip result:   185.79.118.0       ->      185.79.118.0/24
+ whois ip result:   213.171.56.0       ->      213.171.56.0/29
+ c class default:   95.181.206.0       ->      95.181.206.0/24      (whois netrange operation failed)
+
+
+roseltorg.ru____________
+
+ 83.136.24.0/21
+ 95.181.206.0/24
+ 94.79.10.0/29
+ 87.245.128.0/18
+ 185.79.118.0/24
+ 213.171.56.0/29
+ 185.215.4.0/24
+
+
+roseltorg.ru ip blocks:
+________________________
+
+ 83.136.30.109/32
+ 87.245.139.110/32
+ 87.245.139.148/32
+ 87.245.139.152/31
+ 87.245.139.154/32
+ 87.245.139.156/32
+ 94.79.10.6/32
+ 94.79.10.75/32
+ 94.79.10.76/32
+ 94.79.10.102/32
+ 95.181.206.118/32
+ 185.79.118.2/31
+ 185.79.118.4/32
+ 185.79.118.6/32
+ 185.79.118.11/32
+ 185.79.118.12/32
+ 185.215.4.10/32
+ 185.215.4.18/32
+ 213.171.56.101/32
+ 213.171.56.102/31
+
+done.

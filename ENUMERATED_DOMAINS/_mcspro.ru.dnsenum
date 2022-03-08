@@ -1,0 +1,66 @@
+dnsenum VERSION:1.2.6
+
+-----   mcspro.ru   -----
+
+
+Host's addresses:
+__________________
+
+mcspro.ru.                               300      IN    A        95.216.144.70
+
+
+Name Servers:
+______________
+
+ingrid.ns.cloudflare.com.                900      IN    A        108.162.192.165
+ingrid.ns.cloudflare.com.                900      IN    A        172.64.32.165
+ingrid.ns.cloudflare.com.                900      IN    A        173.245.58.165
+ricardo.ns.cloudflare.com.               736      IN    A        162.159.44.211
+ricardo.ns.cloudflare.com.               736      IN    A        108.162.195.211
+ricardo.ns.cloudflare.com.               736      IN    A        172.64.35.211
+
+
+Mail (MX) Servers:
+___________________
+
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for mcspro.ru on ingrid.ns.cloudflare.com ... 
+
+Trying Zone Transfer for mcspro.ru on ricardo.ns.cloudflare.com ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.mcspro.ru.                           300      IN    A        95.216.144.70
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   95.216.144.0       ->      95.216.0.0/15
+
+
+mcspro.ru_________
+
+ 95.216.0.0/15
+
+
+mcspro.ru ip blocks:
+_____________________
+
+ 95.216.144.70/32
+
+done.

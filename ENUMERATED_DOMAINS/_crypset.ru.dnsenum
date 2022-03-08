@@ -1,0 +1,85 @@
+dnsenum VERSION:1.2.6
+
+-----   crypset.ru   -----
+
+
+Host's addresses:
+__________________
+
+crypset.ru.                              3600     IN    A        185.178.208.136
+
+
+Wildcard detection using: nftocyngxamc
+_______________________________________
+
+nftocyngxamc.crypset.ru.                 3600     IN    A        185.178.208.136
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ Wildcards detected, all subdomains will point to the same IP address
+ Omitting results containing 185.178.208.136.
+ Maybe you are using OpenDNS servers.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Name Servers:
+______________
+
+ns1.ddos-guard.net.                      3600     IN    A        186.2.170.100
+ns2.ddos-guard.net.                      3600     IN    A        185.129.100.200
+
+
+Mail (MX) Servers:
+___________________
+
+mx03.nicmail.ru.                         300      IN    A        91.189.116.16
+mx01.nicmail.ru.                         16       IN    A        91.189.116.14
+mx01.nicmail.ru.                         16       IN    A        91.189.116.16
+mx01.nicmail.ru.                         16       IN    A        91.189.116.13
+mx01.nicmail.ru.                         16       IN    A        91.189.116.15
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for crypset.ru on ns1.ddos-guard.net ... 
+
+Trying Zone Transfer for crypset.ru on ns2.ddos-guard.net ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+help.crypset.ru.                         3600     IN    CNAME    dns.okdesk.ru.
+dns.okdesk.ru.                           60       IN    A        23.111.107.132
+dns.okdesk.ru.                           60       IN    A        23.111.107.134
+dns.okdesk.ru.                           60       IN    A        23.111.107.133
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   185.178.208.0      ->      185.178.208.0/22
+
+
+crypset.ru__________
+
+ 185.178.208.0/22
+
+
+crypset.ru ip blocks:
+______________________
+
+ 185.178.208.136/32
+
+done.

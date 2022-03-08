@@ -1,0 +1,73 @@
+dnsenum VERSION:1.2.6
+
+-----   kraskript.com   -----
+
+
+Host's addresses:
+__________________
+
+kraskript.com.                           7200     IN    A        80.255.150.171
+
+
+Name Servers:
+______________
+
+ns1.nameself.com.                        3600     IN    A        88.212.207.45
+ns1.nameself.com.                        3600     IN    A        87.242.73.100
+ns2.nameself.com.                        3600     IN    A        95.213.146.179
+ns2.nameself.com.                        3600     IN    A        88.212.208.183
+
+
+Mail (MX) Servers:
+___________________
+
+server1.kraskript.com.                   7200     IN    A        80.255.150.171
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for kraskript.com on ns1.nameself.com ... 
+
+Trying Zone Transfer for kraskript.com on ns2.nameself.com ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+ra.kraskript.com.                        7200     IN    A        80.255.150.174
+www.kraskript.com.                       7200     IN    CNAME    server1.kraskript.com.
+server1.kraskript.com.                   7200     IN    A        80.255.150.171
+webmail.kraskript.com.                   7200     IN    A        80.255.150.171
+server1.kraskript.com.                   7200     IN    A        80.255.150.171
+mail.kraskript.com.                      7200     IN    CNAME    server1.kraskript.com.
+server1.kraskript.com.                   7200     IN    A        80.255.150.171
+git.kraskript.com.                       7200     IN    A        80.255.150.171
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   80.255.150.0       ->      80.255.150.0/25
+
+
+kraskript.com_____________
+
+ 80.255.150.0/25
+
+
+kraskript.com ip blocks:
+_________________________
+
+ 80.255.150.171/32
+ 80.255.150.174/32
+
+done.

@@ -1,0 +1,83 @@
+dnsenum VERSION:1.2.6
+
+-----   minsknews.by   -----
+
+
+Host's addresses:
+__________________
+
+minsknews.by.                            300      IN    A        93.125.48.166
+
+
+Wildcard detection using: myaffhyuzusu
+_______________________________________
+
+myaffhyuzusu.minsknews.by.               300      IN    A        93.125.48.166
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ Wildcards detected, all subdomains will point to the same IP address
+ Omitting results containing 93.125.48.166.
+ Maybe you are using OpenDNS servers.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Name Servers:
+______________
+
+vivienne.ns.cloudflare.com.              900      IN    A        108.162.194.50
+vivienne.ns.cloudflare.com.              900      IN    A        162.159.38.50
+vivienne.ns.cloudflare.com.              900      IN    A        172.64.34.50
+drew.ns.cloudflare.com.                  737      IN    A        173.245.59.160
+drew.ns.cloudflare.com.                  737      IN    A        172.64.33.160
+drew.ns.cloudflare.com.                  737      IN    A        108.162.193.160
+
+
+Mail (MX) Servers:
+___________________
+
+mailbe04.hoster.by.                      3600     IN    A        93.125.31.217
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for minsknews.by on vivienne.ns.cloudflare.com ... 
+
+Trying Zone Transfer for minsknews.by on drew.ns.cloudflare.com ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mail.minsknews.by.                       300      IN    CNAME    mailbe04.hoster.by.
+mailbe04.hoster.by.                      3600     IN    A        93.125.31.217
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   93.125.48.0        ->      93.125.48.0/24
+
+
+minsknews.by____________
+
+ 93.125.48.0/24
+
+
+minsknews.by ip blocks:
+________________________
+
+ 93.125.48.166/32
+
+done.

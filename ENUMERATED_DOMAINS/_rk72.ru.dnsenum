@@ -1,0 +1,115 @@
+dnsenum VERSION:1.2.6
+
+-----   rk72.ru   -----
+
+
+Host's addresses:
+__________________
+
+rk72.ru.                                 1760     IN    A        82.202.172.110
+
+
+Name Servers:
+______________
+
+ns.rk72.ru.                              3600     IN    A        91.211.192.4
+ns2.rk72.ru.                             3600     IN    A        91.211.192.5
+
+
+Mail (MX) Servers:
+___________________
+
+mailrk72.rk72.ru.                        3600     IN    A        91.211.192.7
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for rk72.ru on ns.rk72.ru ... 
+
+Trying Zone Transfer for rk72.ru on ns2.rk72.ru ... 
+rk72.ru.                                 3600     IN    SOA               (
+rk72.ru.                                 3600     IN    A        82.202.172.110
+rk72.ru.                                 3600     IN    MX               10
+rk72.ru.                                 3600     IN    NS       ns.rk72.ru.
+rk72.ru.                                 3600     IN    NS       ns2.rk72.ru.
+rk72.ru.                                 3600     IN    TXT      MS=7B2C08D121269C483C6C986B361B40B3F60E6BE3
+rk72.ru.                                 3600     IN    TXT         "v=spf1
+astvoip.rk72.ru.                         3600     IN    A        80.91.16.95
+ca2.rk72.ru.                             3600     IN    A        217.116.48.2
+cert.rk72.ru.                            3600     IN    A        217.116.48.2
+cert2.rk72.ru.                           3600     IN    A        217.116.48.2
+cert3.rk72.ru.                           3600     IN    CNAME    vtiger.rk72.ru.
+mail.rk72.ru.                            3600     IN    A        91.211.192.7
+mailrk72.rk72.ru.                        3600     IN    A        91.211.192.7
+ns.rk72.ru.                              3600     IN    A        91.211.192.4
+ns2.rk72.ru.                             3600     IN    A        91.211.192.5
+ntp1.rk72.ru.                            3600     IN    A        91.211.192.4
+ocsp.rk72.ru.                            3600     IN    A        62.173.149.209
+ofd.rk72.ru.                             3600     IN    A        217.116.49.102
+rtrres.rk72.ru.                          3600     IN    A        80.91.26.78
+rtrsl.rk72.ru.                           3600     IN    A        80.91.26.46
+sip.rk72.ru.                             3600     IN    CNAME    sip1.rk72.ru.
+sip1.rk72.ru.                            3600     IN    A        80.91.16.95
+sip2.rk72.ru.                            3600     IN    A        62.173.149.33
+tsp.rk72.ru.                             3600     IN    A        62.173.149.209
+uc2.rk72.ru.                             3600     IN    A        217.116.49.100
+uc3.rk72.ru.                             3600     IN    A        217.116.49.98
+vtiger.rk72.ru.                          3600     IN    A        217.116.49.102
+vtiger.rk72.ru.                          3600     IN    TXT               (
+wiki.rk72.ru.                            3600     IN    CNAME    vtiger.rk72.ru.
+www.rk72.ru.                             3600     IN    A        82.202.172.110
+z.rk72.ru.                               3600     IN    A        91.211.192.7
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   80.91.16.0         ->      80.91.16.0/24
+ whois ip result:   217.116.48.0       ->      217.116.48.0/23
+ whois ip result:   62.173.149.0       ->      62.173.149.0/24
+ whois ip result:   82.202.172.0       ->      82.202.172.0/23
+ whois ip result:   91.211.192.0       ->      91.211.192.0/22
+ whois ip result:   80.91.26.0         ->      80.91.26.0/24
+
+
+rk72.ru_______
+
+ 82.202.172.0/23
+ 62.173.149.0/24
+ 80.91.26.0/24
+ 80.91.16.0/24
+ 91.211.192.0/22
+ 217.116.48.0/23
+
+
+rk72.ru ip blocks:
+___________________
+
+ 62.173.149.33/32
+ 62.173.149.209/32
+ 80.91.16.95/32
+ 80.91.26.46/32
+ 80.91.26.78/32
+ 82.202.172.110/32
+ 91.211.192.4/31
+ 91.211.192.7/32
+ 217.116.48.2/32
+ 217.116.49.98/32
+ 217.116.49.100/32
+ 217.116.49.102/32
+
+done.

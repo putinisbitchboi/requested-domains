@@ -1,0 +1,106 @@
+dnsenum VERSION:1.2.6
+
+-----   ont.by   -----
+
+
+Host's addresses:
+__________________
+
+ont.by.                                  300      IN    A        178.124.138.31
+
+
+Name Servers:
+______________
+
+ns2.dc.beltelecom.by.                    3600     IN    A        178.124.138.155
+ns1.dc.beltelecom.by.                    3600     IN    A        178.124.138.154
+
+
+Mail (MX) Servers:
+___________________
+
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for ont.by on ns2.dc.beltelecom.by ... 
+
+Trying Zone Transfer for ont.by on ns1.dc.beltelecom.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+music.ont.by.                            300      IN    A        86.57.251.49
+pop.ont.by.                              300      IN    A        82.209.240.74
+lm.ont.by.                               300      IN    A        82.209.240.78
+www.ont.by.                              300      IN    CNAME       ont.by.
+ont.by.                                  300      IN    A        178.124.138.31
+mail.ont.by.                             300      IN    A        82.209.240.74
+main.ont.by.                             300      IN    A        82.209.240.74
+news.ont.by.                             300      IN    A        93.125.31.152
+stream.ont.by.                           300      IN    A        93.125.31.151
+nod.ont.by.                              300      IN    A        82.209.240.74
+rdg.ont.by.                              300      IN    A        82.209.240.77
+online.ont.by.                           300      IN    A        93.125.31.152
+www.mail.ont.by.                         300      IN    CNAME    mail.ont.by.
+mail.ont.by.                             300      IN    A        82.209.240.74
+sp.ont.by.                               300      IN    A        82.209.240.74
+tv.ont.by.                               300      IN    A        82.209.240.78
+autodiscover.ont.by.                     300      IN    CNAME    exch.ont.by.
+exch.ont.by.                             300      IN    A        82.209.240.76
+vpn.ont.by.                              300      IN    A        82.209.240.74
+imap.ont.by.                             300      IN    A        82.209.240.74
+smtp.ont.by.                             300      IN    A        82.209.240.74
+exch.ont.by.                             300      IN    A        82.209.240.76
+was.ont.by.                              300      IN    A        82.209.240.74
+mail2.ont.by.                            300      IN    CNAME    exch.ont.by.
+exch.ont.by.                             300      IN    A        82.209.240.76
+upload.ont.by.                           300      IN    A        134.17.212.157
+ftp.ont.by.                              300      IN    CNAME    upload.ont.by.
+upload.ont.by.                           300      IN    A        134.17.212.157
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+ont.by.                                  300      IN    NS       ns2.dc.beltelecom.by.
+ont.by.                                  300      IN    NS       ns1.dc.beltelecom.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   134.17.212.0       ->      134.17.192.0/19
+ whois ip result:   86.57.251.0        ->      86.57.251.0/24
+ whois ip result:   93.125.31.0        ->      93.125.31.0/24
+ whois ip result:   82.209.240.0       ->      82.209.240.0/26
+ whois ip result:   178.124.138.0      ->      178.124.138.0/24
+
+
+ont.by______
+
+ 86.57.251.0/24
+ 134.17.192.0/19
+ 93.125.31.0/24
+ 178.124.138.0/24
+ 82.209.240.0/26
+
+
+ont.by ip blocks:
+__________________
+
+ 82.209.240.74/32
+ 82.209.240.76/31
+ 82.209.240.78/32
+ 86.57.251.49/32
+ 93.125.31.151/32
+ 93.125.31.152/32
+ 134.17.212.157/32
+ 178.124.138.31/32
+
+done.

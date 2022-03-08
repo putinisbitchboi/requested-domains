@@ -1,0 +1,118 @@
+dnsenum VERSION:1.2.6
+
+-----   fsb.ru   -----
+
+
+Host's addresses:
+__________________
+
+fsb.ru.                                  3599727  IN    A        213.24.76.23
+
+
+Name Servers:
+______________
+
+ns1.fsb.ru.                              86400    IN    A        213.24.76.2
+ns2.fsb.ru.                              86400    IN    A        95.173.148.66
+
+
+Mail (MX) Servers:
+___________________
+
+mail2.fsb.ru.                            86400    IN    A        95.173.148.67
+mail10.fsb.ru.                           86400    IN    A        213.24.76.27
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for fsb.ru on ns1.fsb.ru ... 
+
+Trying Zone Transfer for fsb.ru on ns2.fsb.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mail10.fsb.ru.                           86400    IN    A        213.24.76.27
+mail2.fsb.ru.                            86400    IN    A        95.173.148.67
+i.fsb.ru.                                86400    IN    A        213.24.76.12
+volgograd.fsb.ru.                        86400    IN    A        213.24.76.14
+nf.fsb.ru.                               86400    IN    A        213.24.76.26
+stats.fsb.ru.                            86400    IN    A        213.24.76.15
+kpi.fsb.ru.                              86400    IN    A        213.24.76.20
+amur.fsb.ru.                             86400    IN    A        213.24.76.14
+fms.fsb.ru.                              86400    IN    A        213.24.76.25
+localhost.fsb.ru.                        86400    IN    A         127.0.0.1
+tyumen.fsb.ru.                           86400    IN    A        217.195.210.165
+tst.fsb.ru.                              86400    IN    A        213.24.76.3
+ps.fsb.ru.                               86400    IN    A        213.24.76.20
+inn.fsb.ru.                              86400    IN    A        213.24.76.20
+mpi.fsb.ru.                              86400    IN    A        213.24.76.20
+www.fsb.ru.                              86400    IN    A        213.24.76.23
+mail1.fsb.ru.                            86400    IN    CNAME    nf.fsb.ru.
+nf.fsb.ru.                               86400    IN    A        213.24.76.26
+pda.fsb.ru.                              86400    IN    A        213.24.76.20
+ns.fsb.ru.                               86400    IN    A        95.173.148.66
+ns.fsb.ru.                               86400    IN    A        213.24.76.2
+ns2.fsb.ru.                              86400    IN    A        95.173.148.66
+ns1.fsb.ru.                              86400    IN    A        213.24.76.2
+tob.fsb.ru.                              86400    IN    A        213.24.76.11
+tz.fsb.ru.                               86400    IN    A        213.24.76.14
+alfa.fsb.ru.                             86400    IN    CNAME    ns1.fsb.ru.
+ns1.fsb.ru.                              86400    IN    A        213.24.76.2
+search.fsb.ru.                           86400    IN    A        213.24.76.24
+epsilon.fsb.ru.                          86400    IN    A        213.24.76.6
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+ps.fsb.ru.                               86400    IN    NS       ns2.fsb.ru.
+ps.fsb.ru.                               86400    IN    NS       ns1.fsb.ru.
+
+ ----   Recursion level 1   ---- 
+
+ Recursion on ps.fsb.ru ...
+localhost.ps.fsb.ru.                     86400    IN    A         127.0.0.1
+www.ps.fsb.ru.                           86400    IN    A        213.24.76.20
+
+
+Checking subdomains NS records:
+________________________________
+
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   217.195.210.0      ->      217.195.210.0/24
+ whois ip result:   95.173.148.0       ->      95.173.144.0/20
+ whois ip result:   213.24.76.0        ->      213.24.76.0/23
+
+
+fsb.ru______
+
+ 95.173.144.0/20
+ 217.195.210.0/24
+ 213.24.76.0/23
+
+
+fsb.ru ip blocks:
+__________________
+
+ 95.173.148.66/31
+ 213.24.76.2/31
+ 213.24.76.6/32
+ 213.24.76.11/32
+ 213.24.76.12/32
+ 213.24.76.14/31
+ 213.24.76.20/32
+ 213.24.76.23/32
+ 213.24.76.24/30
+ 217.195.210.165/32
+
+done.

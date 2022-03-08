@@ -1,0 +1,70 @@
+dnsenum VERSION:1.2.6
+
+-----   slonves.by   -----
+
+
+Host's addresses:
+__________________
+
+slonves.by.                              3600     IN    A        195.50.4.186
+
+
+Name Servers:
+______________
+
+ns2.g-cloud.by.                          3600     IN    A        195.50.11.20
+ns3.g-cloud.by.                          3600     IN    A        93.125.22.109
+ns1.g-cloud.by.                          3600     IN    A        195.50.4.201
+
+
+Mail (MX) Servers:
+___________________
+
+mailbe03.hoster.by.                      3600     IN    A        93.125.31.228
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for slonves.by on ns1.g-cloud.by ... 
+
+Trying Zone Transfer for slonves.by on ns3.g-cloud.by ... 
+
+Trying Zone Transfer for slonves.by on ns2.g-cloud.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.slonves.by.                          3522     IN    CNAME    slonves.by.
+slonves.by.                              3522     IN    A        195.50.4.186
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+slonves.by.                              3600     IN    NS       ns1.g-cloud.by.
+slonves.by.                              3600     IN    NS       ns3.g-cloud.by.
+slonves.by.                              3600     IN    NS       ns2.g-cloud.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   195.50.4.0         ->      195.50.4.0/22
+
+
+slonves.by__________
+
+ 195.50.4.0/22
+
+
+slonves.by ip blocks:
+______________________
+
+ 195.50.4.186/32
+
+done.

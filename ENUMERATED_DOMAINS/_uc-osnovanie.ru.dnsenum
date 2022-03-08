@@ -1,0 +1,71 @@
+dnsenum VERSION:1.2.6
+
+-----   uc-osnovanie.ru   -----
+
+
+Host's addresses:
+__________________
+
+uc-osnovanie.ru.                         437      IN    A        185.71.67.237
+
+
+Name Servers:
+______________
+
+dns2.yandex.net.                         600      IN    A        93.158.134.213
+dns1.yandex.net.                         600      IN    A        213.180.204.213
+
+
+Mail (MX) Servers:
+___________________
+
+mx.yandex.net.                           400      IN    A        77.88.21.249
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for uc-osnovanie.ru on dns2.yandex.net ... 
+
+Trying Zone Transfer for uc-osnovanie.ru on dns1.yandex.net ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+snap.uc-osnovanie.ru.                    600      IN    A        185.71.67.237
+api.uc-osnovanie.ru.                     600      IN    A        185.71.67.237
+mail.uc-osnovanie.ru.                    21600    IN    CNAME    domain.mail.yandex.net.
+domain.mail.yandex.net.                  7200     IN    CNAME    mail.yandex.ru.
+mail.yandex.ru.                          300      IN    A        77.88.21.37
+www.uc-osnovanie.ru.                     600      IN    A        185.71.67.237
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+mail.yandex.ru.                          172800   IN    NS       ns3.yandex.ru.
+mail.yandex.ru.                          172800   IN    NS       ns6.yandex.ru.
+mail.yandex.ru.                          172800   IN    NS       ns4.yandex.ru.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   185.71.67.0        ->      185.71.64.0/22
+
+
+uc-osnovanie.ru_______________
+
+ 185.71.64.0/22
+
+
+uc-osnovanie.ru ip blocks:
+___________________________
+
+ 185.71.67.237/32
+
+done.

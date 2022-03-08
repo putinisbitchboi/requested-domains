@@ -1,0 +1,144 @@
+dnsenum VERSION:1.2.6
+
+-----   interfax.ru   -----
+
+
+Host's addresses:
+__________________
+
+interfax.ru.                             549      IN    A        178.248.233.231
+
+
+Name Servers:
+______________
+
+ns1.interfax.ru.                         900      IN    A        46.28.17.4
+ns2.interfax.ru.                         900      IN    A        46.28.16.6
+
+
+Mail (MX) Servers:
+___________________
+
+back1.interfax.ru.                       900      IN    A        46.28.21.181
+back8.interfax.ru.                       900      IN    A        46.28.17.56
+back.interfax.ru.                        900      IN    A        46.28.17.161
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for interfax.ru on ns2.interfax.ru ... 
+
+Trying Zone Transfer for interfax.ru on ns1.interfax.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+m.interfax.ru.                           900      IN    CNAME    interfax.ru.
+interfax.ru.                             900      IN    A        178.248.233.231
+lyncdiscover.interfax.ru.                900      IN    A        46.28.21.160
+tourism.interfax.ru.                     900      IN    A        46.28.17.35
+ca.interfax.ru.                          900      IN    A        46.28.21.160
+new.interfax.ru.                         900      IN    A        46.28.18.20
+30.interfax.ru.                          900      IN    A        46.28.17.35
+ns1.interfax.ru.                         900      IN    A        46.28.17.4
+www.interfax.ru.                         172      IN    CNAME    interfax.ru.
+interfax.ru.                             172      IN    A        178.248.233.231
+realty.interfax.ru.                      900      IN    A        46.28.17.35
+mdr.interfax.ru.                         900      IN    A        46.28.22.139
+share.interfax.ru.                       900      IN    A        46.28.17.174
+rd.interfax.ru.                          900      IN    A        46.28.21.180
+plus.interfax.ru.                        900      IN    A        46.28.17.148
+scout.interfax.ru.                       900      IN    A        46.28.21.133
+www.news.interfax.ru.                    900      IN    A        46.28.18.20
+web.interfax.ru.                         900      IN    A        46.28.21.158
+online.interfax.ru.                      900      IN    A        46.38.56.56
+news.interfax.ru.                        900      IN    A        46.28.18.20
+spark.interfax.ru.                       900      IN    A        46.28.16.112
+event.interfax.ru.                       900      IN    A        46.28.17.35
+tp.interfax.ru.                          900      IN    A        46.28.17.62
+qb.interfax.ru.                          900      IN    A        46.28.21.153
+people.interfax.ru.                      900      IN    A        46.28.17.150
+mail.interfax.ru.                        900      IN    A        46.28.17.161
+am.interfax.ru.                          900      IN    CNAME    asoi.interfax.ru.
+asoi.interfax.ru.                        900      IN    A        46.28.21.182
+plaza.interfax.ru.                       900      IN    A        46.28.21.133
+scania.interfax.ru.                      900      IN    A        46.21.252.14
+group.interfax.ru.                       900      IN    A        46.28.17.35
+nl.interfax.ru.                          900      IN    A        46.28.17.35
+sip.interfax.ru.                         900      IN    A        46.28.21.157
+jira.interfax.ru.                        900      IN    A        46.28.17.171
+back.interfax.ru.                        900      IN    A        46.28.17.161
+ads.interfax.ru.                         900      IN    CNAME    ad.tourism.interfax.ru.
+ad.tourism.interfax.ru.                  900      IN    A        46.28.17.35
+eltanin.interfax.ru.                     900      IN    A        46.28.17.39
+meet.interfax.ru.                        900      IN    A        46.28.21.160
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+interfax.ru.                             900      IN    NS       ns1.interfax.ru.
+interfax.ru.                             900      IN    NS       ns2.interfax.ru.
+interfax.ru.                             900      IN    NS       ns1.interfax.ru.
+interfax.ru.                             900      IN    NS       ns2.interfax.ru.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   46.21.252.0        ->      46.21.252.0/24
+ whois ip result:   46.28.22.0         ->      46.28.22.0/24
+ whois ip result:   46.38.56.0         ->      46.38.56.0/21
+ whois ip result:   46.28.17.0         ->      46.28.17.0/24
+ whois ip result:   46.28.18.0         ->      46.28.18.0/24
+ whois ip result:   178.248.233.0      ->      178.248.232.0/21
+ whois ip result:   46.28.16.0         ->      46.28.16.0/24
+ whois ip result:   46.28.21.0         ->      46.28.21.0/24
+
+
+interfax.ru___________
+
+ 46.28.17.0/24
+ 46.28.22.0/24
+ 46.21.252.0/24
+ 46.28.18.0/24
+ 178.248.232.0/21
+ 46.28.21.0/24
+ 46.38.56.0/21
+ 46.28.16.0/24
+
+
+interfax.ru ip blocks:
+_______________________
+
+ 46.21.252.14/32
+ 46.28.16.6/32
+ 46.28.16.112/32
+ 46.28.17.4/32
+ 46.28.17.35/32
+ 46.28.17.39/32
+ 46.28.17.56/32
+ 46.28.17.62/32
+ 46.28.17.148/32
+ 46.28.17.150/32
+ 46.28.17.161/32
+ 46.28.17.171/32
+ 46.28.17.174/32
+ 46.28.18.20/32
+ 46.28.21.133/32
+ 46.28.21.153/32
+ 46.28.21.157/32
+ 46.28.21.158/32
+ 46.28.21.160/32
+ 46.28.21.180/31
+ 46.28.21.182/32
+ 46.28.22.139/32
+ 46.38.56.56/32
+ 178.248.233.231/32
+
+done.

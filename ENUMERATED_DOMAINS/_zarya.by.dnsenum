@@ -1,0 +1,69 @@
+dnsenum VERSION:1.2.6
+
+-----   zarya.by   -----
+
+
+Host's addresses:
+__________________
+
+zarya.by.                                757      IN    A        178.172.163.104
+
+
+Name Servers:
+______________
+
+ns1.hoster.by.                           3600     IN    A        93.125.30.200
+ns2.hoster.by.                           3600     IN    A        185.179.83.100
+
+
+Mail (MX) Servers:
+___________________
+
+mx.yandex.net.                           315      IN    A        77.88.21.249
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for zarya.by on ns2.hoster.by ... 
+
+Trying Zone Transfer for zarya.by on ns1.hoster.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+ftp.zarya.by.                            3600     IN    A        178.172.163.104
+old.zarya.by.                            3600     IN    A        178.172.163.104
+localhost.zarya.by.                      3600     IN    A         127.0.0.1
+www.zarya.by.                            3600     IN    CNAME     zarya.by.
+zarya.by.                                3600     IN    A        178.172.163.104
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+zarya.by.                                86400    IN    NS       ns1.hoster.by.
+zarya.by.                                86400    IN    NS       ns2.hoster.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   178.172.163.0      ->      178.172.160.0/22
+
+
+zarya.by________
+
+ 178.172.160.0/22
+
+
+zarya.by ip blocks:
+____________________
+
+ 178.172.163.104/32
+
+done.

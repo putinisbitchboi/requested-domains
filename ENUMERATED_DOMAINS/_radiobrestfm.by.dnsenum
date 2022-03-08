@@ -1,0 +1,69 @@
+dnsenum VERSION:1.2.6
+
+-----   radiobrestfm.by   -----
+
+
+Host's addresses:
+__________________
+
+radiobrestfm.by.                         300      IN    A        178.124.138.66
+
+
+Wildcard detection using: ngenzkpqrsxn
+_______________________________________
+
+ngenzkpqrsxn.radiobrestfm.by.            300      IN    A        178.124.138.66
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ Wildcards detected, all subdomains will point to the same IP address
+ Omitting results containing 178.124.138.66.
+ Maybe you are using OpenDNS servers.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Name Servers:
+______________
+
+ns1.dc.beltelecom.by.                    3600     IN    A        178.124.138.154
+ns2.dc.beltelecom.by.                    3600     IN    A        178.124.138.155
+
+
+Mail (MX) Servers:
+___________________
+
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for radiobrestfm.by on ns2.dc.beltelecom.by ... 
+
+Trying Zone Transfer for radiobrestfm.by on ns1.dc.beltelecom.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   178.124.138.0      ->      178.124.138.0/24
+
+
+radiobrestfm.by_______________
+
+ 178.124.138.0/24
+
+
+radiobrestfm.by ip blocks:
+___________________________
+
+ 178.124.138.66/32
+
+done.

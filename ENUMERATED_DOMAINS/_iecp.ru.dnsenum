@@ -1,0 +1,105 @@
+dnsenum VERSION:1.2.6
+
+-----   iecp.ru   -----
+
+
+Host's addresses:
+__________________
+
+iecp.ru.                                 600      IN    A        185.71.67.237
+
+
+Name Servers:
+______________
+
+ns3-l2.nic.ru.                           300      IN    A        193.232.146.1
+ns4-cloud.nic.ru.                        60       IN    A        91.217.20.1
+ns8-l2.nic.ru.                           167      IN    A        91.217.21.1
+ns4-l2.nic.ru.                           300      IN    A        91.217.20.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+
+
+Mail (MX) Servers:
+___________________
+
+relay.iecp.ru.                           600      IN    A        176.67.241.93
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for iecp.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for iecp.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for iecp.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for iecp.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for iecp.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+auth.iecp.ru.                            600      IN    A        185.179.199.8
+lk.iecp.ru.                              600      IN    A        176.67.242.146
+ats.iecp.ru.                             600      IN    A        176.67.242.146
+oo.iecp.ru.                              600      IN    A        185.71.67.237
+cms.iecp.ru.                             600      IN    A        185.71.67.237
+staging.iecp.ru.                         600      IN    A        185.71.67.237
+auth2.iecp.ru.                           600      IN    A        176.67.242.146
+edo.iecp.ru.                             600      IN    A        91.232.93.196
+up.iecp.ru.                              600      IN    A        176.67.242.146
+relay.iecp.ru.                           600      IN    A        176.67.241.93
+forum.iecp.ru.                           3600     IN    A        95.79.54.244
+api.iecp.ru.                             600      IN    A        185.179.199.8
+services.iecp.ru.                        600      IN    A        185.179.199.102
+partner.iecp.ru.                         600      IN    A        185.179.199.8
+api-test.iecp.ru.                        600      IN    A        185.179.199.85
+dev.iecp.ru.                             600      IN    A        176.67.242.146
+www.iecp.ru.                             600      IN    A        185.71.67.237
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   95.79.54.0         ->      95.79.48.0/21
+ whois ip result:   185.179.199.0      ->      185.179.199.0/24
+ c class default:   176.67.241.0       ->      176.67.241.0/24      (whois netrange operation failed)
+ c class default:   176.67.242.0       ->      176.67.242.0/24      (whois netrange operation failed)
+ whois ip result:   91.232.93.0        ->      91.232.92.0/22
+ whois ip result:   185.71.67.0        ->      185.71.64.0/22
+
+
+iecp.ru_______
+
+ 91.232.92.0/22
+ 185.71.64.0/22
+ 185.179.199.0/24
+ 176.67.241.0/24
+ 176.67.242.0/24
+ 95.79.48.0/21
+
+
+iecp.ru ip blocks:
+___________________
+
+ 91.232.93.196/32
+ 95.79.54.244/32
+ 176.67.241.93/32
+ 176.67.242.146/32
+ 185.71.67.237/32
+ 185.179.199.8/32
+ 185.179.199.85/32
+ 185.179.199.102/32
+
+done.

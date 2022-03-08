@@ -1,0 +1,99 @@
+dnsenum VERSION:1.2.6
+
+-----   tvr.by   -----
+
+
+Host's addresses:
+__________________
+
+tvr.by.                                  3600     IN    A        195.50.4.175
+
+
+Name Servers:
+______________
+
+ns2.g-cloud.by.                          3600     IN    A        195.50.11.20
+ns3.g-cloud.by.                          3600     IN    A        93.125.22.109
+ns1.g-cloud.by.                          3600     IN    A        195.50.4.201
+
+
+Mail (MX) Servers:
+___________________
+
+pmg.tvr.by.                              3600     IN    A        217.21.52.8
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for tvr.by on ns1.g-cloud.by ... 
+
+Trying Zone Transfer for tvr.by on ns2.g-cloud.by ... 
+
+Trying Zone Transfer for tvr.by on ns3.g-cloud.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+cpanel.tvr.by.                           3600     IN    A        195.50.4.236
+archive.tvr.by.                          3600     IN    A        195.50.4.228
+dev.tvr.by.                              3600     IN    A        195.50.4.195
+radio.tvr.by.                            3600     IN    A        217.21.52.8
+sport.tvr.by.                            3600     IN    A        217.21.52.8
+fin.tvr.by.                              3600     IN    A        217.21.52.8
+dit.tvr.by.                              3600     IN    A        217.21.52.8
+pmg.tvr.by.                              3600     IN    A        217.21.52.8
+res.tvr.by.                              3600     IN    A        217.21.52.190
+buch.tvr.by.                             3600     IN    A        217.21.52.8
+ns1.tvr.by.                              3600     IN    A        217.21.52.9
+m.tvr.by.                                3600     IN    A        195.50.4.175
+sys.tvr.by.                              3600     IN    A        195.50.6.59
+www.tvr.by.                              3600     IN    CNAME       tvr.by.
+tvr.by.                                  3600     IN    A        195.50.4.175
+ns2.tvr.by.                              3600     IN    A        217.21.52.10
+static.tvr.by.                           3600     IN    A        195.50.4.184
+all.tvr.by.                              3600     IN    A        217.21.52.8
+ntp.tvr.by.                              3600     IN    A        217.21.52.12
+rtc.tvr.by.                              3600     IN    A        217.21.52.8
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+tvr.by.                                  3600     IN    NS       ns1.g-cloud.by.
+tvr.by.                                  3600     IN    NS       ns3.g-cloud.by.
+tvr.by.                                  3600     IN    NS       ns2.g-cloud.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   195.50.4.0         ->      195.50.4.0/22
+ whois ip result:   217.21.52.0        ->      217.21.52.0/24
+
+
+tvr.by______
+
+ 195.50.4.0/22
+ 217.21.52.0/24
+
+
+tvr.by ip blocks:
+__________________
+
+ 195.50.4.175/32
+ 195.50.4.184/32
+ 195.50.4.195/32
+ 195.50.4.228/32
+ 195.50.4.236/32
+ 195.50.6.59/32
+ 217.21.52.8/31
+ 217.21.52.10/32
+ 217.21.52.12/32
+ 217.21.52.190/32
+
+done.

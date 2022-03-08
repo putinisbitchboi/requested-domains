@@ -1,0 +1,76 @@
+dnsenum VERSION:1.2.6
+
+-----   belarus.by   -----
+
+
+Host's addresses:
+__________________
+
+belarus.by.                              3600     IN    A        93.84.114.37
+
+
+Name Servers:
+______________
+
+bf.belta.by.                             1200     IN    A        192.168.150.11
+llm2.belta.by.                           600      IN    A        86.57.255.235
+llm2.belta.by.                           600      IN    A        192.168.174.203
+gate.belta.by.                           600      IN    A        86.57.255.226
+ns.belta.by.                             600      IN    A        93.84.114.38
+
+
+Mail (MX) Servers:
+___________________
+
+ms.ml.belta.by.                          3600     IN    A        93.84.114.45
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for belarus.by on gate.belta.by ... 
+
+Trying Zone Transfer for belarus.by on ns.belta.by ... 
+
+Trying Zone Transfer for belarus.by on bf.belta.by ... 
+
+Trying Zone Transfer for belarus.by on llm2.belta.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mail.belarus.by.                         3600     IN    A        93.84.114.37
+www.belarus.by.                          3600     IN    CNAME    belarus.by.
+belarus.by.                              3600     IN    A        93.84.114.37
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+belarus.by.                              3600     IN    NS       llm2.belta.by.
+belarus.by.                              3600     IN    NS       ns.belta.by.
+belarus.by.                              3600     IN    NS       gate.belta.by.
+belarus.by.                              3600     IN    NS       bf.belta.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   93.84.114.0        ->      93.84.114.0/24
+
+
+belarus.by__________
+
+ 93.84.114.0/24
+
+
+belarus.by ip blocks:
+______________________
+
+ 93.84.114.37/32
+
+done.

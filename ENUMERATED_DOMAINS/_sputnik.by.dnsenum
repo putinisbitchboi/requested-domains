@@ -1,0 +1,84 @@
+dnsenum VERSION:1.2.6
+
+-----   sputnik.by   -----
+
+
+Host's addresses:
+__________________
+
+sputnik.by.                              49       IN    A        178.248.234.136
+
+
+Name Servers:
+______________
+
+ns10.sputniknews.com.                    120      IN    A        178.248.233.32
+ns9.sputniknews.com.                     120      IN    A        178.248.236.20
+
+
+Mail (MX) Servers:
+___________________
+
+m9.sputniknews.com.                      3600     IN    A        195.93.246.44
+m11.sputniknews.com.                     3600     IN    A        195.93.246.46
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for sputnik.by on ns10.sputniknews.com ... 
+
+Trying Zone Transfer for sputnik.by on ns9.sputniknews.com ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+m.sputnik.by.                            120      IN    CNAME    sputnik.by.
+sputnik.by.                              120      IN    A        178.248.234.136
+www.sputnik.by.                          120      IN    CNAME    sputnik.by.
+sputnik.by.                              120      IN    A        178.248.234.136
+n.sputnik.by.                            120      IN    CNAME    n.sputniknews.com.
+img.sputnik.by.                          120      IN    A        195.93.247.7
+bel.sputnik.by.                          120      IN    CNAME    sputnik.by.
+sputnik.by.                              120      IN    A        178.248.234.136
+ru.sputnik.by.                           120      IN    CNAME    sputnik.by.
+sputnik.by.                              120      IN    A        178.248.234.136
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+sputnik.by.                              120      IN    NS       ns9.sputniknews.com.
+sputnik.by.                              120      IN    NS       ns10.sputniknews.com.
+sputnik.by.                              120      IN    NS       ns9.sputniknews.com.
+sputnik.by.                              120      IN    NS       ns10.sputniknews.com.
+sputnik.by.                              120      IN    NS       ns9.sputniknews.com.
+sputnik.by.                              120      IN    NS       ns10.sputniknews.com.
+sputnik.by.                              120      IN    NS       ns9.sputniknews.com.
+sputnik.by.                              120      IN    NS       ns10.sputniknews.com.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   178.248.234.0      ->      178.248.232.0/21
+ whois ip result:   195.93.247.0       ->      195.93.246.0/23
+
+
+sputnik.by__________
+
+ 195.93.246.0/23
+ 178.248.232.0/21
+
+
+sputnik.by ip blocks:
+______________________
+
+ 178.248.234.136/32
+ 195.93.247.7/32
+
+done.

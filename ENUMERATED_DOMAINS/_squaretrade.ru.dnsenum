@@ -1,0 +1,75 @@
+dnsenum VERSION:1.2.6
+
+-----   squaretrade.ru   -----
+
+
+Host's addresses:
+__________________
+
+squaretrade.ru.                          44       IN    A        195.128.96.134
+
+
+Name Servers:
+______________
+
+dns1.naunet.ru.                          3600     IN    A        31.31.194.92
+dns2.naunet.ru.                          3600     IN    A        31.31.194.59
+
+
+Mail (MX) Servers:
+___________________
+
+mail.squaretrade.ru.                     300      IN    A        154.16.118.121
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for squaretrade.ru on dns1.naunet.ru ... 
+
+Trying Zone Transfer for squaretrade.ru on dns2.naunet.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mail.squaretrade.ru.                     300      IN    A        154.16.118.121
+crl.squaretrade.ru.                      75       IN    A        154.16.118.121
+www.squaretrade.ru.                      47       IN    CNAME    squaretrade.ru.
+squaretrade.ru.                          47       IN    A        195.128.96.134
+api.squaretrade.ru.                      300      IN    CNAME    squaretrade.ru.
+squaretrade.ru.                          40       IN    A        195.128.96.134
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+squaretrade.ru.                          300      IN    NS       dns1.naunet.ru.
+squaretrade.ru.                          300      IN    NS       dns2.naunet.ru.
+squaretrade.ru.                          300      IN    NS       dns2.naunet.ru.
+squaretrade.ru.                          300      IN    NS       dns1.naunet.ru.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   154.16.118.0       ->      154.16.116.0/22
+ whois ip result:   195.128.96.0       ->      195.128.96.0/22
+
+
+squaretrade.ru______________
+
+ 154.16.116.0/22
+ 195.128.96.0/22
+
+
+squaretrade.ru ip blocks:
+__________________________
+
+ 154.16.118.121/32
+ 195.128.96.134/32
+
+done.

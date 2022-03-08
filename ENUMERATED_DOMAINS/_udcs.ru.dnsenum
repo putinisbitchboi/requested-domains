@@ -1,0 +1,102 @@
+dnsenum VERSION:1.2.6
+
+-----   udcs.ru   -----
+
+
+Host's addresses:
+__________________
+
+udcs.ru.                                 0        IN    A        92.126.230.35
+
+
+Name Servers:
+______________
+
+ns4-l2.nic.ru.                           204      IN    A        91.217.20.1
+ns3-l2.nic.ru.                           34       IN    A        193.232.146.1
+ns8-l2.nic.ru.                           210      IN    A        91.217.21.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+ns4-cloud.nic.ru.                        60       IN    A        91.217.20.1
+
+
+Mail (MX) Servers:
+___________________
+
+mail1.udcs.ru.                           3600     IN    A        87.229.186.14
+mail.udcs.ru.                            3600     IN    A        92.126.230.34
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for udcs.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for udcs.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for udcs.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for udcs.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for udcs.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mind.udcs.ru.                            3600     IN    A        92.126.230.37
+ns3.udcs.ru.                             3600     IN    A        212.192.114.5
+conf.udcs.ru.                            3600     IN    A        92.126.230.45
+lk.udcs.ru.                              0        IN    A        92.126.230.36
+www.udcs.ru.                             0        IN    A        92.126.230.35
+mail.udcs.ru.                            3600     IN    A        92.126.230.34
+edu.udcs.ru.                             3600     IN    A        92.126.230.44
+www2.udcs.ru.                            0        IN    A        195.208.1.107
+ns.udcs.ru.                              3600     IN    A        79.136.240.1
+mail1.udcs.ru.                           3600     IN    A        87.229.186.14
+ns2.udcs.ru.                             3600     IN    A        79.136.240.1
+pki.udcs.ru.                             3600     IN    A        92.126.230.43
+bbb.udcs.ru.                             3600     IN    A        92.126.230.45
+stat.udcs.ru.                            3600     IN    CNAME    mailer-stats.i.bizml.ru.
+mailer-stats.i.bizml.ru.                 3600     IN    A        52.29.101.127
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   195.208.1.0        ->      195.208.1.0/24
+ whois ip result:   79.136.240.0       ->      79.136.128.0/17
+ whois ip result:   87.229.186.0       ->      87.229.186.0/24
+ whois ip result:   92.126.230.0       ->      92.126.224.0/20
+ whois ip result:   212.192.114.0      ->      212.192.112.0/20
+
+
+udcs.ru_______
+
+ 212.192.112.0/20
+ 92.126.224.0/20
+ 87.229.186.0/24
+ 79.136.128.0/17
+ 195.208.1.0/24
+
+
+udcs.ru ip blocks:
+___________________
+
+ 79.136.240.1/32
+ 87.229.186.14/32
+ 92.126.230.34/31
+ 92.126.230.36/31
+ 92.126.230.43/32
+ 92.126.230.44/31
+ 195.208.1.107/32
+ 212.192.114.5/32
+
+done.

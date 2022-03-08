@@ -1,0 +1,191 @@
+dnsenum VERSION:1.2.6
+
+-----   center-inform.ru   -----
+
+
+Host's addresses:
+__________________
+
+center-inform.ru.                        86400    IN    A        185.178.208.163
+
+
+Name Servers:
+______________
+
+ns8-l2.nic.ru.                           163      IN    A        91.217.21.1
+ns4-l2.nic.ru.                           300      IN    A        91.217.20.1
+ns.center-inform.ru.                     86400    IN    A        195.149.110.141
+ns2.center-inform.ru.                    86400    IN    A        212.176.215.28
+
+
+Mail (MX) Servers:
+___________________
+
+ingrid.center-inform.ru.                 86400    IN    A        195.149.110.165
+ingrid.center-inform.ru.                 86400    IN    A        212.176.215.165
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for center-inform.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for center-inform.ru on ns.center-inform.ru ... 
+
+Trying Zone Transfer for center-inform.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for center-inform.ru on ns2.center-inform.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+nora.center-inform.ru.                   86400    IN    A        195.149.110.195
+lyncdiscover.center-inform.ru.           86400    IN    A        195.149.110.150
+ald.center-inform.ru.                    86400    IN    A        195.149.110.150
+estella.center-inform.ru.                86400    IN    A        195.149.110.140
+dialin.center-inform.ru.                 86400    IN    A        195.149.110.150
+claudius.center-inform.ru.               86400    IN    A        195.149.110.23
+ixia.center-inform.ru.                   86400    IN    A        195.149.110.137
+ixia.center-inform.ru.                   86400    IN    A        212.176.215.158
+test.center-inform.ru.                   86400    IN    A        195.149.110.153
+reg.center-inform.ru.                    86400    IN    A        195.149.110.14
+tour.center-inform.ru.                   86400    IN    A        82.162.172.121
+ns.center-inform.ru.                     86400    IN    A        195.149.110.141
+fns.center-inform.ru.                    86400    IN    A        195.149.110.139
+vesper.center-inform.ru.                 86400    IN    A        195.149.110.170
+support.center-inform.ru.                86400    IN    A        195.149.110.204
+control.center-inform.ru.                86400    IN    A        195.149.110.150
+ingrid.center-inform.ru.                 86400    IN    A        212.176.215.165
+ingrid.center-inform.ru.                 86400    IN    A        195.149.110.165
+autodiscover.center-inform.ru.           86400    IN    A        195.149.110.150
+aca.center-inform.ru.                    86400    IN    A        195.149.110.134
+sip.center-inform.ru.                    86400    IN    A        212.176.215.197
+ad.center-inform.ru.                     86400    IN    A        212.176.215.10
+www.center-inform.ru.                    86400    IN    A        185.178.208.163
+mail.center-inform.ru.                   86400    IN    A        212.176.215.157
+monitor.center-inform.ru.                86400    IN    A        82.202.240.182
+lotus.center-inform.ru.                  86400    IN    A        195.149.110.17
+ldap.center-inform.ru.                   86400    IN    A        212.176.215.157
+atlas.center-inform.ru.                  86400    IN    A        212.176.215.1
+jane.center-inform.ru.                   86400    IN    A        212.176.215.180
+deploy.center-inform.ru.                 86400    IN    A        195.149.110.172
+auth.center-inform.ru.                   86400    IN    A        195.149.110.110
+ns2.center-inform.ru.                    86400    IN    A        212.176.215.28
+imap.center-inform.ru.                   86400    IN    A        195.149.110.150
+olivia.center-inform.ru.                 86400    IN    A        195.149.110.189
+outlook.center-inform.ru.                86400    IN    A        195.149.110.150
+2.center-inform.ru.                      86400    IN    A        195.149.110.156
+spd.center-inform.ru.                    86400    IN    A        195.149.110.150
+citrix.center-inform.ru.                 86400    IN    A        195.149.110.148
+erika.center-inform.ru.                  86400    IN    A        195.149.110.37
+ips.center-inform.ru.                    86400    IN    A        195.149.110.169
+portal.center-inform.ru.                 86400    IN    A        195.149.110.145
+emilie.center-inform.ru.                 86400    IN    A        195.149.110.180
+r02.center-inform.ru.                    86400    IN    A        212.176.215.160
+calypso.center-inform.ru.                86400    IN    A        195.149.110.32
+decius.center-inform.ru.                 86400    IN    A        195.149.110.12
+smtp.center-inform.ru.                   86400    IN    A        195.149.110.150
+urv.center-inform.ru.                    86400    IN    A        195.149.110.205
+jira.center-inform.ru.                   86400    IN    A        195.149.110.204
+nemesis.center-inform.ru.                86400    IN    A        195.149.110.34
+service.center-inform.ru.                86400    IN    A        89.108.110.138
+dap.center-inform.ru.                    86400    IN    A        80.93.186.22
+janice.center-inform.ru.                 86400    IN    A        80.246.244.242
+ca.center-inform.ru.                     86400    IN    A        185.178.208.163
+tfs.center-inform.ru.                    86400    IN    A        195.149.110.168
+crl.center-inform.ru.                    86400    IN    A        80.93.186.2
+medea.center-inform.ru.                  86400    IN    A        195.149.110.150
+medea.center-inform.ru.                  86400    IN    A        212.176.215.150
+email.center-inform.ru.                  86400    IN    A        212.176.215.157
+ellen.center-inform.ru.                  86400    IN    A        212.176.215.197
+expert.center-inform.ru.                 86400    IN    A        195.149.110.224
+meet.center-inform.ru.                   86400    IN    A        195.149.110.150
+sgd.center-inform.ru.                    86400    IN    A        195.149.110.107
+da.center-inform.ru.                     86400    IN    A        212.176.215.10
+mail2.center-inform.ru.                  86400    IN    A        195.149.110.149
+ftp.center-inform.ru.                    86400    IN    A        212.176.215.159
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   80.246.244.0       ->      80.246.244.0/26
+ whois ip result:   89.108.110.0       ->      89.108.110.0/24
+ whois ip result:   195.149.110.0      ->      195.149.110.0/24
+ whois ip result:   82.162.172.0       ->      82.162.172.0/28
+ whois ip result:   185.178.208.0      ->      185.178.208.0/22
+ whois ip result:   212.176.215.0      ->      212.176.215.0/24
+ whois ip result:   80.93.186.0        ->      80.93.186.0/24
+ whois ip result:   82.202.240.0       ->      82.202.240.0/24
+
+
+center-inform.ru________________
+
+ 185.178.208.0/22
+ 89.108.110.0/24
+ 80.246.244.0/26
+ 82.162.172.0/28
+ 82.202.240.0/24
+ 80.93.186.0/24
+ 195.149.110.0/24
+ 212.176.215.0/24
+
+
+center-inform.ru ip blocks:
+____________________________
+
+ 80.93.186.2/32
+ 80.93.186.22/32
+ 80.246.244.242/32
+ 82.162.172.121/32
+ 82.202.240.182/32
+ 89.108.110.138/32
+ 185.178.208.163/32
+ 195.149.110.12/32
+ 195.149.110.14/32
+ 195.149.110.17/32
+ 195.149.110.23/32
+ 195.149.110.32/32
+ 195.149.110.34/32
+ 195.149.110.37/32
+ 195.149.110.107/32
+ 195.149.110.110/32
+ 195.149.110.134/32
+ 195.149.110.137/32
+ 195.149.110.139/32
+ 195.149.110.140/31
+ 195.149.110.145/32
+ 195.149.110.148/31
+ 195.149.110.150/32
+ 195.149.110.153/32
+ 195.149.110.156/32
+ 195.149.110.165/32
+ 195.149.110.168/31
+ 195.149.110.170/32
+ 195.149.110.172/32
+ 195.149.110.180/32
+ 195.149.110.189/32
+ 195.149.110.195/32
+ 195.149.110.204/31
+ 195.149.110.224/32
+ 212.176.215.1/32
+ 212.176.215.10/32
+ 212.176.215.28/32
+ 212.176.215.150/32
+ 212.176.215.157/32
+ 212.176.215.158/31
+ 212.176.215.160/32
+ 212.176.215.165/32
+ 212.176.215.180/32
+ 212.176.215.197/32
+
+done.

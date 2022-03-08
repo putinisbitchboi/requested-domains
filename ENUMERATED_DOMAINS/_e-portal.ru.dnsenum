@@ -1,0 +1,140 @@
+dnsenum VERSION:1.2.6
+
+-----   e-portal.ru   -----
+
+
+Host's addresses:
+__________________
+
+e-portal.ru.                             3600     IN    A        195.162.53.10
+
+
+Name Servers:
+______________
+
+ns3-l2.nic.ru.                           116      IN    A        193.232.146.1
+ns4-l2.nic.ru.                           112      IN    A        91.217.20.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+ns4-cloud.nic.ru.                        60       IN    A        91.217.20.1
+ns8-l2.nic.ru.                           114      IN    A        91.217.21.1
+
+
+Mail (MX) Servers:
+___________________
+
+mx.e-portal.ru.                          3600     IN    A        82.200.106.133
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for e-portal.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for e-portal.ru on ns3-l2.nic.ru ... 
+
+Trying Zone Transfer for e-portal.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for e-portal.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for e-portal.ru on ns8-cloud.nic.ru ... 
+e-portal.ru.                             3600     IN    SOA               (
+e-portal.ru.                             3600     IN    NS       ns3-l2.nic.ru.
+e-portal.ru.                             3600     IN    NS       ns4-l2.nic.ru.
+e-portal.ru.                             3600     IN    NS       ns8-l2.nic.ru.
+e-portal.ru.                             3600     IN    NS       vdsnew.e-portal.ru.
+e-portal.ru.                             3600     IN    NS       ns4-cloud.nic.ru.
+e-portal.ru.                             3600     IN    NS       ns8-cloud.nic.ru.
+e-portal.ru.                             3600     IN    A        195.162.53.10
+e-portal.ru.                             3600     IN    TXT               (
+e-portal.ru.                             3600     IN    MX               10
+_acme-challenge.e-portal.ru.             1        IN    TXT               (
+key1._domainkey.e-portal.ru.             3600     IN    TXT               (
+api.e-portal.ru.                         3600     IN    A        195.162.53.10
+asc.e-portal.ru.                         3600     IN    A        195.162.53.10
+atc.e-portal.ru.                         3600     IN    A        195.162.53.10
+atcad.e-portal.ru.                       3600     IN    A        195.162.53.10
+cer.e-portal.ru.                         3600     IN    A        81.1.254.172
+_acme-challenge.cer.e-portal.ru.         1        IN    TXT               (
+_acme-challenge.www.cer.e-portal.ru.     1        IN    TXT               (
+cr.e-portal.ru.                          3600     IN    A        81.1.254.172
+crm2.e-portal.ru.                        3600     IN    A        195.162.53.10
+crm3.e-portal.ru.                        3600     IN    A        195.162.53.10
+crmnew.e-portal.ru.                      3600     IN    A        195.162.53.10
+forest.e-portal.ru.                      3600     IN    A        195.162.53.10
+git.e-portal.ru.                         3600     IN    A        91.144.189.189
+goods.e-portal.ru.                       3600     IN    A        195.162.53.10
+imap.e-portal.ru.                        3600     IN    A        82.200.106.133
+lk.e-portal.ru.                          3600     IN    A        195.162.53.10
+monsbis.e-portal.ru.                     3600     IN    A        195.162.53.10
+mx.e-portal.ru.                          3600     IN    A        82.200.106.133
+ns.e-portal.ru.                          3600     IN    A        195.162.62.30
+ns-r.e-portal.ru.                        3600     IN    A        195.162.62.30
+nsk.e-portal.ru.                         3600     IN    A        195.162.53.10
+online.e-portal.ru.                      3600     IN    A        195.162.53.10
+owa.e-portal.ru.                         3600     IN    A        82.200.106.133
+pop.e-portal.ru.                         3600     IN    A        82.200.106.133
+ra.e-portal.ru.                          3600     IN    A        81.1.254.172
+_acme-challenge.ra.e-portal.ru.          1        IN    TXT               (
+_acme-challenge.www.ra.e-portal.ru.      1        IN    TXT               (
+ra3.e-portal.ru.                         3600     IN    A        81.1.254.171
+_dmark.e-portal.ru.e-portal.ru.          3600     IN    TXT               (
+sdo.e-portal.ru.                         3600     IN    A        195.162.53.10
+smtp.e-portal.ru.                        3600     IN    A        82.200.106.133
+tsp.e-portal.ru.                         3600     IN    A        81.1.254.172
+uc.e-portal.ru.                          3600     IN    A        195.162.53.10
+uc2.e-portal.ru.                         3600     IN    A        81.1.254.172
+update.e-portal.ru.                      3600     IN    A        195.162.53.10
+vdsnew.e-portal.ru.                      3600     IN    A        195.162.53.8
+vipnet.e-portal.ru.                      3600     IN    A        81.1.254.164
+vpn.e-portal.ru.                         3600     IN    A        91.144.189.189
+www.e-portal.ru.                         3600     IN    A        195.162.53.10
+_acme-challenge.www.e-portal.ru.         1        IN    TXT               (
+
+Trying Zone Transfer for e-portal.ru on vdsnew.e-portal.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   91.144.189.0       ->      91.144.189.0/24
+ whois ip result:   82.200.106.0       ->      82.200.106.0/29
+ whois ip result:   195.162.53.0       ->      195.162.32.0/19
+ whois ip result:   81.1.254.0         ->      81.1.254.0/29
+ whois ip result:   195.162.62.0       ->      195.162.62.0/24
+
+
+e-portal.ru___________
+
+ 82.200.106.0/29
+ 195.162.32.0/19
+ 91.144.189.0/24
+ 195.162.62.0/24
+ 81.1.254.0/29
+
+
+e-portal.ru ip blocks:
+_______________________
+
+ 81.1.254.164/32
+ 81.1.254.171/32
+ 81.1.254.172/32
+ 82.200.106.133/32
+ 91.144.189.189/32
+ 195.162.53.8/32
+ 195.162.53.10/32
+ 195.162.62.30/32
+
+done.

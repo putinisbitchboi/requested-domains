@@ -1,0 +1,70 @@
+dnsenum VERSION:1.2.6
+
+-----   kgb.by   -----
+
+
+Host's addresses:
+__________________
+
+kgb.by.                                  60       IN    A        178.124.138.7
+
+
+Name Servers:
+______________
+
+ns2.dc.beltelecom.by.                    3600     IN    A        178.124.138.155
+ns1.dc.beltelecom.by.                    3600     IN    A        178.124.138.154
+
+
+Mail (MX) Servers:
+___________________
+
+mail.kgb.by.                             60       IN    A        86.57.250.242
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for kgb.by on ns2.dc.beltelecom.by ... 
+
+Trying Zone Transfer for kgb.by on ns1.dc.beltelecom.by ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+www.kgb.by.                              60       IN    CNAME       kgb.by.
+kgb.by.                                  60       IN    A        178.124.138.7
+mail.kgb.by.                             60       IN    A        86.57.250.242
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+kgb.by.                                  60       IN    NS       ns1.dc.beltelecom.by.
+kgb.by.                                  60       IN    NS       ns2.dc.beltelecom.by.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   178.124.138.0      ->      178.124.138.0/24
+ whois ip result:   86.57.250.0        ->      86.57.250.0/24
+
+
+kgb.by______
+
+ 86.57.250.0/24
+ 178.124.138.0/24
+
+
+kgb.by ip blocks:
+__________________
+
+ 86.57.250.242/32
+ 178.124.138.7/32
+
+done.

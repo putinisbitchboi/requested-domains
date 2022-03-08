@@ -1,0 +1,118 @@
+dnsenum VERSION:1.2.6
+
+-----   izhtender.ru   -----
+
+
+Host's addresses:
+__________________
+
+izhtender.ru.                            83975    IN    A        213.159.213.33
+
+
+Name Servers:
+______________
+
+ns2.reg.ru.                              84872    IN    A        176.99.13.16
+ns2.reg.ru.                              84872    IN    A        176.99.13.14
+ns2.reg.ru.                              84872    IN    A        194.58.117.12
+ns2.reg.ru.                              84872    IN    A        194.67.73.75
+ns2.reg.ru.                              84872    IN    A        176.99.13.12
+ns2.reg.ru.                              84872    IN    A        194.58.117.18
+ns2.reg.ru.                              84872    IN    A        194.58.117.16
+ns2.reg.ru.                              84872    IN    A        194.58.117.14
+ns2.reg.ru.                              84872    IN    A        176.99.13.18
+ns2.reg.ru.                              84872    IN    A        194.67.73.76
+ns1.reg.ru.                              81406    IN    A        176.99.13.15
+ns1.reg.ru.                              81406    IN    A        194.67.73.74
+ns1.reg.ru.                              81406    IN    A        194.58.117.13
+ns1.reg.ru.                              81406    IN    A        194.58.117.15
+ns1.reg.ru.                              81406    IN    A        194.58.117.11
+ns1.reg.ru.                              81406    IN    A        194.67.73.73
+ns1.reg.ru.                              81406    IN    A        176.99.13.11
+ns1.reg.ru.                              81406    IN    A        194.58.117.17
+ns1.reg.ru.                              81406    IN    A        176.99.13.13
+ns1.reg.ru.                              81406    IN    A        176.99.13.17
+
+
+Mail (MX) Servers:
+___________________
+
+mx.yandex.net.                           600      IN    A        77.88.21.249
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for izhtender.ru on ns1.reg.ru ... 
+
+Trying Zone Transfer for izhtender.ru on ns2.reg.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+crm.izhtender.ru.                        86400    IN    A        37.230.115.34
+www.help.izhtender.ru.                   86400    IN    A        37.230.115.34
+wiki.izhtender.ru.                       86400    IN    A        213.159.213.33
+portal.izhtender.ru.                     86400    IN    A        213.159.213.33
+new.izhtender.ru.                        86400    IN    A        213.159.213.33
+help.izhtender.ru.                       86400    IN    A        37.230.115.34
+sh.izhtender.ru.                         86400    IN    A        37.230.115.34
+seldon.izhtender.ru.                     86400    IN    CNAME    testlpgenerator.ru.
+testlpgenerator.ru.                      300      IN    A        84.38.188.100
+testlpgenerator.ru.                      300      IN    A        94.26.226.179
+partners.izhtender.ru.                   86400    IN    A        213.159.213.33
+mail.izhtender.ru.                       86400    IN    CNAME    domain.mail.yandex.net.
+domain.mail.yandex.net.                  7200     IN    CNAME    mail.yandex.ru.
+mail.yandex.ru.                          300      IN    A        77.88.21.37
+uni.izhtender.ru.                        86400    IN    CNAME    1140731.backend.msgpanel.com.
+1140731.backend.msgpanel.com.            14400    IN    A        87.246.187.138
+smtp1.izhtender.ru.                      86400    IN    CNAME    smtp1.1140731.backend.msgpanel.com.
+smtp1.1140731.backend.msgpanel.com.      14400    IN    A        87.246.187.138
+www.izhtender.ru.                        86400    IN    A        213.159.213.33
+ca.izhtender.ru.                         86400    IN    A        37.140.192.211
+2.izhtender.ru.                          86400    IN    A        213.159.213.33
+order.izhtender.ru.                      86400    IN    A        138.201.138.136
+fl.izhtender.ru.                         86400    IN    A        37.230.115.34
+lk.izhtender.ru.                         86400    IN    A        37.230.115.34
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+testlpgenerator.ru.                      86400    IN    NS       mark.ns.cloudflare.com.
+testlpgenerator.ru.                      86400    IN    NS       mira.ns.cloudflare.com.
+mail.yandex.ru.                          172800   IN    NS       ns6.yandex.ru.
+mail.yandex.ru.                          172800   IN    NS       ns4.yandex.ru.
+mail.yandex.ru.                          172800   IN    NS       ns3.yandex.ru.
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   138.201.138.0      ->      138.201.138.0/26
+ whois ip result:   213.159.213.0      ->      213.159.212.0/22
+ whois ip result:   37.140.192.0       ->      37.140.192.0/22
+ whois ip result:   37.230.115.0       ->      37.230.114.0/23
+
+
+izhtender.ru____________
+
+ 37.140.192.0/22
+ 213.159.212.0/22
+ 37.230.114.0/23
+ 138.201.138.0/26
+
+
+izhtender.ru ip blocks:
+________________________
+
+ 37.140.192.211/32
+ 37.230.115.34/32
+ 138.201.138.136/32
+ 213.159.213.33/32
+
+done.

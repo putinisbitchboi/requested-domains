@@ -1,0 +1,100 @@
+dnsenum VERSION:1.2.6
+
+-----   otchet-online.ru   -----
+
+
+Host's addresses:
+__________________
+
+otchet-online.ru.                        3600     IN    A        141.101.250.56
+
+
+Name Servers:
+______________
+
+ns4-l2.nic.ru.                           62       IN    A        91.217.20.1
+ns4-cloud.nic.ru.                        60       IN    A        91.217.20.1
+ns8-cloud.nic.ru.                        60       IN    A        193.232.146.1
+ns3-l2.nic.ru.                           300      IN    A        193.232.146.1
+ns8-l2.nic.ru.                           300      IN    A        91.217.21.1
+
+
+Mail (MX) Servers:
+___________________
+
+v002.otchet-online.ru.                   3600     IN    A        141.101.250.3
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for otchet-online.ru on ns3-l2.nic.ru ... 
+otchet-online.ru.                        3600     IN    SOA               (
+otchet-online.ru.                        3600     IN    NS       ns3-l2.nic.ru.
+otchet-online.ru.                        3600     IN    NS       ns4-l2.nic.ru.
+otchet-online.ru.                        3600     IN    NS       ns8-l2.nic.ru.
+otchet-online.ru.                        3600     IN    NS       ns4-cloud.nic.ru.
+otchet-online.ru.                        3600     IN    NS       ns8-cloud.nic.ru.
+otchet-online.ru.                        3600     IN    MX               10
+otchet-online.ru.                        3600     IN    A        141.101.250.56
+autodiscover.otchet-online.ru.           3600     IN    A        141.101.250.3
+ca-pki.otchet-online.ru.                 3600     IN    A        195.208.1.138
+cpca-pki.otchet-online.ru.               3600     IN    A        141.101.250.9
+cpca2.otchet-online.ru.                  3600     IN    A        141.101.250.9
+forum.otchet-online.ru.                  3600     IN    A        141.101.250.2
+ks.otchet-online.ru.                     3600     IN    A        141.101.250.6
+mail.otchet-online.ru.                   3600     IN    A        141.101.250.3
+mytest.otchet-online.ru.                 3600     IN    A        141.101.250.77
+old.otchet-online.ru.                    3600     IN    A        141.101.250.2
+test.otchet-online.ru.                   3600     IN    A        141.101.250.6
+tests.otchet-online.ru.                  3600     IN    A        141.101.250.55
+v002.otchet-online.ru.                   3600     IN    A        141.101.250.3
+www.otchet-online.ru.                    3600     IN    A        141.101.250.56
+
+Trying Zone Transfer for otchet-online.ru on ns8-l2.nic.ru ... 
+
+Trying Zone Transfer for otchet-online.ru on ns4-l2.nic.ru ... 
+
+Trying Zone Transfer for otchet-online.ru on ns4-cloud.nic.ru ... 
+
+Trying Zone Transfer for otchet-online.ru on ns8-cloud.nic.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   195.208.1.0        ->      195.208.1.0/24
+ whois ip result:   141.101.250.0      ->      141.101.250.0/24
+
+
+otchet-online.ru________________
+
+ 141.101.250.0/24
+ 195.208.1.0/24
+
+
+otchet-online.ru ip blocks:
+____________________________
+
+ 141.101.250.2/31
+ 141.101.250.6/32
+ 141.101.250.9/32
+ 141.101.250.55/32
+ 141.101.250.56/32
+ 141.101.250.77/32
+ 195.208.1.138/32
+
+done.

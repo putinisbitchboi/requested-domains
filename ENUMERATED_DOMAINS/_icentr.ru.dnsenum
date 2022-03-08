@@ -1,0 +1,82 @@
+dnsenum VERSION:1.2.6
+
+-----   icentr.ru   -----
+
+
+Host's addresses:
+__________________
+
+icentr.ru.                               3800     IN    A        185.26.122.69
+
+
+Wildcard detection using: fhqkmfoupwro
+_______________________________________
+
+fhqkmfoupwro.icentr.ru.                  3800     IN    A        185.26.122.69
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+ Wildcards detected, all subdomains will point to the same IP address
+ Omitting results containing 185.26.122.69.
+ Maybe you are using OpenDNS servers.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Name Servers:
+______________
+
+ns.hostland.ru.                          3800     IN    A        185.53.22.69
+ns.hostland.ru.                          3800     IN    A        185.26.122.3
+ns3.hostland.ru.                         3800     IN    A        185.22.183.99
+ns3.hostland.ru.                         3800     IN    A        185.26.123.231
+
+
+Mail (MX) Servers:
+___________________
+
+mail.icentr.ru.                          3800     IN    A        185.26.123.232
+
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+
+Trying Zone Transfer for icentr.ru on ns.hostland.ru ... 
+
+Trying Zone Transfer for icentr.ru on ns3.hostland.ru ... 
+
+
+Brute forcing with /mnt/work/dns/_dict.txt:
+____________________________________________
+
+mail.icentr.ru.                          3800     IN    A        185.26.123.232
+www.mail.icentr.ru.                      3800     IN    A        185.26.123.232
+
+
+Performing recursion:
+______________________
+
+
+ ---- Checking subdomains NS records ----
+
+
+Launching Whois Queries:
+_________________________
+
+ whois ip result:   185.26.122.0       ->      185.26.122.0/23
+
+
+icentr.ru_________
+
+ 185.26.122.0/23
+
+
+icentr.ru ip blocks:
+_____________________
+
+ 185.26.122.69/32
+ 185.26.123.232/32
+
+done.
