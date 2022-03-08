@@ -12,7 +12,7 @@ https://github.com/projectdiscovery/subfinder && https://github.com/fwaeytens/dn
 
 ### Files in the root:
 
-1__all_domains.tar.gz is all the domains enumerated to date.  As of now, gov.ru is still undergoing enumeration.  gov.ru has a LOT of subdomains, and some have a wildcard DNS entry.
+__1__all_domains.tar.gz__ is all the domains enumerated to date.  As of now, gov.ru is still undergoing enumeration.  gov.ru has a LOT of subdomains, and some have a wildcard DNS entry.
 
 dict.txt is the dictionary used for DNSENUM.
 
