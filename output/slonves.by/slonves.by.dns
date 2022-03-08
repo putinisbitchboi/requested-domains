@@ -1,0 +1,58 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> slonves.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30733
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;slonves.by.			IN	TXT
+
+;; ANSWER SECTION:
+slonves.by.		3600	IN	TXT	"v=spf1 +mx -all"
+
+;; Query time: 191 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 07:44:35 UTC 2022
+;; MSG SIZE  rcvd: 67
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.slonves.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45674
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.slonves.by.		IN	TXT
+
+;; Query time: 1887 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 07:44:37 UTC 2022
+;; MSG SIZE  rcvd: 46
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> slonves.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8280
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;slonves.by.			IN	SPF
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 07:44:37 UTC 2022
+;; MSG SIZE  rcvd: 39
+

@@ -1,0 +1,174 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> 24ecp.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 7435
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;24ecp.ru.			IN	TXT
+
+;; ANSWER SECTION:
+24ecp.ru.		21600	IN	TXT	"v=spf1 redirect=_spf.yandex.net"
+
+;; Query time: 331 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 04:06:44 UTC 2022
+;; MSG SIZE  rcvd: 81
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.24ecp.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 29072
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.24ecp.ru.		IN	TXT
+
+;; Query time: 351 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 04:06:45 UTC 2022
+;; MSG SIZE  rcvd: 44
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> 24ecp.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29430
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;24ecp.ru.			IN	SPF
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 04:06:45 UTC 2022
+;; MSG SIZE  rcvd: 37
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> 24ecp.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41852
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;24ecp.ru.			IN	TXT
+
+;; ANSWER SECTION:
+24ecp.ru.		11890	IN	TXT	"v=spf1 redirect=_spf.yandex.net"
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:48:34 UTC 2022
+;; MSG SIZE  rcvd: 81
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.24ecp.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 14744
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.24ecp.ru.		IN	TXT
+
+;; Query time: 363 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:48:34 UTC 2022
+;; MSG SIZE  rcvd: 44
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> 24ecp.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50801
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;24ecp.ru.			IN	SPF
+
+;; Query time: 363 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:48:35 UTC 2022
+;; MSG SIZE  rcvd: 37
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> 24ecp.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39298
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;24ecp.ru.			IN	TXT
+
+;; ANSWER SECTION:
+24ecp.ru.		21600	IN	TXT	"v=spf1 redirect=_spf.yandex.net"
+
+;; Query time: 359 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 16:12:20 UTC 2022
+;; MSG SIZE  rcvd: 81
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.24ecp.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 52524
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.24ecp.ru.		IN	TXT
+
+;; Query time: 535 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 16:12:20 UTC 2022
+;; MSG SIZE  rcvd: 44
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> 24ecp.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6843
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;24ecp.ru.			IN	SPF
+
+;; Query time: 187 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 16:12:20 UTC 2022
+;; MSG SIZE  rcvd: 37
+

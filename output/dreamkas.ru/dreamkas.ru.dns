@@ -1,0 +1,65 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> dreamkas.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28903
+;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dreamkas.ru.			IN	TXT
+
+;; ANSWER SECTION:
+dreamkas.ru.		21600	IN	TXT	"globalsign-domain-verification=sMOvYMTA0x7Tkr0bFC80UCB0yRIsBllI2H4wmRMJdo"
+dreamkas.ru.		21600	IN	TXT	"v=spf1 include:mxsspf.sendpulse.com include:spf.unisender.com include:mxsmtp.sendpulse.com +a +mx ~all"
+dreamkas.ru.		21600	IN	TXT	"v=spf1 include:spf.unisender.com include:mail.zendesk.com include:spf.mandrillapp.com ip4:188.246.228.12 a:lampa.dreamkas.ru ?all"
+dreamkas.ru.		21600	IN	TXT	"google-site-verification=rbFhZJZjblQQeG1Nqm2GIu4ta5MoA4Glu3JolJLU_1k"
+dreamkas.ru.		21600	IN	TXT	"globalsign-domain-verification=1p09LEZXmEk5jlZf14i-WiRbK9jRqfR4FDIYz_scei"
+dreamkas.ru.		21600	IN	TXT	"globalsign-domain-verification=JQz_QIH-Lm5DhJV8YuVV9ChxKoFImzgpB1ZiXID90F"
+dreamkas.ru.		21600	IN	TXT	"globalsign-domain-verification=xOy9PVcVhuhcwKJxYqk_GAtzS3UKwn5DWbsRbJmRO4"
+dreamkas.ru.		21600	IN	TXT	"google-site-verification=Xmdd6I9NzWmHSt7l7hCB-k6BBkLq8Ot8Kg9JzBBLPag"
+
+;; Query time: 3731 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 00:43:20 UTC 2022
+;; MSG SIZE  rcvd: 803
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.dreamkas.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 19061
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.dreamkas.ru.		IN	TXT
+
+;; Query time: 203 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 00:43:25 UTC 2022
+;; MSG SIZE  rcvd: 47
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> dreamkas.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37176
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;dreamkas.ru.			IN	SPF
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 00:43:26 UTC 2022
+;; MSG SIZE  rcvd: 40
+

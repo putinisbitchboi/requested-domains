@@ -1,0 +1,55 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> rsbis.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49158
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;rsbis.ru.			IN	TXT
+
+;; Query time: 191 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 07:23:45 UTC 2022
+;; MSG SIZE  rcvd: 37
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.rsbis.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 46592
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.rsbis.ru.		IN	TXT
+
+;; Query time: 407 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 07:23:45 UTC 2022
+;; MSG SIZE  rcvd: 44
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> rsbis.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39211
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;rsbis.ru.			IN	SPF
+
+;; Query time: 191 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 07:23:45 UTC 2022
+;; MSG SIZE  rcvd: 37
+

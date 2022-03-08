@@ -1,0 +1,55 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> radiomir.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56277
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;radiomir.by.			IN	TXT
+
+;; Query time: 175 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 04:58:57 UTC 2022
+;; MSG SIZE  rcvd: 40
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.radiomir.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 62640
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.radiomir.by.		IN	TXT
+
+;; Query time: 363 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 04:58:58 UTC 2022
+;; MSG SIZE  rcvd: 47
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> radiomir.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57509
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;radiomir.by.			IN	SPF
+
+;; Query time: 171 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 04:58:58 UTC 2022
+;; MSG SIZE  rcvd: 40
+

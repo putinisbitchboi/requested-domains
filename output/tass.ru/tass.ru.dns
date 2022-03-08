@@ -1,0 +1,63 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> tass.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12122
+;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;tass.ru.			IN	TXT
+
+;; ANSWER SECTION:
+tass.ru.		120	IN	TXT	"rm_verify=84c2b9132b"
+tass.ru.		120	IN	TXT	"globalsign-domain-verification=cQVP8aDjcwjnBQXQb7dUySxa37vBXne_rXAQAPKzgw"
+tass.ru.		120	IN	TXT	"google-site-verification=PoyFi2APBqKw8uGePodmFqId646DYLqqS1qiMTh153w"
+tass.ru.		120	IN	TXT	"teamviewer-sso-verification=68db92b87cde4b318bdba071602e7597"
+tass.ru.		120	IN	TXT	"rm_verify=84c2b9132b."
+tass.ru.		120	IN	TXT	"v=spf1 ip4:194.28.236.0/24 -all"
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 17:19:32 UTC 2022
+;; MSG SIZE  rcvd: 387
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.tass.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40409
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.tass.ru.			IN	TXT
+
+;; Query time: 531 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 17:19:33 UTC 2022
+;; MSG SIZE  rcvd: 43
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> tass.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6894
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;tass.ru.			IN	SPF
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 17:19:33 UTC 2022
+;; MSG SIZE  rcvd: 36
+

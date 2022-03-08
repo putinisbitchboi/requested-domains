@@ -1,0 +1,20 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        CENTER-INFORM.RU
+nserver:       ns2.center-inform.ru. 212.176.215.28
+nserver:       ns4-l2.nic.ru.
+nserver:       ns8-l2.nic.ru.
+nserver:       ns.center-inform.ru. 195.149.110.141
+state:         REGISTERED, DELEGATED, VERIFIED
+org:           Stock Company "CentrInform"
+registrar:     RU-CENTER-RU
+admin-contact: https://www.nic.ru/whois
+created:       2008-05-03T20:00:00Z
+paid-till:     2022-05-03T21:00:00Z
+free-date:     2022-06-04
+source:        TCI
+
+Last updated on 2022-03-04T08:41:31Z
+

@@ -1,0 +1,62 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> lenta.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3245
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;lenta.ru.			IN	TXT
+
+;; ANSWER SECTION:
+lenta.ru.		600	IN	TXT	"v=spf1 ip4:81.19.78.96/27 ip4:81.19.78.0/27 ip4:81.19.88.0/24 -exists:%{ir}.spf.rambler.ru ~all"
+lenta.ru.		600	IN	TXT	"mailru-verification: 794fe9047d69748b"
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 23:21:41 UTC 2022
+;; MSG SIZE  rcvd: 195
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.lenta.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 1647
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.lenta.ru.		IN	TXT
+
+;; Query time: 175 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 23:21:42 UTC 2022
+;; MSG SIZE  rcvd: 44
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> lenta.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50912
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;lenta.ru.			IN	SPF
+
+;; ANSWER SECTION:
+lenta.ru.		86400	IN	SPF	"v=spf1 ip4:81.19.78.96/27 ip4:81.19.78.0/27 ip4:81.19.88.0/24 -exists:%{ir}.spf.rambler.ru ~all"
+
+;; Query time: 175 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 23:21:42 UTC 2022
+;; MSG SIZE  rcvd: 145
+

@@ -1,0 +1,59 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> epnow.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20930
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;epnow.ru.			IN	TXT
+
+;; ANSWER SECTION:
+epnow.ru.		21600	IN	TXT	"v=spf1 include:_spf.yandex.net include:spf.unisender.com ~all"
+epnow.ru.		21600	IN	TXT	"mailru-verification: 3917306055037fb3"
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 03:02:57 UTC 2022
+;; MSG SIZE  rcvd: 161
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.epnow.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 40846
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.epnow.ru.		IN	TXT
+
+;; Query time: 535 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 03:02:58 UTC 2022
+;; MSG SIZE  rcvd: 44
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> epnow.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14775
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;epnow.ru.			IN	SPF
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 03:02:58 UTC 2022
+;; MSG SIZE  rcvd: 37
+

@@ -1,0 +1,64 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> roseltorg.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15973
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;roseltorg.ru.			IN	TXT
+
+;; ANSWER SECTION:
+roseltorg.ru.		600	IN	TXT	"v=spf1 a mx ~all"
+roseltorg.ru.		600	IN	TXT	"google-site-verification=xKzDT8_XcOaEKlj79Cc_p_YNkUzaXHL3Q4ZLbIevCEk"
+roseltorg.ru.		600	IN	TXT	"mailru-verification: d24928613de29e4c"
+roseltorg.ru.		600	IN	TXT	"\\\"mailconf=https://autoconfig.roseltrog.ru/mail/config-v1.1.xml\\\""
+
+;; Query time: 351 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 06:33:22 UTC 2022
+;; MSG SIZE  rcvd: 279
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.roseltorg.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34289
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.roseltorg.ru.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.roseltorg.ru.	600	IN	TXT	"v=DMARC1; p=quarantine"
+
+;; Query time: 551 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 06:33:22 UTC 2022
+;; MSG SIZE  rcvd: 83
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> roseltorg.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 21376
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;roseltorg.ru.			IN	SPF
+
+;; Query time: 367 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 06:33:28 UTC 2022
+;; MSG SIZE  rcvd: 41
+

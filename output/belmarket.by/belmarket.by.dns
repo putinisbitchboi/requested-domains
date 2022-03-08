@@ -1,0 +1,64 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> belmarket.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29848
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;belmarket.by.			IN	TXT
+
+;; ANSWER SECTION:
+belmarket.by.		300	IN	TXT	"yandex-verification: d17031326fd7c389"
+belmarket.by.		300	IN	TXT	"v=spf1 ip4:178.172.161.242 a mx ~all"
+belmarket.by.		300	IN	TXT	"google-site-verification=tbKQ_xFU-_xCMvLNhxu5-njgV2hW6sJp1DfQM1j-_K8"
+belmarket.by.		300	IN	TXT	"77ef1161c4876df524d08b74fd7bcc11"
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:49:44 UTC 2022
+;; MSG SIZE  rcvd: 266
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.belmarket.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27346
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.belmarket.by.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.belmarket.by.	300	IN	TXT	"v=DMARC1; p=none; aspf=r; sp=none"
+
+;; Query time: 7 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:49:44 UTC 2022
+;; MSG SIZE  rcvd: 94
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> belmarket.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 145
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;belmarket.by.			IN	SPF
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:49:44 UTC 2022
+;; MSG SIZE  rcvd: 41
+

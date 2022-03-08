@@ -1,0 +1,58 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> nucrf.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61167
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;nucrf.ru.			IN	TXT
+
+;; ANSWER SECTION:
+nucrf.ru.		60	IN	TXT	"v=spf1 ip4:217.21.220.227 include:spf.unisender.com +a +mx ~all"
+
+;; Query time: 403 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 02:21:08 UTC 2022
+;; MSG SIZE  rcvd: 113
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.nucrf.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64805
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.nucrf.ru.		IN	TXT
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 02:21:13 UTC 2022
+;; MSG SIZE  rcvd: 44
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> nucrf.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: SERVFAIL, id: 10649
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;nucrf.ru.			IN	SPF
+
+;; Query time: 1899 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 02:21:20 UTC 2022
+;; MSG SIZE  rcvd: 37
+

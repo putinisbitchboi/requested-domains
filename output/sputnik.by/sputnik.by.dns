@@ -1,0 +1,58 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> sputnik.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24247
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;sputnik.by.			IN	TXT
+
+;; ANSWER SECTION:
+sputnik.by.		120	IN	TXT	"ngenix-verification=812b660c6c40395a809ea0cd3654fc29"
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 16:04:33 UTC 2022
+;; MSG SIZE  rcvd: 104
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.sputnik.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 45213
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.sputnik.by.		IN	TXT
+
+;; Query time: 139 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 16:04:33 UTC 2022
+;; MSG SIZE  rcvd: 46
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> sputnik.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21536
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;sputnik.by.			IN	SPF
+
+;; Query time: 3 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 16:04:33 UTC 2022
+;; MSG SIZE  rcvd: 39
+

@@ -1,0 +1,59 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> uc-osnovanie.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65254
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;uc-osnovanie.ru.		IN	TXT
+
+;; ANSWER SECTION:
+uc-osnovanie.ru.	21600	IN	TXT	"_globalsign-domain-verification=Fk8HO26yiIIEwIJTP6DNMsM99z41ocnI5t7CY72aQe"
+uc-osnovanie.ru.	21600	IN	TXT	"v=spf1 include:_spf.yandex.net include:spf.unisender.com ~all"
+
+;; Query time: 175 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 17:51:26 UTC 2022
+;; MSG SIZE  rcvd: 205
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.uc-osnovanie.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6471
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.uc-osnovanie.ru.		IN	TXT
+
+;; Query time: 707 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 17:51:27 UTC 2022
+;; MSG SIZE  rcvd: 51
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> uc-osnovanie.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14342
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;uc-osnovanie.ru.		IN	SPF
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 17:51:27 UTC 2022
+;; MSG SIZE  rcvd: 44
+

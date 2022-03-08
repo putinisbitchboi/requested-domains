@@ -1,0 +1,7 @@
+{
+  "domain": "kamgov.ru",
+  "num_ranges": 1,
+  "ranges": [
+    "81.161.114.0/24"
+  ]
+}

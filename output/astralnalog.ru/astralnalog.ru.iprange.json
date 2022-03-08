@@ -1,0 +1,7 @@
+{
+  "domain": "astralnalog.ru",
+  "num_ranges": 1,
+  "ranges": [
+    "91.239.5.0/24"
+  ]
+}

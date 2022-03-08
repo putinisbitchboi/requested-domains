@@ -1,0 +1,61 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> tvr.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32376
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;tvr.by.				IN	TXT
+
+;; ANSWER SECTION:
+tvr.by.			3600	IN	TXT	"v=spf1 +a +mx -all"
+
+;; Query time: 195 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 17:30:12 UTC 2022
+;; MSG SIZE  rcvd: 66
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.tvr.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2651
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.tvr.by.			IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.tvr.by.		3600	IN	TXT	"v=DMARC1; p=none; sp=none; rua=mailto:dkt@tvr.by"
+
+;; Query time: 191 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 17:30:13 UTC 2022
+;; MSG SIZE  rcvd: 103
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> tvr.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38241
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;tvr.by.				IN	SPF
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 17:30:13 UTC 2022
+;; MSG SIZE  rcvd: 35
+

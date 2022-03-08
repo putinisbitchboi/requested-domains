@@ -1,0 +1,65 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> interfax.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65217
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;interfax.ru.			IN	TXT
+
+;; ANSWER SECTION:
+interfax.ru.		900	IN	TXT	"mailru-verification: 5c9f58d970dc7645"
+interfax.ru.		900	IN	TXT	"v=spf1 ip4:209.17.115.0/24 include:_spf.interfax.ru include:spf.unisender.com include:spf.mandrillapp.com include:mailgun.org include:spf.mindbox.ru -all"
+interfax.ru.		900	IN	TXT	"google-site-verification=GZVPCIPdNDdyiz1BelSJ2HdsY0ZfrYxT2ZumfNNCL6o"
+interfax.ru.		900	IN	TXT	"google-site-verification=XU98TH0ZNHv7hc8Gki9Cxhg3-F1k579Gp1jXfbGfCdY"
+interfax.ru.		900	IN	TXT	"mailru-verification: 673b25f07819c8ba"
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 21:19:51 UTC 2022
+;; MSG SIZE  rcvd: 468
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.interfax.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6121
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.interfax.ru.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.interfax.ru.	900	IN	TXT	"v=DMARC1; p=quarantine; rua=mailto:dmarc@interfax.ru"
+
+;; Query time: 175 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 21:19:51 UTC 2022
+;; MSG SIZE  rcvd: 112
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> interfax.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63277
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;interfax.ru.			IN	SPF
+
+;; Query time: 171 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 21:19:52 UTC 2022
+;; MSG SIZE  rcvd: 40
+

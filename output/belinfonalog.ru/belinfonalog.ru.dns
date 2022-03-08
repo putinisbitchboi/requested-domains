@@ -1,0 +1,116 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> belinfonalog.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10560
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;belinfonalog.ru.		IN	TXT
+
+;; ANSWER SECTION:
+belinfonalog.ru.	3600	IN	TXT	"MS=D3DEB57DA6980ADA05A6E9EA48ECB68D043B4803"
+
+;; Query time: 359 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 05:05:04 UTC 2022
+;; MSG SIZE  rcvd: 100
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.belinfonalog.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 34136
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.belinfonalog.ru.		IN	TXT
+
+;; Query time: 459 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 05:05:04 UTC 2022
+;; MSG SIZE  rcvd: 51
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> belinfonalog.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31133
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;belinfonalog.ru.		IN	SPF
+
+;; Query time: 199 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 05:05:04 UTC 2022
+;; MSG SIZE  rcvd: 44
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> belinfonalog.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56878
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;belinfonalog.ru.		IN	TXT
+
+;; ANSWER SECTION:
+belinfonalog.ru.	3600	IN	TXT	"MS=D3DEB57DA6980ADA05A6E9EA48ECB68D043B4803"
+
+;; Query time: 359 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:49:31 UTC 2022
+;; MSG SIZE  rcvd: 100
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.belinfonalog.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 50912
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.belinfonalog.ru.		IN	TXT
+
+;; Query time: 1699 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:49:33 UTC 2022
+;; MSG SIZE  rcvd: 51
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> belinfonalog.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47352
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;belinfonalog.ru.		IN	SPF
+
+;; Query time: 199 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:49:33 UTC 2022
+;; MSG SIZE  rcvd: 44
+

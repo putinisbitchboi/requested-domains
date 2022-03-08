@@ -1,0 +1,20 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        GOSUSLUGI.RU
+nserver:       ns1.gosuslugi.ru. 213.59.253.4
+nserver:       ns2.gosuslugi.ru. 213.59.255.175
+nserver:       ns4-l2.nic.ru.
+nserver:       ns8-l2.nic.ru.
+state:         REGISTERED, DELEGATED, VERIFIED
+org:           Ministry of Telecom and Mass Communications of the Russian Federation
+registrar:     RU-CENTER-RU
+admin-contact: https://www.nic.ru/whois
+created:       2008-09-01T20:00:00Z
+paid-till:     2022-09-01T21:00:00Z
+free-date:     2022-10-03
+source:        TCI
+
+Last updated on 2022-03-06T04:56:30Z
+

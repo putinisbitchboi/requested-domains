@@ -1,0 +1,68 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> gosuslugi.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57372
+;; flags: qr rd ra; QUERY: 1, ANSWER: 8, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;gosuslugi.ru.			IN	TXT
+
+;; ANSWER SECTION:
+gosuslugi.ru.		600	IN	TXT	"mailru-verification: de495b4f75643598"
+gosuslugi.ru.		600	IN	TXT	"google-site-verification=Ph9CRpuGR6l3pXI30W_kY6t7lMI5Mfw-NiF9g4oz8xc"
+gosuslugi.ru.		600	IN	TXT	"yandex-verification: d9d3a7c874c61a64"
+gosuslugi.ru.		600	IN	TXT	"google-site-verification=uql-fzdhlinYiEBfklb2nKXUh7TeENqBQHHf0TJqdT8"
+gosuslugi.ru.		600	IN	TXT	"v=spf1 mx a:mail.ntt.ru ip4:109.207.0.0/20 ip4:195.28.32.3 ip4:213.59.253.1 ip4:213.59.253.2 ip4:213.59.254.1 ip4:213.59.254.2 -all"
+gosuslugi.ru.		600	IN	TXT	"google-site-verification=UZPGHAzHxI1X80wTCc53p1BbQZ8mrq9KtZbA7Vkjgo0"
+gosuslugi.ru.		600	IN	TXT	"yandex-verification: cf24496b61f6683e"
+gosuslugi.ru.		600	IN	TXT	"mailru-verification: 5e2e51c28383ce5b"
+
+;; Query time: 663 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 05:02:55 UTC 2022
+;; MSG SIZE  rcvd: 628
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.gosuslugi.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24764
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.gosuslugi.ru.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.gosuslugi.ru.	600	IN	TXT	"v=DMARC1; p=reject; rua=mailto:administrator@gosuslugi.ru; sp=none"
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 05:02:55 UTC 2022
+;; MSG SIZE  rcvd: 127
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> gosuslugi.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38340
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;gosuslugi.ru.			IN	SPF
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 05:02:55 UTC 2022
+;; MSG SIZE  rcvd: 41
+

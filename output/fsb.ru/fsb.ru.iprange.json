@@ -1,0 +1,7 @@
+{
+  "domain": "fsb.ru",
+  "num_ranges": 1,
+  "ranges": [
+    "213.24.76.0/23"
+  ]
+}

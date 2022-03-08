@@ -1,0 +1,60 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> izhtender.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23663
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;izhtender.ru.			IN	TXT
+
+;; ANSWER SECTION:
+izhtender.ru.		86400	IN	TXT	"v=spf1 ip4:213.159.213.33 ip4:91.144.167.254 ip4:78.85.40.75 include:_spf.yandex.ru include:spf.unisender.com include:uni.izhtender.ru ~all"
+izhtender.ru.		86400	IN	TXT	"wmail-verification: 3a04c169817c7ab324f079741c73035b"
+izhtender.ru.		86400	IN	TXT	"spf2.0/mfrom,pra include:senderid.unisender.com ~all"
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 21:30:36 UTC 2022
+;; MSG SIZE  rcvd: 323
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.izhtender.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 28219
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.izhtender.ru.		IN	TXT
+
+;; Query time: 363 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 21:30:37 UTC 2022
+;; MSG SIZE  rcvd: 48
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> izhtender.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4742
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;izhtender.ru.			IN	SPF
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 21:30:37 UTC 2022
+;; MSG SIZE  rcvd: 41
+

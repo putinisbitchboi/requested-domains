@@ -1,0 +1,65 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> kk.bank txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 49308
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;kk.bank.			IN	TXT
+
+;; ANSWER SECTION:
+kk.bank.		86400	IN	TXT	"google-site-verification=weWG1cwwtqzTPPs3nrbFwDlw8uQCEvEuqtfejmpiHs8"
+kk.bank.		86400	IN	TXT	"MS=EA29AF3E9B4F5B18B8823B3D0E9081859CCFB74A"
+kk.bank.		86400	IN	TXT	"cisco-ci-domain-verification=20eccd406ebb02043e9a396f480bb2d107d0a6f2b928b9f855b9238ec37bb66f"
+kk.bank.		86400	IN	TXT	"google-site-verification=4YUphsOk_G-MxTRYOKXJVtIT9I2O71S-vigf4iJ77V8"
+kk.bank.		86400	IN	TXT	"v=spf1 mx ip4:81.26.133.206 ip4:185.20.135.1 ip4:81.26.133.202 ip4:185.20.135.14 ip4:185.20.135.15 -all"
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 22:51:16 UTC 2022
+;; MSG SIZE  rcvd: 476
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.kk.bank txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26537
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.kk.bank.			IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.kk.bank.		86400	IN	TXT	"v=DMARC1; p=reject; sp=reject; pct=100; adkim=r; aspf=r; fo=1; rua=mailto:dmarc_agg@kubankredit.ru; ruf=mailto:dmarc_afrf@kubankredit.ru"
+
+;; Query time: 207 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 22:51:16 UTC 2022
+;; MSG SIZE  rcvd: 192
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> kk.bank spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22797
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;kk.bank.			IN	SPF
+
+;; Query time: 187 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 22:51:16 UTC 2022
+;; MSG SIZE  rcvd: 36
+

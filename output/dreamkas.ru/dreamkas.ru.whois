@@ -1,0 +1,21 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        DREAMKAS.RU
+nserver:       ns3-l2.nic.ru.
+nserver:       ns4-cloud.nic.ru.
+nserver:       ns4-l2.nic.ru.
+nserver:       ns8-cloud.nic.ru.
+nserver:       ns8-l2.nic.ru.
+state:         REGISTERED, DELEGATED, VERIFIED
+org:           OOO "Dreamkas"
+registrar:     RU-CENTER-RU
+admin-contact: https://www.nic.ru/whois
+created:       2014-07-29T15:55:23Z
+paid-till:     2022-07-29T16:55:23Z
+free-date:     2022-08-29
+source:        TCI
+
+Last updated on 2022-03-06T00:41:30Z
+

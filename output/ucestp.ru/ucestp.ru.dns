@@ -1,0 +1,60 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> ucestp.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 52261
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ucestp.ru.			IN	TXT
+
+;; ANSWER SECTION:
+ucestp.ru.		3600	IN	TXT	"202008190759124qx28qvtbblq1zgzovbdej06d1ng785aj9p6itoprt786tmwqj"
+ucestp.ru.		3600	IN	TXT	"201907300751035ser60ju5lanuet7poucriaejbyiajgk7aocsa076vyq5k4ej6"
+ucestp.ru.		3600	IN	TXT	"2018060806341003e4w71mt31iy3uovnneb8gtretmqh840td5xf6i06uv3jw6uo"
+
+;; Query time: 199 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 18:45:50 UTC 2022
+;; MSG SIZE  rcvd: 269
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.ucestp.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 2357
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.ucestp.ru.		IN	TXT
+
+;; Query time: 2215 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 18:45:53 UTC 2022
+;; MSG SIZE  rcvd: 45
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> ucestp.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26051
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ucestp.ru.			IN	SPF
+
+;; Query time: 187 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 18:45:53 UTC 2022
+;; MSG SIZE  rcvd: 38
+

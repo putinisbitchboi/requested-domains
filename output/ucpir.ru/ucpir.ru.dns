@@ -1,0 +1,63 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> ucpir.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39534
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ucpir.ru.			IN	TXT
+
+;; ANSWER SECTION:
+ucpir.ru.		21600	IN	TXT	"google-site-verification=nOarTzDpxPBlLPXs7Jscyc4nvl_Ih39FMpFYok9Omo0"
+ucpir.ru.		21600	IN	TXT	"mailru-verification: d278b7bd843b8634"
+ucpir.ru.		21600	IN	TXT	"v=spf1 redirect=_spf.yandex.net"
+
+;; Query time: 363 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 18:56:46 UTC 2022
+;; MSG SIZE  rcvd: 212
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.ucpir.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12150
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.ucpir.ru.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.ucpir.ru.	21600	IN	TXT	"v=DMARC1; p=none; rua=mailto:postmaster@ucpir.ru"
+
+;; Query time: 187 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 18:56:46 UTC 2022
+;; MSG SIZE  rcvd: 105
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> ucpir.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61251
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ucpir.ru.			IN	SPF
+
+;; Query time: 175 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 18:56:47 UTC 2022
+;; MSG SIZE  rcvd: 37
+

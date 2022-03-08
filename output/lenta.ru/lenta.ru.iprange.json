@@ -1,0 +1,7 @@
+{
+  "domain": "lenta.ru",
+  "num_ranges": 1,
+  "ranges": [
+    "81.19.80.64/26"
+  ]
+}

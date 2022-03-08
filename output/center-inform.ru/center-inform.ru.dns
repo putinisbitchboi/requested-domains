@@ -1,0 +1,60 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> center-inform.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50146
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;center-inform.ru.		IN	TXT
+
+;; ANSWER SECTION:
+center-inform.ru.	86400	IN	TXT	"MS=475D08D6DE7B6FC78E7D3C0C7C68E5EDF47BD652"
+center-inform.ru.	86400	IN	TXT	"v=spf1 ip4:195.149.110.158 +mx -all"
+center-inform.ru.	86400	IN	TXT	"MS=ABC028C5D82525325D7F3CA90A398A9D99B25C9C"
+
+;; Query time: 167 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:46:48 UTC 2022
+;; MSG SIZE  rcvd: 205
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.center-inform.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 7574
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.center-inform.ru.	IN	TXT
+
+;; Query time: 355 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:46:48 UTC 2022
+;; MSG SIZE  rcvd: 52
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> center-inform.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35572
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;center-inform.ru.		IN	SPF
+
+;; Query time: 167 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:46:48 UTC 2022
+;; MSG SIZE  rcvd: 45
+

@@ -1,0 +1,59 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> radiusfm.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50819
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;radiusfm.by.			IN	TXT
+
+;; ANSWER SECTION:
+radiusfm.by.		3600	IN	TXT	"v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCj/g4Z6kpRp+sstdkrf87TeifnZWsU6Epco79pySOt7d7mLT1fFTCodZOE0V4EAqg3D+612xlm8INpYzOHPi2px4lU10ro/xlnxkAYdxTdz+BBL0YLtvDIFt6xfCHShl6d9VQlZFsxsxIUTL8MIwluMoEQCmVV9pw6mC+byjIxFwIDAQAB"
+radiusfm.by.		3600	IN	TXT	"yandex-verification: b3e136dc1971c481"
+
+;; Query time: 191 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 05:19:50 UTC 2022
+;; MSG SIZE  rcvd: 342
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.radiusfm.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 254
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.radiusfm.by.		IN	TXT
+
+;; Query time: 1891 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 05:19:52 UTC 2022
+;; MSG SIZE  rcvd: 47
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> radiusfm.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 60496
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;radiusfm.by.			IN	SPF
+
+;; Query time: 195 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 05:19:52 UTC 2022
+;; MSG SIZE  rcvd: 40
+

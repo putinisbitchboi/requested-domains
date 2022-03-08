@@ -1,0 +1,18 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        FSB.RU
+nserver:       ns1.fsb.ru. 213.24.76.2
+nserver:       ns2.fsb.ru. 95.173.148.66
+state:         REGISTERED, DELEGATED, UNVERIFIED
+org:           Federal Security Service of Russian Federation
+registrar:     RU-CENTER-RU
+admin-contact: https://www.nic.ru/whois
+created:       1998-07-06T10:17:54Z
+paid-till:     2022-07-31T21:00:00Z
+free-date:     2022-09-01
+source:        TCI
+
+Last updated on 2022-03-06T04:36:30Z
+

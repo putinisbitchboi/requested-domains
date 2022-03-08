@@ -1,0 +1,62 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> cfmc.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9196
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;cfmc.ru.			IN	TXT
+
+;; ANSWER SECTION:
+cfmc.ru.		3600	IN	TXT	"MS=FCD0B4D27384B4EA83BB69061314851D27AE9BFB"
+cfmc.ru.		3600	IN	TXT	"v=spf1 ip4:178.176.27.249 ~all"
+
+;; Query time: 167 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:55:37 UTC 2022
+;; MSG SIZE  rcvd: 135
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.cfmc.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15198
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.cfmc.ru.			IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.cfmc.ru.		3600	IN	TXT	"v=DMARC1; p=quarantine; sp=quarantine; pct=100; fo=0; ruf=mailto:sk@cfmc.ru"
+
+;; Query time: 175 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:55:37 UTC 2022
+;; MSG SIZE  rcvd: 131
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> cfmc.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37387
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;cfmc.ru.			IN	SPF
+
+;; Query time: 159 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:55:37 UTC 2022
+;; MSG SIZE  rcvd: 36
+

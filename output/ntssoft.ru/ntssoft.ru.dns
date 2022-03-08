@@ -1,0 +1,62 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> ntssoft.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 20672
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ntssoft.ru.			IN	TXT
+
+;; ANSWER SECTION:
+ntssoft.ru.		3600	IN	TXT	"google-site-verification=MdAGqtb2r5s4TF7ePOZSiwzxJtcujuXWJGMbKlIUcYE"
+ntssoft.ru.		3600	IN	TXT	"v=spf1 a mx ip4:194.213.21.146 ~all"
+
+;; Query time: 211 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:35:38 UTC 2022
+;; MSG SIZE  rcvd: 168
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.ntssoft.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11918
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.ntssoft.ru.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.ntssoft.ru.	3600	IN	TXT	"v=DMARC1; p=none;"
+
+;; Query time: 371 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:35:38 UTC 2022
+;; MSG SIZE  rcvd: 76
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> ntssoft.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40648
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;ntssoft.ru.			IN	SPF
+
+;; Query time: 191 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:35:38 UTC 2022
+;; MSG SIZE  rcvd: 39
+

@@ -1,0 +1,20 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        NTSSOFT.RU
+nserver:       ns1.ntssoft.ru. 46.48.116.198
+nserver:       ns4-l2.nic.ru.
+nserver:       ns8-l2.nic.ru.
+nserver:       ns.ntssoft.ru. 194.213.21.146
+state:         REGISTERED, DELEGATED, VERIFIED
+org:           OOO "NTSsoft"
+registrar:     RU-CENTER-RU
+admin-contact: https://www.nic.ru/whois
+created:       2008-10-29T21:00:00Z
+paid-till:     2022-10-29T21:00:00Z
+free-date:     2022-11-30
+source:        TCI
+
+Last updated on 2022-03-04T08:31:30Z
+

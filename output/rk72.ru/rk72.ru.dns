@@ -1,0 +1,59 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> rk72.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22169
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;rk72.ru.			IN	TXT
+
+;; ANSWER SECTION:
+rk72.ru.		3600	IN	TXT	"MS=7B2C08D121269C483C6C986B361B40B3F60E6BE3"
+rk72.ru.		3600	IN	TXT	"v=spf1 mx a:mailrk72.rk72.ru ip4:91.211.192.7  ~all"
+
+;; Query time: 207 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 05:53:36 UTC 2022
+;; MSG SIZE  rcvd: 156
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.rk72.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64425
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.rk72.ru.			IN	TXT
+
+;; Query time: 431 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 05:53:36 UTC 2022
+;; MSG SIZE  rcvd: 43
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> rk72.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48268
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;rk72.ru.			IN	SPF
+
+;; Query time: 211 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 05:53:37 UTC 2022
+;; MSG SIZE  rcvd: 36
+

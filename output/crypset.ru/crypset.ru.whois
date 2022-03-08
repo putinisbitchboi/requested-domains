@@ -1,0 +1,21 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        CRYPSET.RU
+nserver:       ns1.ddos-guard.net.
+nserver:       ns2.ddos-guard.net.
+nserver:       ns3.ddos-guard.net.
+nserver:       ns4.ddos-guard.net.
+nserver:       ns5.ddos-guard.net.
+state:         REGISTERED, DELEGATED, VERIFIED
+org:           LLC CrytoOffice
+registrar:     RU-CENTER-RU
+admin-contact: https://www.nic.ru/whois
+created:       2018-04-04T06:20:47Z
+paid-till:     2022-04-04T06:20:47Z
+free-date:     2022-05-05
+source:        TCI
+
+Last updated on 2022-03-05T23:51:30Z
+

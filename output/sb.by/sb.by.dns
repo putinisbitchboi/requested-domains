@@ -1,0 +1,60 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> sb.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29547
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;sb.by.				IN	TXT
+
+;; ANSWER SECTION:
+sb.by.			600	IN	TXT	"v=spf1 ip4:86.57.146.125 ip4:93.85.84.208/30 +a +mx ~all"
+sb.by.			600	IN	TXT	"yandex-verification: 69822a8446b88b38"
+sb.by.			600	IN	TXT	"facebook-domain-verification=zkk658u88jghsu6r54ry6bdt4b2d4m"
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 07:34:05 UTC 2022
+;; MSG SIZE  rcvd: 225
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.sb.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 18827
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.sb.by.			IN	TXT
+
+;; Query time: 379 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 07:34:05 UTC 2022
+;; MSG SIZE  rcvd: 41
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> sb.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44562
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;sb.by.				IN	SPF
+
+;; Query time: 175 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Mon Mar 07 07:34:05 UTC 2022
+;; MSG SIZE  rcvd: 34
+

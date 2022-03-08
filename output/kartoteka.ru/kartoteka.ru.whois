@@ -1,0 +1,21 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        KARTOTEKA.RU
+nserver:       ns3-l2.nic.ru.
+nserver:       ns4-cloud.nic.ru.
+nserver:       ns4-l2.nic.ru.
+nserver:       ns8-cloud.nic.ru.
+nserver:       ns8-l2.nic.ru.
+state:         REGISTERED, DELEGATED, VERIFIED
+org:           OOO "Kommersant KARTOTEKA"
+registrar:     RU-CENTER-RU
+admin-contact: https://www.nic.ru/whois
+created:       2001-08-13T20:00:00Z
+paid-till:     2022-08-14T21:00:00Z
+free-date:     2022-09-15
+source:        TCI
+
+Last updated on 2022-03-06T22:11:30Z
+

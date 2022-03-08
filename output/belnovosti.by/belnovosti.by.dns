@@ -1,0 +1,60 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> belnovosti.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37812
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;belnovosti.by.			IN	TXT
+
+;; ANSWER SECTION:
+belnovosti.by.		600	IN	TXT	"pinterest-site-verification=0ce1b02b0b550815603201989a5f4845"
+belnovosti.by.		600	IN	TXT	"google-site-verification=3sxbKJZxJrwDgMCr0NT5uq0TCb509_zDEw_mJ-5_ckw"
+belnovosti.by.		600	IN	TXT	"v=spf1 a mx ptr include:neolocation.net ~all"
+
+;; Query time: 171 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:59:30 UTC 2022
+;; MSG SIZE  rcvd: 253
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.belnovosti.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45618
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.belnovosti.by.		IN	TXT
+
+;; Query time: 187 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:59:30 UTC 2022
+;; MSG SIZE  rcvd: 49
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> belnovosti.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31246
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;belnovosti.by.			IN	SPF
+
+;; Query time: 187 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:59:30 UTC 2022
+;; MSG SIZE  rcvd: 42
+

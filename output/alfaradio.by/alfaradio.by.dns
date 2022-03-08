@@ -1,0 +1,180 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> alfaradio.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40586
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;alfaradio.by.			IN	TXT
+
+;; ANSWER SECTION:
+alfaradio.by.		600	IN	TXT	"google-site-verification=W24BqQDGFQKHCKLp--UlAnICpekhlpTuXrGByZZyAxY"
+alfaradio.by.		600	IN	TXT	"yandex-verification: 4827b5db1f4411cd"
+alfaradio.by.		600	IN	TXT	"v=spf1 ip4:93.85.84.202 ip4:93.85.84.210 ip4:93.85.84.211 include:_spf.yandex.net ~all"
+
+;; Query time: 175 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 04:16:48 UTC 2022
+;; MSG SIZE  rcvd: 271
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.alfaradio.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 25101
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.alfaradio.by.		IN	TXT
+
+;; Query time: 355 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 04:16:49 UTC 2022
+;; MSG SIZE  rcvd: 48
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> alfaradio.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 53463
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;alfaradio.by.			IN	SPF
+
+;; Query time: 175 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 04:16:49 UTC 2022
+;; MSG SIZE  rcvd: 41
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> alfaradio.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30423
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;alfaradio.by.			IN	TXT
+
+;; ANSWER SECTION:
+alfaradio.by.		600	IN	TXT	"yandex-verification: 4827b5db1f4411cd"
+alfaradio.by.		600	IN	TXT	"google-site-verification=W24BqQDGFQKHCKLp--UlAnICpekhlpTuXrGByZZyAxY"
+alfaradio.by.		600	IN	TXT	"v=spf1 ip4:93.85.84.202 ip4:93.85.84.210 ip4:93.85.84.211 include:_spf.yandex.net ~all"
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:48:46 UTC 2022
+;; MSG SIZE  rcvd: 271
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.alfaradio.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 38658
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.alfaradio.by.		IN	TXT
+
+;; Query time: 367 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:48:46 UTC 2022
+;; MSG SIZE  rcvd: 48
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> alfaradio.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 6362
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;alfaradio.by.			IN	SPF
+
+;; Query time: 187 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:48:46 UTC 2022
+;; MSG SIZE  rcvd: 41
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> alfaradio.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26838
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;alfaradio.by.			IN	TXT
+
+;; ANSWER SECTION:
+alfaradio.by.		600	IN	TXT	"google-site-verification=W24BqQDGFQKHCKLp--UlAnICpekhlpTuXrGByZZyAxY"
+alfaradio.by.		600	IN	TXT	"yandex-verification: 4827b5db1f4411cd"
+alfaradio.by.		600	IN	TXT	"v=spf1 ip4:93.85.84.202 ip4:93.85.84.210 ip4:93.85.84.211 include:_spf.yandex.net ~all"
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 16:12:31 UTC 2022
+;; MSG SIZE  rcvd: 271
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.alfaradio.by txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 17139
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.alfaradio.by.		IN	TXT
+
+;; Query time: 327 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 16:12:32 UTC 2022
+;; MSG SIZE  rcvd: 48
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> alfaradio.by spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26560
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;alfaradio.by.			IN	SPF
+
+;; Query time: 207 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 16:12:32 UTC 2022
+;; MSG SIZE  rcvd: 41
+

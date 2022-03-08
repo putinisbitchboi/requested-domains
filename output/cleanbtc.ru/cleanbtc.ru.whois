@@ -1,0 +1,20 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        CLEANBTC.RU
+nserver:       ns1.fornex.com.
+nserver:       ns2.fornex.com.
+nserver:       ns3.fornex.com.
+nserver:       ns4.fornex.com.
+state:         REGISTERED, DELEGATED, UNVERIFIED
+person:        Private Person
+registrar:     REGRU-RU
+admin-contact: http://www.reg.ru/whois/admin_contact
+created:       2020-10-07T09:27:01Z
+paid-till:     2022-10-07T09:27:01Z
+free-date:     2022-11-07
+source:        TCI
+
+Last updated on 2022-03-04T09:16:30Z
+

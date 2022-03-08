@@ -1,0 +1,18 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        INTERFAX.RU
+nserver:       ns1.interfax.ru. 46.28.17.4
+nserver:       ns2.interfax.ru. 46.28.16.6
+state:         REGISTERED, DELEGATED, VERIFIED
+org:           AO Interfax
+registrar:     RU-CENTER-RU
+admin-contact: https://www.nic.ru/whois
+created:       1998-12-25T13:22:00Z
+paid-till:     2022-12-31T21:00:00Z
+free-date:     2023-02-01
+source:        TCI
+
+Last updated on 2022-03-06T21:16:30Z
+

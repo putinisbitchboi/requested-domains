@@ -1,0 +1,61 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> interfax.com txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26889
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;interfax.com.			IN	TXT
+
+;; ANSWER SECTION:
+interfax.com.		3600	IN	TXT	"v=spf1 ip4:213.171.49.0/24 ip4:93.91.15.2 include:spf.interfax.ru ~all"
+
+;; Query time: 7 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 21:15:41 UTC 2022
+;; MSG SIZE  rcvd: 124
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.interfax.com txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63237
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.interfax.com.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.interfax.com.	3600	IN	TXT	"v=DMARC1; p=none; rua=mailto:dmarc@interfax.com"
+
+;; Query time: 171 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 21:15:41 UTC 2022
+;; MSG SIZE  rcvd: 108
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> interfax.com spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 3520
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;interfax.com.			IN	SPF
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 21:15:42 UTC 2022
+;; MSG SIZE  rcvd: 41
+

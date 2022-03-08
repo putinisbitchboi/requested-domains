@@ -1,0 +1,59 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> icvibor.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9980
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;icvibor.ru.			IN	TXT
+
+;; ANSWER SECTION:
+icvibor.ru.		10800	IN	TXT	"google-site-verification=6-SAgSwC4PeoyJ0gM4Ok3v7yENZPo_CX90nKOPQ5N24"
+icvibor.ru.		10800	IN	TXT	"v=spf1 ip4:37.44.44.141 ~all"
+
+;; Query time: 343 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 19:21:46 UTC 2022
+;; MSG SIZE  rcvd: 161
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.icvibor.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6238
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.icvibor.ru.		IN	TXT
+
+;; Query time: 399 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 19:21:46 UTC 2022
+;; MSG SIZE  rcvd: 46
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> icvibor.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51704
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;icvibor.ru.			IN	SPF
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 19:21:47 UTC 2022
+;; MSG SIZE  rcvd: 39
+

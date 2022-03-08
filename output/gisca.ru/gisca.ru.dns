@@ -1,0 +1,61 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> gisca.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34358
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;gisca.ru.			IN	TXT
+
+;; ANSWER SECTION:
+gisca.ru.		86400	IN	TXT	"v=spf1 ip4:95.161.154.196 ~all"
+
+;; Query time: 355 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:14:26 UTC 2022
+;; MSG SIZE  rcvd: 80
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.gisca.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43970
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.gisca.ru.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.gisca.ru.	86400	IN	TXT	"v=DMARC1;p=none;rua=mailto:info-it@gisca.ru"
+
+;; Query time: 359 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:14:26 UTC 2022
+;; MSG SIZE  rcvd: 100
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> gisca.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 15975
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;gisca.ru.			IN	SPF
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 08:14:27 UTC 2022
+;; MSG SIZE  rcvd: 37
+

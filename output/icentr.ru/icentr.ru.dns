@@ -1,0 +1,61 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> icentr.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26005
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;icentr.ru.			IN	TXT
+
+;; ANSWER SECTION:
+icentr.ru.		3800	IN	TXT	"v=spf1 include:_spf.hostland.ru ~all"
+
+;; Query time: 343 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 05:26:20 UTC 2022
+;; MSG SIZE  rcvd: 87
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.icentr.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55907
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.icentr.ru.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.icentr.ru.	3800	IN	TXT	"v=DMARC1;p=quarantine"
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 05:26:21 UTC 2022
+;; MSG SIZE  rcvd: 79
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> icentr.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 857
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;icentr.ru.			IN	SPF
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sun Mar 06 05:26:21 UTC 2022
+;; MSG SIZE  rcvd: 38
+

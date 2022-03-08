@@ -1,0 +1,21 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        UCESTP.RU
+nserver:       ns3-l2.nic.ru.
+nserver:       ns4-cloud.nic.ru.
+nserver:       ns4-l2.nic.ru.
+nserver:       ns8-cloud.nic.ru.
+nserver:       ns8-l2.nic.ru.
+state:         REGISTERED, DELEGATED, VERIFIED
+org:           "ESTP" Ltd.
+registrar:     RU-CENTER-RU
+admin-contact: https://www.nic.ru/whois
+created:       2015-06-10T15:27:50Z
+paid-till:     2022-06-10T15:27:50Z
+free-date:     2022-07-11
+source:        TCI
+
+Last updated on 2022-03-07T18:41:31Z
+

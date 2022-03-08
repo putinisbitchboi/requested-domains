@@ -1,0 +1,20 @@
+% By submitting a query to TCI's Whois Service
+% you agree to abide by the following terms of use:
+% https://www.tcinet.ru/documents/whois.pdf (in Russian)
+
+domain:        LENTA.RU
+nserver:       ns2.rambler.ru.
+nserver:       ns3.rambler.ru.
+nserver:       ns4.rambler.ru.
+nserver:       ns5.rambler.ru.
+state:         REGISTERED, DELEGATED, VERIFIED
+org:           LLC "Lenta.Ru"
+registrar:     RU-CENTER-RU
+admin-contact: https://www.nic.ru/whois
+created:       1999-07-22T11:16:41Z
+paid-till:     2022-07-31T21:00:00Z
+free-date:     2022-09-01
+source:        TCI
+
+Last updated on 2022-03-06T23:16:31Z
+

@@ -1,0 +1,132 @@
+
+; <<>> DiG 9.16.1-Ubuntu <<>> astralnalog.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51687
+;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;astralnalog.ru.			IN	TXT
+
+;; ANSWER SECTION:
+astralnalog.ru.		3600	IN	TXT	"atlassian-domain-verification=IqUowOxizaIT2Op678uYagY7YaCQk9rkP00jIBXab7NWvGOO3HrGzJ/UiCnwdkou"
+astralnalog.ru.		3600	IN	TXT	"mailru-verification: afd933e21e30b33d"
+astralnalog.ru.		3600	IN	TXT	"MS=E8A9733AF5F6F54CEFC0668529DFA7C1D309D3FB"
+astralnalog.ru.		3600	IN	TXT	"google-site-verification=xHbQE_VffOeYJmBcMKVhxTfcC-GVgDMMbgfFpJzlJ7s"
+astralnalog.ru.		3600	IN	TXT	"v=spf1 ip4:91.239.5.0/24 ip4:78.155.212.133 a:portal.keydisk.ru include:mxsspf.sendpulse.com a mx include:_spf.mail.ru include:_spf.google.com ~all"
+astralnalog.ru.		3600	IN	TXT	"google-site-verification=KZdzW25WQxGBgSfExiTS5t37Cdrx8K3qjBybl-MUmWQ"
+
+;; Query time: 699 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 04:27:41 UTC 2022
+;; MSG SIZE  rcvd: 578
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.astralnalog.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17875
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.astralnalog.ru.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.astralnalog.ru.	3600	IN	TXT	"v=DMARC1; p=quarantine; rua=mailto:office@astralnalog.ru"
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 04:27:41 UTC 2022
+;; MSG SIZE  rcvd: 119
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> astralnalog.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23248
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;astralnalog.ru.			IN	SPF
+
+;; Query time: 187 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 04:27:42 UTC 2022
+;; MSG SIZE  rcvd: 43
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> astralnalog.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36993
+;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;astralnalog.ru.			IN	TXT
+
+;; ANSWER SECTION:
+astralnalog.ru.		3600	IN	TXT	"v=spf1 ip4:91.239.5.0/24 ip4:78.155.212.133 a:portal.keydisk.ru include:mxsspf.sendpulse.com a mx include:_spf.mail.ru include:_spf.google.com ~all"
+astralnalog.ru.		3600	IN	TXT	"google-site-verification=xHbQE_VffOeYJmBcMKVhxTfcC-GVgDMMbgfFpJzlJ7s"
+astralnalog.ru.		3600	IN	TXT	"mailru-verification: afd933e21e30b33d"
+astralnalog.ru.		3600	IN	TXT	"MS=E8A9733AF5F6F54CEFC0668529DFA7C1D309D3FB"
+astralnalog.ru.		3600	IN	TXT	"atlassian-domain-verification=IqUowOxizaIT2Op678uYagY7YaCQk9rkP00jIBXab7NWvGOO3HrGzJ/UiCnwdkou"
+astralnalog.ru.		3600	IN	TXT	"google-site-verification=KZdzW25WQxGBgSfExiTS5t37Cdrx8K3qjBybl-MUmWQ"
+
+;; Query time: 363 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:49:04 UTC 2022
+;; MSG SIZE  rcvd: 578
+
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> _dmarc.astralnalog.ru txt
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63615
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;_dmarc.astralnalog.ru.		IN	TXT
+
+;; ANSWER SECTION:
+_dmarc.astralnalog.ru.	3600	IN	TXT	"v=DMARC1; p=quarantine; rua=mailto:office@astralnalog.ru"
+
+;; Query time: 351 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:49:04 UTC 2022
+;; MSG SIZE  rcvd: 119
+
+
+Checking for deprecated SPF record
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> astralnalog.ru spf
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2639
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;astralnalog.ru.			IN	SPF
+
+;; Query time: 355 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Fri Mar 04 06:49:05 UTC 2022
+;; MSG SIZE  rcvd: 43
+

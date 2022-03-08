@@ -1,0 +1,8 @@
+{
+  "domain": "otchet-online.ru",
+  "num_ranges": 2,
+  "ranges": [
+    "141.101.250.0/24",
+    "195.151.113.228/30"
+  ]
+}
