@@ -1,0 +1,9 @@
+cert1.ucestp.ru,85.119.149.95,rapiddns
+cert2.ucestp.ru,213.208.185.182,rapiddns
+ocsp.ucestp.ru,85.119.149.95,riddler
+ws.ucestp.ru,92.53.104.227,alienvault
+www.ucestp.ru,85.119.149.95,rapiddns
+cert3.ucestp.ru,185.18.124.167,rapiddns
+lk.ucestp.ru,85.119.149.95,riddler
+api.ucestp.ru,85.119.149.95,rapiddns
+ucestp.ru,85.119.149.95,crtsh
